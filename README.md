@@ -1,6 +1,6 @@
 # json_organizer
 
-## https://vigilant-northcutt-f7a75a.netlify.app/#/
+https://musing-hamilton-ba4067.netlify.app/
 
 ## Project setup
 ```

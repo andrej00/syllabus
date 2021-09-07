@@ -1,20 +1,7 @@
 <template>
   <b-container>
-
-    <div class="mt-4 pb-1">
-      <b-row align-h="center">
-        <b-col sm="3" class="mt-3">
-            <router-link to="/">
-                <b-button variant="outline-primary">Opis Programa</b-button>
-            </router-link>
-          <!-- <b-button to="/" variant="outline-primary">Opis Programa</b-button> -->
-        </b-col>
-
-        <b-col sm="3" class="mt-3">
-          <b-button to="/opiskolegija" variant="outline-primary">Opis Kolegija</b-button>
-        </b-col>
-      </b-row>
-    </div>
+    
+    <NavbarNavigation />
 
     <div class="mt-5">
       <h1 class="headline">PREDDIPLOMSKI STUDIJ</h1>
@@ -58,10 +45,13 @@ import pdfFonts from "pdfmake/build/vfs_fonts";
 import { exceljs } from "exceljs";
 import preddiplomskiStudij from "@/variables/preddiplomskiStudij.js";
 import diplomskiStudij from "@/variables/diplomskiStudij.js";
-
+import NavbarNavigation from "../components/NavbarNavigation.vue"
 
 export default {
   name: "Home",
+  components: {
+    NavbarNavigation
+  },
   data() {
     return {
       preddiplomskiStudij: preddiplomskiStudij,

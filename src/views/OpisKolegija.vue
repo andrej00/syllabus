@@ -1,30 +1,26 @@
 <template>
   <b-container>
-    <div class="mt-4 pb-1">
-      <b-row align-h="center">
-        <b-col sm="3" class="mt-3">
-          <b-button to="/" variant="outline-primary">Opis Programa</b-button>
-        </b-col>
 
-        <b-col sm="3" class="mt-3">
-          <b-button to="/opiskolegija" variant="outline-primary">Opis Kolegija</b-button>
-        </b-col>
-      </b-row>
-    </div>
+    <NavbarNavigation />
 
     <div class="mt-5">
       <div class="pb-5">
-        <div v-for="(item, index) in opisiKolegija" :key="item['Naziv predmeta']">
-          <h2 style="margin-bottom: 30px" :id="item.Kod">{{ item["Naziv predmeta"] }}</h2>
-            <b-table-simple stacked>
-              <b-tbody>
-                  <b-tr v-for="(v, k, i) in opisiKolegija[index]" :key="k + v + i">
-                    <b-td
-                      :style="i % 2 == 0 ? 'background-color: rgba(0, 0, 0, 0.05)' : ''"
-                      :stacked-heading="k">{{ v }}</b-td>
-                  </b-tr>
-              </b-tbody>
-            </b-table-simple>
+        <div v-for="(item, index) in opisiKolegija" :key="item['Kod kolegija']">
+          <h2 style="margin-bottom: 30px" :id="item['Kod kolegija']">{{ item["Naziv kolegija"] }}</h2>
+          <b-table-simple stacked>
+            <b-tbody>
+                <b-tr v-for="(v, k, i) in opisiKolegija[index]" :key="k + v + i">
+                  <b-td
+                    :style="i % 2 == 0 ? 'background-color: rgba(0, 0, 0, 0.05)' : ''"
+                    :stacked-heading="k">{{ v }}</b-td>
+                </b-tr>
+            </b-tbody>
+          </b-table-simple>
+          <b-row>
+            <b-col sm="2" style="margin-top: -60px !important" align-self="end">
+              <b-button @click="createPDF([item])" variant="success">{{ item['Naziv kolegija'] }} PDF</b-button>
+            </b-col>
+          </b-row>
         </div>
       </div>
     </div>
@@ -42,7 +38,7 @@
       </b-col>
 
       <b-col sm="2">
-        <b-button @click="createPDF" variant="success">Opis Kolegija PDF</b-button>
+        <b-button @click="createPDF()" variant="success">Opis Kolegija PDF</b-button>
       </b-col>
     </b-row>
   </b-container>
@@ -54,9 +50,13 @@ import { fs } from "fs";
 import "jspdf-autotable";
 import pdfFonts from "pdfmake/build/vfs_fonts";
 import opisiKolegija from "@/variables/opisiKolegija.js";
+import NavbarNavigation from "../components/NavbarNavigation.vue"
 
 export default {
   name: "Home",
+  components: {
+    NavbarNavigation
+  },
   data() {
     return {
       opisiKolegija: opisiKolegija,
@@ -64,13 +64,14 @@ export default {
   },
 
   methods: {
-    createPDF() {
+    createPDF(subject = this.opisiKolegija) {
+      console.log(subject);
       pdfMake.vfs = pdfFonts.pdfMake.vfs;
       let body2 = [];
       let content = [];
 
-      for (let i = 0; i < this.opisiKolegija.length; i++) {
-        let pair = Object.entries(this.opisiKolegija[i]);
+      for (let i = 0; i < subject.length; i++) {
+        let pair = Object.entries(subject[i]);
         body2 = pair;
         content.push({
           margin: [0, 10, 0, 30],
@@ -92,6 +93,7 @@ export default {
     console.log(id);
     if (id) {
       setTimeout(() => { 
+        console.log(document.getElementById(id));
         document.getElementById(id).scrollIntoView();
       }, 150);
     }

@@ -57,7 +57,7 @@ export default [
   {
     "Redni broj": "6.",
     "Kod": "OPB1012",
-    "Naziv kolegija": "Strani jezik 1 (engleski)",
+    "Naziv kolegija": "Engleski jezik 1",
     "P": "0",
     "S": "0",
     "V": "30",
@@ -75,6 +75,28 @@ export default [
     "Status kolegija": "D",
     "ECTS bodovi": "1",
     "Nastavnik/asistent": "dr.sc. Ivan Kvesić, doc."
+  },
+  {
+    "Redni broj": "8.",
+    "Kod": "FFB1012",
+    "Naziv kolegija": "Filozofija znanosti",
+    "P": "15",
+    "S": "0",
+    "V": "30",
+    "Status kolegija": "C",
+    "ECTS bodovi": "2",
+    "Nastavnik/asistent": "dr.sc. Zoran Primorac, red. prof."
+  },
+  {
+    "Redni broj": "9.",
+    "Kod": "PKB3052",
+    "Naziv kolegija": "Novi mediji u odgoju i obrazovanju",
+    "P": "30",
+    "S": "0",
+    "V": "30",
+    "Status kolegija": "B",
+    "ECTS bodovi": "2",
+    "Nastavnik/asistent": "dr. sc. Zoran Primorac, red. prof."
   },
   {
     "Redni broj": "1.",

@@ -4,7 +4,10 @@
     <div class="mt-4 pb-1">
       <b-row align-h="center">
         <b-col sm="3" class="mt-3">
-          <b-button to="/" variant="outline-primary">Opis Programa</b-button>
+            <router-link to="/">
+                <b-button variant="outline-primary">Opis Programa</b-button>
+            </router-link>
+          <!-- <b-button to="/" variant="outline-primary">Opis Programa</b-button> -->
         </b-col>
 
         <b-col sm="3" class="mt-3">
@@ -15,9 +18,9 @@
 
     <div class="mt-5">
       <h1 class="headline">PREDDIPLOMSKI STUDIJ</h1>
-      <div class="pb-5" v-for="(subject, name, i) in preddiplomskiStudijTable" :key="name">
+      <div class="pb-5" v-for="(subject, name, i) in preddiplomskiStudijTable" :key="subject[i]['Naziv Kolegija']">
         <h2>{{ semestarNames[i] }}</h2>
-        <b-table striped bordered hover :items="subject"></b-table>
+        <b-table striped bordered hover :items="subject" @row-clicked="rowClick"></b-table>
       </div>
 
       <hr>
@@ -25,7 +28,7 @@
       <h1 class="headline">DIPLOMSKI STUDIJ</h1>
       <div class="pb-5" v-for="(subject, name, i) in diplomskiStudijTable" :key="name">
         <h2>{{ semestarNames[i] }}</h2>
-        <b-table striped bordered hover :items="subject"></b-table>
+        <b-table striped bordered hover :items="subject"  @row-clicked="rowClick"></b-table>
       </div>
     </div>
 
@@ -72,6 +75,10 @@ export default {
   },
 
   methods: {
+    rowClick(item) {
+      const id = item.Kod
+      this.$router.push({ path: 'opiskolegija', query: { id: id } })
+    },
     createPDF() {
       pdfMake.vfs = pdfFonts.pdfMake.vfs;
       let body2 = [];
@@ -143,6 +150,7 @@ export default {
     })
   }
 };
+
 </script>
 <style scoped>
 .headline {

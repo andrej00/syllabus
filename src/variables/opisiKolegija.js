@@ -5,6 +5,7 @@ export default [
     "Predavanja": "15",
     "Seminar": "0",
     "Vježbe": "30",
+    "Kod": "INB1018",
     "Status predmeta": "obvezni",
     "Godina studija u kojoj se izvodi predmet": "1",
     "ECTS bodovi": "4",

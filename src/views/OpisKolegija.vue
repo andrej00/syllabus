@@ -14,19 +14,17 @@
 
     <div class="mt-5">
       <div class="pb-5">
-        <div v-for="(item, index) in opisiKolegija" :key="item">
-          <h2 style="margin-bottom: 30px">{{ item["Naziv predmeta"] }}</h2>
-
-        <b-table-simple stacked>
-          <b-tbody>
-              <b-tr v-for="(v, k, i) in opisiKolegija[index]" :key="v">
-                <b-td
-                  :style="i % 2 == 0 ? 'background-color: rgba(0, 0, 0, 0.05)' : ''"
-                  :stacked-heading="k">{{ v }}</b-td>
-              </b-tr>
-            
-          </b-tbody>
-        </b-table-simple>
+        <div v-for="(item, index) in opisiKolegija" :key="item['Naziv predmeta']">
+          <h2 style="margin-bottom: 30px" :id="item.Kod">{{ item["Naziv predmeta"] }}</h2>
+            <b-table-simple stacked>
+              <b-tbody>
+                  <b-tr v-for="(v, k, i) in opisiKolegija[index]" :key="k + v + i">
+                    <b-td
+                      :style="i % 2 == 0 ? 'background-color: rgba(0, 0, 0, 0.05)' : ''"
+                      :stacked-heading="k">{{ v }}</b-td>
+                  </b-tr>
+              </b-tbody>
+            </b-table-simple>
         </div>
       </div>
     </div>
@@ -88,6 +86,16 @@ export default {
       pdfMake.createPdf(docDefinition).download("Opisi Kolegija");
     },
   },
+
+  created() {
+    const id = this.$route.query.id;
+    console.log(id);
+    if (id) {
+      setTimeout(() => { 
+        document.getElementById(id).scrollIntoView();
+      }, 150);
+    }
+  }
 };
 
 </script>

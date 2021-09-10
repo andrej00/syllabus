@@ -63,17 +63,6 @@
 
 		<b-row align-h="center" class="pb-5 mb-5" style="margin-top: -20px">
 			<b-col sm="2">
-				<b-button variant="success">
-					<download-excel
-						class="export-excel-wrapper"
-						:data="opisiKolegija"
-						name="Opis Programa.xls"
-						>Opis Kolegija Excel
-					</download-excel>
-				</b-button>
-			</b-col>
-
-			<b-col sm="2">
 				<b-button @click="createPDF()" variant="success">
                     Opis Kolegija PDF
                 </b-button>
@@ -104,39 +93,61 @@ export default {
 	computed: {
 		filteredSubjects() {
 			return this.opisiKolegija.filter(
-				subject =>{
-					return subject["Naziv kolegija"]
+				subject => subject["Naziv kolegija"]
 						.toLowerCase()
-						.indexOf(this.subjectInput.toLowerCase()) !== -1}
+						.indexOf(this.subjectInput.toLowerCase()) !== -1
 			);
 		}
 	},
 
 	methods: {
-		createPDF(subject = this.opisiKolegija) {
+		createPDF(subjects = this.opisiKolegija) {
 			pdfMake.vfs = pdfFonts.pdfMake.vfs;
 			let content = [];
-            let innerContent = [];
 
-			for (let i = 0; i < subject.length; i++) {
-				let pair = Object.entries(subject[i]);
-                console.log(pair);
-                console.log(Object.entries(pair[26][1]));
-                if (pair[i][0].text === 'Ocjenjivanje') {
-                    console.log(Object.entries(subject[i]['Ocjenjivanje']))
-                }
-				// content.push({
-				// 	margin: [0, 10, 0, 30],
-				// 	table: {
-				// 		widths: [150, "auto"],
-				// 		body: pair
-				// 	}
-				// });
-			}
+            subjects.map((subject, index) => {
+                let innerContent = [];
+                const ocjenjivanje = subject.Ocjenjivanje;
+                const ocjenjivanjeBackup = subject.Ocjenjivanje;
+                delete subject.Ocjenjivanje
+                let pair = Object.entries(subject);
+                
+                ocjenjivanje.map(values => 
+                    innerContent.push(Object.values(values))
+                );
 
-			var docDefinition = { content: content };
+                content.push({
+                    margin: [0, 10, 0, 30],
+                    table: {
+                        widths: [150, "auto"],
+                        body: pair
+                    }
+                });
 
-			// pdfMake.createPdf(docDefinition).download("Opisi Kolegija");
+                const innerTable = [{
+                    colSpan: 2,
+                    table: {
+                        widths: [200, '*', '*', '*'],
+                        body: innerContent
+                    }
+                }];
+
+                innerContent.unshift(
+                [
+                    {
+                        text: 'Detaljan prikaz ocjenjivanja unutar Europskoga sustava prijenosa bodova', 
+                        colSpan: 4, 
+                        style: { fontSize: 15, bold: true }
+                    }, {}, {}, {}
+                ]);
+
+                content[index].table.body.push(innerTable);
+
+                subject.Ocjenjivanje = ocjenjivanjeBackup;
+            })
+
+			var docDefinition = { content };
+			pdfMake.createPdf(docDefinition).download("Opisi Kolegija");
 		}
 	},
 
@@ -144,9 +155,8 @@ export default {
 		const id = this.$route.query.id;
 		if (id) {
 			setTimeout(() => {
-				console.log(document.getElementById(id));
 				document.getElementById(id).scrollIntoView();
-			}, 150);
+			}, 180);
 		}
 	}
 };

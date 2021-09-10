@@ -3,11 +3,6 @@ import App from './App.vue'
 import router from './router'
 import JsonExcel from "vue-json-excel";
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
-import VueScrollTo from 'vue-scrollto';
-
-Vue.use(VueScrollTo)
-// import { jsPDF } from "jspdf";
-// Vue.use(jsPDF);
 
 Vue.component("downloadExcel", JsonExcel);
 

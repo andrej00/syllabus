@@ -30,16 +30,15 @@
 				</b-button>
 			</b-col>
 			<b-col sm="2" class="mt-3">
-				<b-button @click="createPDF2" variant="success">Opis Programa PDF</b-button>
+				<b-button @click="createPDF" variant="success">Opis Programa PDF</b-button>
 			</b-col>
 		</b-row>
 	</b-container>
 </template>
 
 <script>
-import { pdfmake } from "pdfmake";
 import pdfFonts from "pdfmake/build/vfs_fonts";
-import { exceljs } from "exceljs";
+import { pdfmake } from "pdfmake";
 import preddiplomskiStudij from "@/variables/preddiplomskiStudij.js";
 import diplomskiStudij from "@/variables/diplomskiStudij.js";
 import NavbarNavigation from "../components/NavbarNavigation.vue";
@@ -58,20 +57,19 @@ export default {
 			semestarNames: ["Prvi semestar", "Drugi semestar", "Treći semestar", "Četvrti semestar", "Peti semestar", "Šesti semestar" ],
 		};
 	},
-    
+
     methods: {
 		rowClick(item) {
 			const id = item.Kod;
 			this.$router.push({ path: "opiskolegija", query: { id: id } });
 		},
         
-        createPDF2() {
+        createPDF() {
             pdfMake.vfs = pdfFonts.pdfMake.vfs;
             const concatted = this.preddiplomskiStudij.concat(this.diplomskiStudij);
             const margin = [0, 25, 40, 5];
+            const content = [];
             let body = [];
-            let content = [];
-            let counter = 0;
 
             content.push({
                 text: "Preddiplomski Studij",
@@ -79,22 +77,23 @@ export default {
                 margin: margin
             });
 
-            concatted.map(semestar => {
-                counter++;
-                if (counter === 7) {
+            concatted.map((semestar, index) => {
+                if (index === 6) {
                     content.push({
                         text: "Diplomski Studij",
                         style: { fontSize: 20, bold: true },
                         margin: margin,
                     });
-                    counter = 1
+                    index = 0
                 }
                 content.push({
-                    text: `Semestar ${counter}`,
+                    text: `Semestar ${index + 1}`,
                     style: { fontSize: 16, bold: true },
                     margin: margin
                 });
-                body.push(["Redni broj", "Kod", "Naziv kolegija", "P", "S", "V,", "Status kolegija", "ECTS bodovi", "Nastavnik/asistent"]);
+                body.push(["Redni broj", "Kod", "Naziv kolegija", 
+                        "P", "S", "V", "Status kolegija", 
+                        "ECTS bodovi", "Nastavnik/asistent"]);
 
                 semestar.map(subject => {
                     let values = Object.values(subject);
@@ -103,8 +102,9 @@ export default {
 
                 content.push({
                     table: {
-                        widths: ["auto", "auto", "auto", "auto","auto", "auto", "auto", "auto", "auto"],
-                        body: body
+                        widths: ["auto", "auto", "auto", "auto", 
+                            "auto","auto", "auto", "auto", "auto"],
+                        body
                     },
                     layout: {
                         fillColor: function(rowIndex) {
@@ -114,15 +114,16 @@ export default {
                 });
 
                 body = [];
-            })
-            var docDefinition = { content: content };
+            });
+
+            const docDefinition = { content };
             pdfMake.createPdf(docDefinition).download("Opis Programa");
-        },
-	},
+        }
+	}
 };
 </script>
 <style scoped>
-.headline {
-	margin: 45px 0;
-}
+    .headline {
+        margin: 45px 0;
+    }
 </style>

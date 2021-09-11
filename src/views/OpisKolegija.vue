@@ -72,7 +72,6 @@
 </template>
 
 <script>
-import { pdfmake } from "pdfmake";
 import pdfFonts from "pdfmake/build/vfs_fonts";
 import opisiKolegija from "@/variables/opisiKolegija.js";
 import NavbarNavigation from "../components/NavbarNavigation.vue";

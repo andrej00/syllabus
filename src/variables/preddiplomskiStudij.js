@@ -415,7 +415,7 @@ export default [
             "V": "30",
             "Status kolegija": "A",
             "ECTS bodovi": "6",
-            "Nastavnik/asistent": "dr. sc.  Sven Gotovac. red. prof. dr. sc. Željko Marušić ,v.asist"
+            "Nastavnik/asistent": "dr.sc. Željko Marušić, doc."
           },
           {
             "Redni broj": "2.",

@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Home from '../views/Home.vue';
+import OpisPrograma from '../views/OpisPrograma.vue';
 import OpisKolegija from '../views/OpisKolegija.vue';
 
 
@@ -9,8 +9,8 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'OpisPrograma',
+    component: OpisPrograma
   },
   {
     path: "*",

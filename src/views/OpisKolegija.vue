@@ -111,9 +111,7 @@ export default {
                 delete subject.Ocjenjivanje
                 let pair = Object.entries(subject);
                 
-                ocjenjivanje.map(values => 
-                    innerContent.push(Object.values(values))
-                );
+                ocjenjivanje.map(values => innerContent.push(Object.values(values)));
 
                 content.push({
                     margin: [0, 10, 0, 30],
@@ -131,8 +129,7 @@ export default {
                     }
                 }];
 
-                innerContent.unshift(
-                [
+                innerContent.unshift([
                     {
                         text: 'Detaljan prikaz ocjenjivanja unutar Europskoga sustava prijenosa bodova', 
                         colSpan: 4, 
@@ -145,7 +142,7 @@ export default {
                 subject.Ocjenjivanje = ocjenjivanjeBackup;
             })
 
-			var docDefinition = { content };
+			const docDefinition = { content };
 			pdfMake.createPdf(docDefinition).download("Opisi Kolegija");
 		}
 	},

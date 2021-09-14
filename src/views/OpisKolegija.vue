@@ -49,7 +49,7 @@
 					<b-row align-h="end" class="mb-5">
 						<b-col sm="2" style="margin-top: -60px !important">
 							<b-button
-								@click="createPDF([item])"
+								@click="createPDF([item], item['Naziv kolegija'])"
 								variant="success"
 								size="sm"
 							>
@@ -100,7 +100,7 @@ export default {
 	},
 
 	methods: {
-		createPDF(subjects = this.opisiKolegija) {
+		createPDF(subjects = this.opisiKolegija, fileName = "Opisi Kolegija") {
 			pdfMake.vfs = pdfFonts.pdfMake.vfs;
 			let content = [];
 
@@ -142,10 +142,10 @@ export default {
 
                     subject.Ocjenjivanje = ocjenjivanjeBackup;
                 }
-            })
+            });
 
 			const docDefinition = { content };
-			pdfMake.createPdf(docDefinition).download("Opisi Kolegija");
+			pdfMake.createPdf(docDefinition).download(fileName);
 		}
 	},
 

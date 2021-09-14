@@ -1629,7 +1629,7 @@ export default [
     },
     {
         "Naziv kolegija": "Programiranje za internet",
-        "Kod kolegija": "IMB605",
+        "Kod kolegija": "INB5038",
         "Studijski program": "Studij Informatike",
         "Ciklus": "Prvi ciklus",
         "Godina studija": "3.",
@@ -2162,250 +2162,1090 @@ export default [
         `
     },
     {
-        "Naziv kolegija": "Programsko inženjerstvo",
-        "Kod kolegija": "",
-        "Studijski program": "Studij Informatike",
-        "Ciklus": "Prvi ciklus",
-        "Godina studija": "3.",
-        "ECTS vrijednost boda": "",
-        "Semestar": "6.",
-        "P": "",
-        "S": "",
-        "V": "",
-        "Status kolegija": "obvezni",
-        "Preduvjeti": "",
-        "Usporedni uvjeti": "",
-        "Pristup kolegiju": "",
-        "Vrijeme održavanja nastave": "Prema rasporedu",
-        "Nositelj kolegija/nastavnik": "",
-        "Kontakt sati/konzultacije": "",
-        "E-mail adresa i broj telefona": "",
-        "Asistent": "",
-        "Asistent | Kontakt sati/konzultacije": "",
-        "Asistent | E-mail adresa i broj telefona": "",
-        "Ciljevi kolegija": "",
-        "Ishodi učenja (opće i specifične kompetencije)": "",
-        "Sadržaj silabusa/izvedbenog plana (ukratko)": "",
-        "Način izvođenja nastave": "",
-        "Studentske obveze": `
-            - pohađati nastavu i sudjelovati u nastavnome procesu.
-            - pisati kolokvije. 
-            - polagati pismeni ispit.
-            - polagati usmeni ispit.`,
-        "Praćenje i ocjenjivanje studenta": "",
-        "Ocjenjivanje": [
-            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "", "UDIO u ECTS-u": "", "Udio u ocjeni": "Max %" },
-            { "Obveze studenta": "Kolokviji i priprema za kontinuiranu provjeru znanja", "Sati (procjena)": "", "UDIO u ECTS-u": "", "Udio u ocjeni": "Max %" },
-            { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "", "UDIO u ECTS-u": "", "Udio u ocjeni": "Max %" },
-        ],
-        "Dodatna pojašnjenja": `
+        "Naziv kolegija": "Metodika nastave informatike 1",
+        "Nositelj predmeta": "dr.sc. Ivica Boljat, doc.",
+        "Kod kolegija": "INM1017",
+        "P": "30",
+        "S": "30",
+        "V": "30",
+        "Status predmeta": "obvezni",
+        "Godina studija u kojoj se izvodi premet": "1.",
+        "Semestar": "1.",
+        "ECTS bodovi": "7",
+        "Ciljevi predmeta": "Teorijski i praktično osposobiti studente za kvalitetnu pripremu, realizaciju i analizu nastavnog procesa",
+        "Uvjeti za upis predmeta": "Poželjno je poznavanje didaktike i psihologije učenja.",
+        "Ishodi učenja (kompetencije)": `
+Studenti će znati:
+    1. Razlikovati informatiku kao jedne od temeljnih prirodnih znanosti od drugih srodnih znanstvenih disciplina
+    2. Shvatiti ulogu nastavnika informatike u skladu s teorijama škole
+    3. Analizirati kurikulum informatike, planirati nastavu, organizirati znanje za poduku.
+    4. Realizirati nastavu koristeći najprikladnije modele poučavanja prilagođene sadržaju, vrsti škole, uzrastu i individualnim karakteristikama učenika, posebno uvažavajući stilove učenja i teoriju višestrukih inteligencija te preporuke koje proizlaze iz teorija učenja
+    5. Motivirati učenike služeći se teorijskim rezultatima, posebno kognitivnih teorija motivacije i teorijom postizanja cilja
+    6. Prepoznati faktore koji ometaju objektivno ocjenjivanje i ublažiti njihovo djelovanje, sastaviti mjerne instrumente koji ispunjavaju zahtjeve valjanosti, pouzdanosti, objektivnosti
+        `,
+        "Sadržaj predmeta": `
+1. Osnovni pojmovi: informatika, računarstvo, računarska znanost, informacijska znanost, računalno inženjerstvo, informacijskokomunikacijske tehnologije, programsko inženjerstvo, informacijski sustavi. CC2005.
+2. Klasifikacija metodike i informatike u sustavu znanosti ACM, Frascati. Informatika je prirodna znanost – Denning. Odnos metodika-didaktika-supstraktne znanosti.
+3. Je li metodika znanost. Kriteriji Poppera, Connorsa, Monshowera, Lakatosa, Laudana.
+4. HNOS, K-12, CS213. Pismenost, okretnost, potrebna znanja i vještine: koncepti, sposobnost rješavanja problema, vještine primjene IT. Alternativni pristupi izradi kurikuluma. Treshold koncepti.
+5. Teorije škole.
+6. Didaktičke teorije.
+7. Modeli poučavanja u nastavi informatike: problemska nastava, projektna, šegrtovanje, učenje putem otkrivanja, suradnička, ERR okvir za poučavanje, situacijsko učenje, generička, sinektika. Berginovi obrasci.Poučavanje u računalnom laboratoriju. Stjecanje iskustva u poučavanju informatike.
+8. Komuniciranje i planiranje nastave. Organiziranje znanja za poduku.
+9. Konstruktivizam.
+10. Biheviorističke i kognitivne teorije učenja: Piaget, Vigotski, Talizina, Galjperin, Podđakov, Bruner, Gagne, Bandura. Teorije obrade informacija.
+11. Stilovi učenja. Myers-Briggs, Pask, Entwistle, GrashaReichmann, Dunn-Dunn, Gregorc, Kolb, Honey-Mumford, Herrmann, Felder-Silverman.
+12. Učenje pojmova. Klausmeierova CLD teorija.
+13. Motivacija. Izvori motivacijskih potreba. Teorije motivacije: Maslow, Alderfer, teorija očekivanja, atribucijska teorija, teorija kognitivne disonance, teorija postizanja ciljeva.
+14. Dokimologija. Izvori i vrste pogrešaka. Mjerni instrumenti i karakteristike. Valjanost, pouzdanost, objektivnost, diskriminativna vrijednost zadatka. Konstrukcija testa iz informatike korištenjem Bloomove taksonomije. Vrste pitanja u CSE.
+`,
+        "Način izvođenja nastave": `
+Predavanja, seminari. Praktični rad u razredu predviđen je u
+Metodičkom informatičkom seminaru s nastavnom praksom
+        `,
+        "Obveze studenta": "Usmeni ispit",
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": 
+`
+90 sati nastave = 3 ECTS
 
+Tri pisane pripreme nastavnih sati s teorijskom analizom 15 sati = 1 ECTS
+
+Priprema kolokvija i ispita 90 sati = 3 ECTS`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `
+1. Pisane pripreme 20%
+2. Kolokvij (pisano, teme 1-9) 40%
+3. Završni ispit (usmeno, teme 10-14) 50%
+Za studente koji ne polože kolokvij, ispit je usmeni (teme 1-14).
         `
     },
     {
-        "Naziv kolegija": "Programsko inženjerstvo",
-        "Kod kolegija": "",
-        "Studijski program": "Studij Informatike",
-        "Ciklus": "Prvi ciklus",
-        "Godina studija": "3.",
-        "ECTS vrijednost boda": "",
-        "Semestar": "6.",
-        "P": "",
-        "S": "",
-        "V": "",
-        "Status kolegija": "obvezni",
-        "Preduvjeti": "",
-        "Usporedni uvjeti": "",
-        "Pristup kolegiju": "",
-        "Vrijeme održavanja nastave": "Prema rasporedu",
-        "Nositelj kolegija/nastavnik": "",
-        "Kontakt sati/konzultacije": "",
-        "E-mail adresa i broj telefona": "",
-        "Asistent": "",
-        "Asistent | Kontakt sati/konzultacije": "",
-        "Asistent | E-mail adresa i broj telefona": "",
-        "Ciljevi kolegija": "",
-        "Ishodi učenja (opće i specifične kompetencije)": "",
-        "Sadržaj silabusa/izvedbenog plana (ukratko)": "",
-        "Način izvođenja nastave": "",
-        "Studentske obveze": `
-            - pohađati nastavu i sudjelovati u nastavnome procesu.
-            - pisati kolokvije. 
-            - polagati pismeni ispit.
-            - polagati usmeni ispit.`,
-        "Praćenje i ocjenjivanje studenta": "",
-        "Ocjenjivanje": [
-            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "", "UDIO u ECTS-u": "", "Udio u ocjeni": "Max %" },
-            { "Obveze studenta": "Kolokviji i priprema za kontinuiranu provjeru znanja", "Sati (procjena)": "", "UDIO u ECTS-u": "", "Udio u ocjeni": "Max %" },
-            { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "", "UDIO u ECTS-u": "", "Udio u ocjeni": "Max %" },
-        ],
-        "Dodatna pojašnjenja": `
-
-        `
+        "Naziv kolegija": "Sustavi e-učenja",
+        "Nositelj predmeta": "dr. sc. Slavomir Stankov, red. prof.",
+        "Kod kolegija": "INM1024",
+        "P": "30",
+        "S": "3",
+        "V": "30",
+        "Status predmeta": "obvezni",
+        "Godina studija u kojoj se izvodi premet": "1.",
+        "Semestar": "1.",
+        "ECTS bodovi": "4",
+        "Ciljevi predmeta": "Cilj je steći znanja o sustavima e-učenja i njihovoj primjeni u obrazovanju, nastavi i učenju i poučavanju..",
+        "Uvjeti za upis predmeta": "",
+        "Ishodi učenja (kompetencije)": `Sposobnost konfiguracije sustava e-učenja i objekata učenja Primjena pedagogijske paradigme sustava e-učenja u primjerima sustava e-učenja.`,
+        "Sadržaj predmeta": `
+Definicija e-učenja i sustav e-učenja. Funkcijski model sustava eučenja. 
+Konfiguracija sustava e-učenja i objekti učenja. Nastanak i razvoj normi za e-učenje (glavni sudionici procesa normiranja, proces formiranja normi). Arhitektura sustava e-učenja. Pedagogijska paradigma sustava e-učenja (dva sigma problem, tradicionalno učenje, učenje s provjeravanjem, tutorsko učenje). Inteligentni sustavi e-učenja. Vrednovanje sustava e-učenja. Praktični rad sa aktualnim sustavima e-učenja.`,
+        "Način izvođenja nastave": `Tradicionalna predavanja nastavnika. Diskusije i rasprave u online komunikaciji. Radionice. Rad u grupi u prostoru rješavanja problema. `,
+        "Obveze studenta": "Sudjelovanje u nastavi u svim sadržajnim oblicima. Obaveze se sastoje od: ne manje od tri provjere znanja putem kolokvija. Grupno ili pojedinačno rješavanje zadanog problema. Učenje i poučavanje temeljem zadane osnovne i dopunske literature.",
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `
+Predavanja 30 sati + vježbe 30 sati = 2ECTS
+Domaće zadaće, kolokviji i praktični rad = 2 ECTS        
+`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `
+Postavljene provjere i zadaci pri rješavanju problema se boduju na ljestvici od 0-100 bodova. Bodovi se proračunavaju u tradicionalne ocjene na skali od dovoljan (2) do izvrstan (5).
+`
     },
     {
-        "Naziv kolegija": "Programsko inženjerstvo",
-        "Kod kolegija": "",
-        "Studijski program": "Studij Informatike",
-        "Ciklus": "Prvi ciklus",
-        "Godina studija": "3.",
-        "ECTS vrijednost boda": "",
-        "Semestar": "6.",
-        "P": "",
-        "S": "",
-        "V": "",
-        "Status kolegija": "obvezni",
-        "Preduvjeti": "",
-        "Usporedni uvjeti": "",
-        "Pristup kolegiju": "",
-        "Vrijeme održavanja nastave": "Prema rasporedu",
-        "Nositelj kolegija/nastavnik": "",
-        "Kontakt sati/konzultacije": "",
-        "E-mail adresa i broj telefona": "",
-        "Asistent": "",
-        "Asistent | Kontakt sati/konzultacije": "",
-        "Asistent | E-mail adresa i broj telefona": "",
-        "Ciljevi kolegija": "",
-        "Ishodi učenja (opće i specifične kompetencije)": "",
-        "Sadržaj silabusa/izvedbenog plana (ukratko)": "",
-        "Način izvođenja nastave": "",
-        "Studentske obveze": `
-            - pohađati nastavu i sudjelovati u nastavnome procesu.
-            - pisati kolokvije. 
-            - polagati pismeni ispit.
-            - polagati usmeni ispit.`,
-        "Praćenje i ocjenjivanje studenta": "",
-        "Ocjenjivanje": [
-            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "", "UDIO u ECTS-u": "", "Udio u ocjeni": "Max %" },
-            { "Obveze studenta": "Kolokviji i priprema za kontinuiranu provjeru znanja", "Sati (procjena)": "", "UDIO u ECTS-u": "", "Udio u ocjeni": "Max %" },
-            { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "", "UDIO u ECTS-u": "", "Udio u ocjeni": "Max %" },
-        ],
-        "Dodatna pojašnjenja": `
-
-        `
+        "Naziv kolegija": "OPĆA PEDAGOGIJA",
+        "Nositelj predmeta": "Dr. sc. Sonja Kovačević, doc.",
+        "Kod kolegija": "INM1034",
+        "P": "30",
+        "S": "0",
+        "V": "30",
+        "Status predmeta": "obvezni",
+        "Godina studija u kojoj se izvodi premet": "1.",
+        "Semestar": "1.",
+        "ECTS bodovi": "4",
+        "Ciljevi predmeta": "Ovladavanje osnovnim znanjima iz područja pedagoške teorije i prakse potrebnima za uspješnu organizaciju i provođenje pedagoških aktivnosti i pedagoških procesa u odgojno-obrazovnoj praksi.  razvojne tendencije alternativnih pedagoških teorija i prakse; spoznati osnovne karakteristike i razvoj školskih sustava.",
+        "Uvjeti za upis predmeta": "Nema uvjeta",
+        "Ishodi učenja (kompetencije)": `
+- sposobnost misaonog operiranja (indukcija, analiza, sinteza, komparacija, evaluacija…);
+- analiziranje složenosti fenomena odgoja;
+- sposobnost primjene ideja u analizi prakse.
+Od specifičnih kompetencija, očekuje se da studenti mogu:
+- opisati, definirati i objasniti fenomen odgoja;
+- analizirati fenomen odgoja na primjerima i slučajevima;
+- oblikovati i izložiti ideje, sudjelovati u polemikama i dijalozima.        
+`,
+        "Sadržaj predmeta": `
+Predavanja.
+Pedagogija kao znanost;predmet pedagogije, zadaci pedagogije,sustav pedagogijskih znanosti,metode istraživanja u pedagogiji. Antroploške osnove odgoja.Temeljni pojmovi u pedagogiji;osnovne kategorije pedagogije.Struktura odgojnog procesa.Pedagoške koncepcije prakse-odgojno.obrazovne filozofije.Pregled razvoja pedagoških ideja.Odgojno-obrazovna komunikacija.
+Struktura i dinamika odgojno-obrazovne skupine Obrazovni sustavi –školski sustav u Republici BIH.
+Seminar.
+Analiza i rasprava o pedagoškim problemima obradom sadržaja iz pojedinih izvora pedagoške literature i pedagoške prakse.
+`,
+        "Način izvođenja nastave": `
+Program se realizira na predavanjima i seminarima u kojima
+sudjeluju svi studenti. Tjedne, individualne i grupne konzultacije.
+`,
+        "Obveze studenta": "",
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `
+Udio aktivnosti u ECTS bodovima
+Nastava
+Bilješke predavanja,
+Zadaće s predavanja 0,5
+Seminarski rad
+Pisani rad
+Izlaganje i PPT 0,5
+Studij literature (pročitati 5 knjiga - Izborna literatura) 1
+Kolokvij I 1
+Završni ispit 1 
+`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `
+Nastava
+Bilješke predavanja,
+Zadaće s predavanja 0,5 10
+Seminarski rad
+Pisani rad
+Izlaganje i PPT 0,5 29
+Studij literature (pročitati 5 knjiga – Izborna literatura) 1 20
+Kolokvij I 1 21
+Završni ispit 1 21
+UKUPNO: 4 100
+`
     },
     {
-        "Naziv kolegija": "Programsko inženjerstvo",
-        "Kod kolegija": "",
-        "Studijski program": "Studij Informatike",
-        "Ciklus": "Prvi ciklus",
-        "Godina studija": "3.",
-        "ECTS vrijednost boda": "",
-        "Semestar": "6.",
-        "P": "",
-        "S": "",
-        "V": "",
-        "Status kolegija": "obvezni",
-        "Preduvjeti": "",
-        "Usporedni uvjeti": "",
-        "Pristup kolegiju": "",
-        "Vrijeme održavanja nastave": "Prema rasporedu",
-        "Nositelj kolegija/nastavnik": "",
-        "Kontakt sati/konzultacije": "",
-        "E-mail adresa i broj telefona": "",
-        "Asistent": "",
-        "Asistent | Kontakt sati/konzultacije": "",
-        "Asistent | E-mail adresa i broj telefona": "",
-        "Ciljevi kolegija": "",
-        "Ishodi učenja (opće i specifične kompetencije)": "",
-        "Sadržaj silabusa/izvedbenog plana (ukratko)": "",
-        "Način izvođenja nastave": "",
-        "Studentske obveze": `
-            - pohađati nastavu i sudjelovati u nastavnome procesu.
-            - pisati kolokvije. 
-            - polagati pismeni ispit.
-            - polagati usmeni ispit.`,
-        "Praćenje i ocjenjivanje studenta": "",
-        "Ocjenjivanje": [
-            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "", "UDIO u ECTS-u": "", "Udio u ocjeni": "Max %" },
-            { "Obveze studenta": "Kolokviji i priprema za kontinuiranu provjeru znanja", "Sati (procjena)": "", "UDIO u ECTS-u": "", "Udio u ocjeni": "Max %" },
-            { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "", "UDIO u ECTS-u": "", "Udio u ocjeni": "Max %" },
-        ],
-        "Dodatna pojašnjenja": `
-
-        `
+        "Naziv kolegija": "Osnove psihologije",
+        "Nositelj predmeta": "dr. sc. Kristina Sesar, doc.",
+        "Kod kolegija": "INM1044",
+        "P": "30",
+        "S": "0",
+        "V": "30",
+        "Status predmeta": "obvezni",
+        "Godina studija u kojoj se izvodi premet": "1.",
+        "Semestar": "1.",
+        "ECTS bodovi": "4",
+        "Ciljevi predmeta": "Temeljni cilj kolegija je upoznavanje studenata sa osnovnim pojmovima iz opće psihologije, metodama i tehnikama istraživanja u psihologiji, biološkim osnovama doživljavanja i ponašanja, kognitivnim funkcioniranjem čovjeka, osobinama ličnosti, temeljnim znanjima iz područja emocija i motivacije, psihološkim zdravljem te osnovama socijalne psihologije. ",
+        "Uvjeti za upis predmeta": "Nema",
+        "Ishodi učenja (kompetencije)": `
+Studenti će moći:
+- teorijski izložiti i kritički analizirati fenomene i probleme koji su predmet psihologije
+- razumjeti bazične procese u psihologiji
+- kritički analizirati znanstvena istraživanja iz područja psihologije           
+`,
+        "Sadržaj predmeta": `Određenje psihologije; Povijesni pregled; Metode i tehnike istraživanja u psihologiji; Biološke osnove doživljavanja i ponašanja; Osjeti i percepcija; Učenje i pamćenje; Mišljenje; Govor; Inteligencija; Emocije i motivacija; Ličnost; Mentalno zdravlje; Osnove socijalne psihologije`,
+        "Način izvođenja nastave": `Predavanja, seminari i vježbe`,
+        "Obveze studenta": "Redovito pohađanje nastave u skladu s obvezama propisanim Statutom Fakulteta. Aktivna priprema za predavanja, seminare i vježbe. Izrada jednog individualnog seminarskog rada. Dva obavezna pismena kolokvija tijekom nastave.",
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `4`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `
+Kolokviji (do 20 bodova) 20%
+Izrada seminarskog rada (do 20 bodova) 20%
+Participacija na nastavi (do 10 bodova) 10%
+Završni ispit (50 bodova) 50%
+`
     },
     {
-        "Naziv kolegija": "Programsko inženjerstvo",
-        "Kod kolegija": "",
-        "Studijski program": "Studij Informatike",
-        "Ciklus": "Prvi ciklus",
-        "Godina studija": "3.",
-        "ECTS vrijednost boda": "",
-        "Semestar": "6.",
-        "P": "",
-        "S": "",
-        "V": "",
-        "Status kolegija": "obvezni",
-        "Preduvjeti": "",
-        "Usporedni uvjeti": "",
-        "Pristup kolegiju": "",
-        "Vrijeme održavanja nastave": "Prema rasporedu",
-        "Nositelj kolegija/nastavnik": "",
-        "Kontakt sati/konzultacije": "",
-        "E-mail adresa i broj telefona": "",
-        "Asistent": "",
-        "Asistent | Kontakt sati/konzultacije": "",
-        "Asistent | E-mail adresa i broj telefona": "",
-        "Ciljevi kolegija": "",
-        "Ishodi učenja (opće i specifične kompetencije)": "",
-        "Sadržaj silabusa/izvedbenog plana (ukratko)": "",
-        "Način izvođenja nastave": "",
-        "Studentske obveze": `
-            - pohađati nastavu i sudjelovati u nastavnome procesu.
-            - pisati kolokvije. 
-            - polagati pismeni ispit.
-            - polagati usmeni ispit.`,
-        "Praćenje i ocjenjivanje studenta": "",
-        "Ocjenjivanje": [
-            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "", "UDIO u ECTS-u": "", "Udio u ocjeni": "Max %" },
-            { "Obveze studenta": "Kolokviji i priprema za kontinuiranu provjeru znanja", "Sati (procjena)": "", "UDIO u ECTS-u": "", "Udio u ocjeni": "Max %" },
-            { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "", "UDIO u ECTS-u": "", "Udio u ocjeni": "Max %" },
-        ],
-        "Dodatna pojašnjenja": `
-
-        `
+        "Naziv kolegija": "Hrvatski jezik i jezična kultura",
+        "Nositelj predmeta": "dr. sc. Marko Tokić, doc.",
+        "Kod kolegija": "INM1072",
+        "P": "15",
+        "S": "0",
+        "V": "15",
+        "Status predmeta": "obvezni",
+        "Godina studija u kojoj se izvodi premet": "1.",
+        "Semestar": "1.",
+        "ECTS bodovi": "2",
+        "Ciljevi predmeta": "Upoznavanje temeljnih odrednica pojma hrvatski jezik i hrvatski standardni jezik. Razlikovanje organskih govora i hrvatskoga jezičnoga standarda. Funkcionalna uporaba hrvatskoga standardnoga jezika u različitim funkcionalnim stilovima. Usavršavanje pisanog i usmenog izražavanja.",
+        "Uvjeti za upis predmeta": "Nema",
+        "Ishodi učenja (kompetencije)": "Svijest o jezičnoj i govornoj raznolikosti hrvatskih govornika. Hrvatski standardni jezik kao svjesno stvarani idiom kako bi se prevladale unutar nacionalne komunikacijske poteškoće i kako bi se njime na razini internacionalne civilizacije komuniciralo s drugim govornim (i nacionalnim) zajednicama. Korektno pisanje: pisama, molbi, životopisa, prijave na natječaj… Korektno pisano i usmeno izražavanje hrvatskim standardnim jezikom",
+        "Sadržaj predmeta": `
+1. Hrvatski jezik (uvod u predmet: organski govori – narječja i dijalekti)
+2. Hrvatski standardni jezik (jezične norme i normativni priručnici – substandardni idiomi)
+3. Funkcionalni stilovi
+4. Vrjednovanje teksta (jezične norme, logika, stilistika)
+5. Praktična stilistika (i jezična ispravnost)
+6. Konkretna stilistika (upute i savjeti za pisanje)
+7. Svakodnevni pisani sastavci: pismo, molba, žalba, prigovor, preporuka, prijava na natječaj, životopis
+8. Uloga čitanja u vještini govorenja i pisanja
+9. Uloga pravopisnih znakova u vještini pisanja
+10. Uloga gramatike i poznavanja vrsta riječi u govornom i pisanom izražavanju
+11. Uloga rečenice i sintakse u govornom i pisanom izražavanju
+12. Rečenični niz i nezavisno složene rečenice
+13. Zavisno složene rečenice
+14. Gramatike teksta (konektori i modifikatori)
+15. Završna sinteza.        
+`,
+        "Način izvođenja nastave": `Predavanja 15 sati – vježbi 15 sati.`,
+        "Obveze studenta": "Nazočnost. Čitanje deset pjesama dvojice odabranih autor (prema prijedlogu autora), čitanje jedne drame (prema prijedlogu) i čitanje jednog romana (od predloženih)",
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `1 ECTS za predavanja i vježbe, 1 ECTS za samostalni rad.`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `Pismeni i usmeni ispit.`
     },
     {
-        "Naziv kolegija": "Programsko inženjerstvo",
-        "Kod kolegija": "",
-        "Studijski program": "Studij Informatike",
-        "Ciklus": "Prvi ciklus",
-        "Godina studija": "3.",
-        "ECTS vrijednost boda": "",
-        "Semestar": "6.",
-        "P": "",
-        "S": "",
-        "V": "",
-        "Status kolegija": "obvezni",
-        "Preduvjeti": "",
-        "Usporedni uvjeti": "",
-        "Pristup kolegiju": "",
-        "Vrijeme održavanja nastave": "Prema rasporedu",
-        "Nositelj kolegija/nastavnik": "",
-        "Kontakt sati/konzultacije": "",
-        "E-mail adresa i broj telefona": "",
-        "Asistent": "",
-        "Asistent | Kontakt sati/konzultacije": "",
-        "Asistent | E-mail adresa i broj telefona": "",
-        "Ciljevi kolegija": "",
-        "Ishodi učenja (opće i specifične kompetencije)": "",
-        "Sadržaj silabusa/izvedbenog plana (ukratko)": "",
-        "Način izvođenja nastave": "",
-        "Studentske obveze": `
-            - pohađati nastavu i sudjelovati u nastavnome procesu.
-            - pisati kolokvije. 
-            - polagati pismeni ispit.
-            - polagati usmeni ispit.`,
-        "Praćenje i ocjenjivanje studenta": "",
-        "Ocjenjivanje": [
-            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "", "UDIO u ECTS-u": "", "Udio u ocjeni": "Max %" },
-            { "Obveze studenta": "Kolokviji i priprema za kontinuiranu provjeru znanja", "Sati (procjena)": "", "UDIO u ECTS-u": "", "Udio u ocjeni": "Max %" },
-            { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "", "UDIO u ECTS-u": "", "Udio u ocjeni": "Max %" },
-        ],
-        "Dodatna pojašnjenja": `
-
-        `
+        "Naziv kolegija": "Razvojna okruženja za objektno orijentirano programiranje",
+        "Nositelj predmeta": "dr. sc. Branko Žitko, doc.",
+        "Kod kolegija": "INM1084",
+        "P": "30",
+        "S": "0",
+        "V": "30",
+        "Status predmeta": "obvezni",
+        "Godina studija u kojoj se izvodi premet": "1.",
+        "Semestar": "1.",
+        "ECTS bodovi": "5",
+        "Ciljevi predmeta": "Steći temeljna znanja o primjeni uzoraka oblikovanja u razvoju programske podrške.",
+        "Uvjeti za upis predmeta": "Objektno-orijentirano programiranje",
+        "Ishodi učenja (kompetencije)": `Studenti će biti sposobni koristiti različita razvojna okruženja za objektno orijentirano programiranje.`,
+        "Sadržaj predmeta": `Kreacijski, strukturalni i ponašajni uzorci oblikovanja. Namjena, primjena, struktura, sudionici i uzoraka oblikovanja. Generičko programiranje. Strukture podataka i algoritmi pomoću objektno orijentiranihuzoraka oblikovanja.`,
+        "Način izvođenja nastave": `Na predavanjima se obrađuju propisane teme, na vježbama se rješavaju odgovarajući zadaci.`,
+        "Obveze studenta": "Prisutstvo na nastavi, sudjelovanje u svim oblicima rada, izrada i prezentacija zadataka za domaću zadaću te polaganje pisanog i usmenog dijela ispita.",
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `
+5 ECTS
+30 sati predavanja i 30 sati vježbi = 2 ECTS 
+90 sati samostalnog rada uz konzultacije = 3 ECTS`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `
+Rad studenta na predmetu će se vrednovati i ocjenjivati tijekom nastave i na završnom ispitu. Ukupan broj bodova koje student može ostvariti tijekom nastave je 70, dok na završnom ispitu može ostvariti 30 bodova.
+Detaljna razrada načina praćenja i ocjenjivanja rada studenata bit će prikazana u izvedbenom planu predmeta.`
     },
-    
+    {
+        "Naziv kolegija": "Baze podataka 2",
+        "Nositelj predmeta": "dr. sc. Goran Kraljević, doc.",
+        "Kod kolegija": "INM1094",
+        "P": "30",
+        "S": "0",
+        "V": "30",
+        "Status predmeta": "izborni",
+        "Godina studija u kojoj se izvodi premet": "1.",
+        "Semestar": "1.",
+        "ECTS bodovi": "5",
+        "Ciljevi predmeta": "Steći temeljna znanja o primjeni uzoraka oblikovanja u razvoju programske podrške.",
+        "Uvjeti za upis predmeta": "Kompetencije i vještine koje se stječu završenom drugom godinom preddiplomskog studija.",
+        "Ishodi učenja (kompetencije)": `Produbljivanje temeljnog znanja i vještina u projektiranju i održavanju baza podataka`,
+        "Sadržaj predmeta": `
+Funkcije i njihova primjena, konverzije podataka. Pogledi:
+formiranje, struktura i princip primjene, ažuriranje pogleda.
+Transakcije: obrada zahtjeva, blokiranje pristupa, kontrolne točke,
+oporavak od pogreški. Zaključavanje podataka. Procedure. Okidači.
+Rukovanje pogreškama. Kontrola višestrukog pristupa. Sigurnost i
+dozvola pristupa.
+Nastavne jedinice za Predavanja
+1. Kreiranje pogleda, preimenovanje atributa pogleda. Ažuriranje, unos i brisanje podataka u pogledu. Uklanjanje pogleda.
+2 sata
+2. Višekorisnički rad: dodjeljivanje prava, sužavanje prava, kaskadno dodjeljivanje prava, uklanjanje prava i grupiranje korisnika. 2 sata
+3. Funkcije znakovnog tipa podataka. Matematičke funkcije. Funkcije datuma i vremena. Funkcije konverzije. 2 sata
+4. Sistemske funkcije: funkcija provjere uvjeta: jednostavni i složeni oblik, funkcija za ispitivanje vrijednosti izraza. 2 sata
+5. Skupne SQL instrukcije (batches). Lokalne i globalne varijable. 2 sata
+6. Kontrola programskog toka. Definiranje bloka instrukcija. Uvjetno izvršavanje instrukcija. Bezuvjetni izlaz iz bloka instrukcija. Ponavljanje niza instrukcija. 2 sata
+7. Definiranje i izvršenje transakcije. Naredba za pozitivni ishod transakcije. Naredba za poništenje transakcije. 2 sata
+8. Značenje transakcijskog log-a. Uloga transakcijskog log-a kod sistemskog prekida. 2 sata
+9. Zaključavanje podataka u bazi. Problem gubitka ažuriranih informacija. Nivoi zaključavanja. 2 sata
+10. SQL store procedure. Prednosti korištenja store procedura. 2 sata
+11. Deklariranje procedure. Definiranje ulaznih i izlaznih parametara. Tijelo procedure. 2 sata
+12. Izvršenje store procedure. Ugnježđivanje procedura. Rukovanje greškama. Parametri koji opisuju greške. Nivo i stanje greške. 2 sata
+13. Okidači (trigeri). Definiranje okidača obzirom na tip primjene (unos, promjena, brisanje podataka). Nastavne jedinice za Laboratorijske vježbe Broj sati
+1. Kreiranje pogleda, preimenovanje atributa pogleda. Ažuriranje, unos i brisanje podataka u pogledu. Uklanjanje pogleda 2 sata
+2. Višekorisnički rad: dodjeljivanje prava, sužavanje prava, kaskadno dodjeljivanje prava, uklanjanje prava i grupiranje korisnika. 2 sata
+3. Funkcije znakovnog tipa podataka. Matematičke funkcije. Funkcije datuma i vremena. Funkcije konverzije. 2 sata
+4. Sistemske funkcije: funkcija provjere uvjeta: jednostavni i složeni oblik, funkcija za ispitivanje vrijednosti izraza. 2 sata
+5. Skupne SQL instrukcije (batches). Lokalne i globalne varijable. 2 sata
+6. Kontrola programskog toka. Definiranje bloka instrukcija. Uvjetno izvršavanje instrukcija. Bezuvjetni izlaz iz bloka instrukcija. Ponavljanje niza instrukcija. 2 sata
+7. Definiranje i izvršenje transakcije. Naredba za pozitivni ishod transakcije. Naredba za poništenje transakcije. 2 sata
+8. Značenje transakcijskog log-a. Uloga transakcijskog log-a kod sistemskog prekida. 2 sata
+9. Zaključavanje podataka u bazi. Problem gubitka ažuriranih informacija. Nivoi zaključavanja. 2 sata 10. SQL store procedure. Prednosti korištenja store procedura. 2 sata
+11. Deklariranje procedure. Definiranje ulaznih i izlaznih parametara. Tijelo procedure. 2 sata
+12. Izvršenje store procedure. Ugnježđivanje procedura.Rukovanje greškama. Parametri koji opisuju greške. Nivo i stanje greške. 2 sata
+13. Okidači (trigeri). Definiranje okidača obzirom na tip primjene (unos, promjena, brisanje podataka). 2 sata
+`,
+        "Način izvođenja nastave": `Predavanja i laboratorijske vježbe`,
+        "Obveze studenta": "Prisutstvo na nastavi, sudjelovanje u svim oblicima rada, izrada i prezentacija zadataka za domaću zadaću te polaganje pisanog i usmenog dijela ispita.",
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `
+5 ECTS
+30 sati predavanja i 30 sati vježbi = 2 ECTS
+90 sati samostalnog rada uz konzultacije = 3 ECTS
+`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": ` 
+Tijekom semestra bit će dva međuispita (kolokvija). Prvi međuispit je nakon 7 tjedana nastave, drugi nakon nakon 15 tjedana nastave. Na završnom ispitu studenti polažu dijelove gradiva koje nisu položili na međuispitima. Uvjet za pozitivnu ocjenu je pozitivna ocjena iz laboratorijskih vježbi i 50% bodova na svakom međuispitu.
+
+Tijekom semestra bit će dva međuispita (kolokvija). Prvi međuispit je nakon 7 tjedana nastave, drugi nakon nakon 15 tjedana nastave. Na završnom ispitu studenti polažu dijelove gradiva koje nisu položili na međuispitima.
+
+Uvjet za pozitivnu ocjenu je pozitivna ocjena iz laboratorijskih vježbi i 50% bodova na svakom međuispitu.
+
+Ocjena(%)=0,33 L + 0,33 M1 +0,33 M2
+L - ocjena iz laboratorijskih vježbi izražena u postocima,
+M1, M2 - bodovi na međuispitima izraženi u postocima.
+
+Konačna se ocjena utvrđuje na sljedeći način:
+
+Postotak Ocjena
+50% do 60% dovoljan (2)
+60% do 70% dobar (3)
+70% do 80% vrlo dobar (4)
+80% do 100% izvrstan (5)
+
+Studenti koji ne polože ispit preko kolokvija polažu pismeni ispit koji sadrži 5 pitanja i zadataka. Uvjet za polaganje ispita je 50% bodova od ukupnog broja bodova.
+Studenti koji ne polože ispit preko kolokvija polažu pismeni ispit koji sadrži 5 pitanja i zadataka. Uvjet za polaganje ispita je 50% bodova od ukupnog broja bodova.
+        
+`
+    },
+    {
+        "Naziv kolegija": "Optimizacija",
+        "Nositelj predmeta": "Dr. sc. Ljiljanka Kvesić, doc.",
+        "Kod kolegija": "INM10105",
+        "P": "30",
+        "S": "0",
+        "V": "30",
+        "Status predmeta": "obvezni",
+        "Godina studija u kojoj se izvodi premet": "1.",
+        "Semestar": "1.",
+        "ECTS bodovi": "5",
+        "Ciljevi predmeta": "Svladavanje osnovnog znanja iz osnovnih tipova optimizacije potrebnog za primjenu u nekim drugim područjima; usvajanje razvijenih postupaka i stjecanja vještina primjene matematike; razvijanje logičkog mišljenja i zaključivanja potrebnog za druge znanosti; razvijanje preciznosti u izražavanju i radu; jačanje kombinatornih sposobnosti i povjerenja u vlastite sposobnosti.",
+        "Uvjeti za upis predmeta": "Nema",
+        "Ishodi učenja (kompetencije)": `Nakon uspješnog svladavanja sadržaja kolegija, studenti će usvojiti znanja iz osnovnih tipova optimizacije kao što su linearno programiranje, nelinearno programiranje, programiranje bez i sa ograničenjima. Usvojena znanja omogućit će studentima da ista primjene u nekim drugim područjima (osim same matematike, gdje se ona takodjer mogu primijeniti) kao što su ekonomija, tehničke znanosti i sl`,
+        "Sadržaj predmeta": `Osnovni pojmovi (definicije i osnovna svojstva) u matematičkom programiranju. Linearno programiranje - Simpleks metoda. Nelinearno programiranje. Osnovne metode u nelinearnom programiranju (gradijentna metoda, metoda konjugiranih smjerova, Newtonova metoda). Konvergencija metoda. Brzina konvergencije. Osnovi programiranja sa ograničenjima.`,
+        "Način izvođenja nastave": `Predavanja s temama navedenim u Sadržaju. Na auditornim vježbama se rješavaju odgovarajući zadaci.`,
+        "Obveze studenta": "Pohađanje predavanja i vježbi.",
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `5 ECTS (Predavanja i vježbe 30+30 sati - 1.5 ECTS, učenje, ispiti i domaći radovi -3.5 ECTS.)`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `
+Samostalno učenje, priprema kolokvija i završnog ispita ( pismeni ispit i usmeni ispit ) = 3,5 ECTS boda.
+`
+    },    {
+        "Naziv kolegija": "Metodika nastave informatike 2",
+        "Nositelj predmeta": "dr. sc. Ivica Boljat, doc.",
+        "Kod kolegija": "INM2016",
+        "P": "30",
+        "S": "0",
+        "V": "30",
+        "Status predmeta": "obvezni",
+        "Godina studija u kojoj se izvodi premet": "1.",
+        "Semestar": "2.",
+        "ECTS bodovi": "5",
+        "Ciljevi predmeta": "Teorijski i praktično osposobiti studente za kvalitetnu pripremu, realizaciju i analizu nastavnog procesa na temelju rezultata znanstvenih istraživanja u području informatičkog obrazovanja",
+        "Uvjeti za upis predmeta": "Poželjno je poznavanje Metodike nastave informatike I",
+        "Ishodi učenja (kompetencije)": `
+Studenti će znati:
+1. Primijeniti suvremene alate i robote za poučavanje programiranja
+2. Primijeniti tehnike rješavanja problema i uloga varijabli u algoritmima
+3. Prepoznati potencijalne miskoncepcije i sastaviti test za njihovo otkrivanje
+4. Poučavati tehnike efikasnog praćenja izvršavanja koda
+5. Prepoznati teškoće u shvaćanju rekurzije i primijeniti odgovarajuće modele poučavanja
+6. Prednosti i nedostatke poučavanja OOP prije proceduralnog te poučavati najprije metodologiju, tek potom jezik
+7. Koristiti vizualizaciju algoritama za poučavanje i samostalno učenje temeljeno na teoriji multimedijalnog učenja
+8. U SPSS-u ili PSPP-u odabrati i operacionalizirati varijable, unijeti podatke, odabrati odgovarajuću metodu, dobiti rezultate i pravilno ih interpretirati.
+`,
+        "Sadržaj predmeta": `
+1. Temeljna literatura i klasifikacija istraživanja– Valentine, Fincher-Petre. Kvalitativne metode (naglasak fenomenografija) u CSER.
+2. Poučavanje programiranja – (alati, vizualizacije, roboti..i njihova didaktička pozadina). ALICE, JkarelRobot. Taksonomija programskih jezika i okruženja za poučavanje programiranja. Usporedba PJ – kriteriji i rezultati. Učinkovitost robota u poučavanju programiranja – primjeri istraživanja. Legomindstorm NXT-G. - seagway, smoothfollow). Snap, Enchanting, RoboMind. Alice3 i posredovani transfer). Tehnike rješavanja problema. Uloga varijabli.
+3. Tipične početničke greške u programiranju – klasifikacije i uzroci. Usporedba s ekspertima. Miskoncepcije o efikasnosti i korektnosti program. Istraživanja vještine programiranja i tracinga.
+4. Rekurzija – osnovni slučajevi – tipične greške, studentske teškoće i njihovi uzroci. Zašto je teška – primjeri. Mentalni modeli rekurzije. Modeli poučavanja rekurzije- model malih ljudi i ugniježdenih okvira.
+5. Poučavanje objektnog programiranja – koraci implementacije (klase, objekti, nasljeđivanje, enkapsulacija, ponovna upotrebljivost), zašto prije metodologija nego jezik, što se ne preporuča koristiti, koji pristup prije koristiti (objektni ili proceduralni). Fenomenogafska studija – shvaćanje pojma klasa, objekt.
+6. Vizualizacije – primjena u poučavanju algoritama i struktura podataka.- primjeri (obilasci binarnog stabla po širini i dubini, quick i merge sort, heap-sort, AVL, Dijkstraalgoritam.najkraćeg puta, hashing, Huffmanov kod). Istraživanja stvarnih efekata vizualizacije: meta-analiza. Razine uključenosti studenata. HalVis – struktura, karakteristike. Teorija multimedijalnog učenja - principi. Kognitivno preopterećenje – uzroci, načini redukcije.
+7. Poučavanje o računalnim mrežama – koji su ključni pojmovi, koji se pristupi koriste, preporuke fenomenografske studije za dobro poučavanje.
+8. LOGISIM – princip rada, prijelaz s razine logičkih sklopova na tablicu istine i logički izraz – primjer 4-bitni komparatora)
+9. Kognitivni modeli. Kognitivni procesi učenika dok programiraju. Veza prostorne inteligencije (crtanje karata) i uspješnosti programiranja. Vizualizacija u poučavanju arhitekture računala.
+10. Žene u CS. Razlozi podzastupljenosti. Stavovi žena o informatici.
+11. Apstrakcija – zašto je važna
+12. Kako integrirati rezultate znanstvenih istraživanja CSE u kurikulum. Ciljevi kurikuluma, izbor tema i pedagoških strategija, priprema nastavnika, principi dizajna kurikuluma, strategije za uspješnu masovnu implementaciju, primjeri nekih država, predrasude o CS, Frankov okvir za kritičku analizu obrazovnih politika i reformi..
+13. Statistika – uzorak, tipovi greške i ovisnost o veličini uzorka, vrste skala, Kolmogorov - Smirnov test, hi kvadrat, MannWhitney, Kruskal-Wallis, t-test, analize varijance, faktorska, hijerarhijska klasterska analiza, Pearsonova i Spearmanova korelacija, regresijska analiza
+`,
+        "Način izvođenja nastave": `Predavanja, seminari. Praktični rad u razredu predviđen je u Metodičkom informatičkom seminaru s nastavnom praksom`,
+        "Obveze studenta": "Izrada nastavnih materijala s primjerima za poučavanje programiranja korištenjem suvremenih programskih okruženja i jezika te robota.",
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `
+60 sati nastave = 2 ECTS
+Izrada nastavnih materijala za poučavanje programiranja 15 sati = 0.5 ECTS
+Priprema kolokvija i ispita 45 sati = 1.5 ECTS`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `
+1. Aktivnost na nastavi 15%
+2. Nastavni materijali za poučavanje programiranja 15%
+3. Završni ispit (usmeno, teme 10-14) 70%
+`
+    },
+    {
+        "Naziv kolegija": "Projektiranje sustava e-učenja",
+        "Nositelj predmeta": "dr. sc. Slavomir Stankov, red. prof.",
+        "Kod": "INM2025",
+        "P": "30",
+        "S": "0",
+        "V": "30",
+        "Status predmeta": "obvezni",
+        "Godina studija u kojoj se izvodi premet": "1.",
+        "Semestar": "2.",
+        "ECTS bodovi": "5",
+        "Ciljevi predmeta": "Cilj i zadaća kolegija: ovladati metodologijom projektiranja sustava za e-učenje.",
+        "Uvjeti za upis predmeta": "Odslušan kolegij Sustavi e-učenja",
+        "Ishodi učenja (kompetencije)": `Studenti su osposobljeni da na izabranoj platformi sustava za upravljanje učenjem provode: projektiranje programskih sustava e-učenja; procesa za oblikovanje i isporuku nastave u sustavima e-učenja; posebno ovladavaju izabranim modelom za oblikovanje nastave;`,
+        "Sadržaj predmeta": `
+Oblikovanje nastave po načelima izabranog modela. Oblikovanje nastave u okruženju mješovitog (kombinirano online učenje i tradicionalno učenje) učenja. Radionica – rasprava o oblikovanju okruženja mješovite nastave. Oblikovanje nastavnih sadržaja se provodi za nastavni predmet učenika u osnovnoj ili srednjoj školi. 
+Završni izvještaj svih studenata o provedenim aktivnostima`,
+        "Način izvođenja nastave": `
+Tradicionalna predavanja nastavnika. Diskusije i rasprave u online komunikaciji. Radionice. Rad u grupi u prostoru rješavanja problema.         
+`,
+        "Obveze studenta": "Sudjelovanje u nastavi u svim sadržajnim oblicima. Obaveze se sastoje od: ne manje od tri provjere znanja putem kolokvija. Grupno ili pojedinačno rješavanje zadanog problema. Učenje i poučavanje temeljem zadane osnovne i dopunske literature.",
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `
+Predavanja 30 sati + vježbe 30 sati = 2ECTS
+Domaće zadaće, kolokviji i praktični rad = 3 ECTS
+`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `Postavljene provjere i zadaci pri rješavanju problema se boduju na ljestvici od 0-100 bodova. Bodovi se proračunavaju u tradicionalne ocjene na skali od dovoljan (2) do izvrstan (5).`
+    },
+    {
+        "Naziv kolegija": "Didaktika",
+        "Nositelj predmeta": "dr. sc. Mario Vasilj, izv. prof.",
+        "Kod": "INM2034",
+        "P": "30",
+        "S": "0",
+        "V": "30",
+        "Status predmeta": "obvezni",
+        "Godina studija u kojoj se izvodi premet": "1.",
+        "Semestar": "2.",
+        "ECTS bodovi": "4",
+        "Ciljevi predmeta": "Upoznati studente s osnovnim didaktičkim spoznajama o nastavi i obrazovanju; demonstrirati suvremene metode i strategije rada u nastavi, te razvijati sposobnosti za njihovu efikasnu primjenu; razvijati kompetencije za kritičko propitivanje recentne nastavne prakse u nas; osposobljavati studente za organizaciju nastave u kojoj dominiraju strategije aktivnog učenja",
+        "Uvjeti za upis predmeta": "Položen ispit iz Osnova pedagogije",
+        "Ishodi učenja (kompetencije)": `Prorada teorijskih sadržaja i rasprava o didaktičkim problemima,rad u malim skupinama, izrada eseja, i sl. Samostalna proučavanja didaktičke literature, Internet, diskusije, konzultacije`,
+        "Sadržaj predmeta": `Didaktika – teorija obrazovanja i nastave. Osnovni pojmovi didaktike. Nastava- ciljevi i zadaci. Zadaci odgoja i obrazovanja (Taksonomija)- Bloom ; Planiranje i programiranje nastave; Nastavni plan i program; Teorijskometodološki pristupi izradi nastavnih planova i programa; Artikulacija (strukturiranje) i faze nastavnog procesa; Pripremanje nastavnika i učenika za nastavu,ostvarivanje nastavnog procesa; Evaluacija u procesu nastave i učenja; Principi u procesu nastave i učenja; Pojam i klasifikacija metoda nastave i učenja; Oblici (forme) rada u nastavi i učenju; Mediji u nastavi i učenju`,
+        "Način izvođenja nastave": `Program se realizira na predavanjima, seminarima i konzultacijama. Seminari se organiziraju kao aktivne studentske radionice u kojima se izrađuju vježbe i kritički razmatraju odabrane teme iz didaktike.`,
+        "Obveze studenta": "Redovito pohađanje nastave. Seminari se organiziraju kao aktivne studentske radionice u kojima se izrađuju vježbe i kritički razmatraju odabrane teme iz didaktike",
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `
+Seminar 1 ETSC, 
+Aktivnost na nastavi 1 ETSC
+Pohađanje nastave 2 ECTS`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": ` Nakon odslušanih predavanja i ispunjenih seminarskih obveza kandidati pristupaju polaganju pismenog i/ili usmenog ispita.Na konačnu ocjenu utječe i kvaliteta kritičkog razmatranja jednog od izvora iz popisa dopunske literature`
+    },
+    {
+        "Naziv kolegija": "Metodologija istraživanja u obrazovanju",
+        "Nositelj predmeta": "dr.sc. Tonćo Marušić, izv. prof.",
+        "Kod": "INM2045",
+        "P": "30",
+        "S": "0",
+        "V": "30",
+        "Status predmeta": "obvezni",
+        "Godina studija u kojoj se izvodi premet": "1.",
+        "Semestar": "2.",
+        "ECTS bodovi": "5",
+        "Ciljevi predmeta": "Cilj kolegija je osposobiti studente za razumijevanje i primjenu znanstveno istraživačkih metoda u istraživanju fenomena odgoja i obrazovanja",
+        "Uvjeti za upis predmeta": "",
+        "Ishodi učenja (kompetencije)": `
+Nakon odslušanog kolegija i položenog ispita sudent će biti u stanju:
+• prepoznati i objasniti temeljne metodološke pojmove i istraživačke paradigme;
+• izraditi i evaluirati plan jednostavnijeg istraživačkog zadatka;
+• prikupiti i obraditi empirijske podatake u svrhu znanstvenog istraživanja;
+• u ulozi suradnika sudjelovati u realiziranju istraživačkih projekata,
+• samostalno osmisliti i realizirati jednostavnija primijenjena istraživanja        
+`,
+        "Sadržaj predmeta": `
+Djelokrug i funkcije metodologije znanstvenog istraživanja; Ontološke i epistemološke pretpostavke metodologije; Znanstvena i neznanstvena spoznaja; Pojam paradigme; Istraživačke paradigme u društvenim znanostima; Određivanje svrhe i ciljeva, odnos teorije i empirijskog istraživanja; Analiza procesa istraživanja
+– faze; Izbor, analiza i obrazloženje problema za istraživanje i definiranje ključnih pojmova; Definiranje cilja i zadataka istraživanja; SVKRI
+- Edukacija etraživanje znanstvene i stručne literature u bazama podataka; Formuliranje hipoteza; Klasifikacija i operacionalizacija varijabli; Određivanje istraživačke strategije; Izrada nacrta istraživanja; Operacionalizacija istraživanja prema interpretativnoj paradigmi (kvalitativno istraživanje); Izrada i evaluacija izvedbenog projekta istraživanja; Izbor istraživačkih metoda, postupaka i instrumenata evidentiranja empirijskih činjenica (podataka); Izbor metoda i postupaka obrade empirijske evidencije (uvod u SPSS). Nacrti povijesnih, deskriptivnih, korealacijskih, uzročno
+-komparativnih, eksperimentalnih, Studij i analiza dokumentacije, Postupci nenametljivog prikupljanja podataka, Analiza sadržaja, Opažanje (sustavno promatranje), Intervju, Anketna istraživanja, Anketa (konstruiranje, obrada, mjerne ljestvice, varijable), Korelacijska istraživanja, Uzročno-komparativna i eksperimentalna istraživanja, Kvalitativna istraživanja, Studij slučaja, Akcijska istraživanja,   
+`,
+        "Način izvođenja nastave": `Predavanja I vježbe`,
+        "Obveze studenta": "Aktivno učešće na predavanjima, vježbama i seminarima.",
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `
+5 ECTS
+predavanja i vježbe 2 ECTS
+samostalni rad i praktični zadaci 3 ECTS        
+`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `
+Pismeni i usmeni ispit i izrada praktičnog zadatka ravnopravno učestvuju u ocjeni.
+`
+    },
+    {
+        "Naziv kolegija": "Napredna arhitektura računala",
+        "Nositelj predmeta": "dr. sc. Sven Gotovac, red. prof. Željko Marušić, asist.",
+        "Kod": "INM2075",
+        "P": "30",
+        "S": "0",
+        "V": "30",
+        "Status predmeta": "obvezni",
+        "Godina studija u kojoj se izvodi premet": "",
+        "Semestar": "",
+        "ECTS bodovi": "",
+        "Ciljevi predmeta": "",
+        "Uvjeti za upis predmeta": "",
+        "Ishodi učenja (kompetencije)": ``,
+        "Sadržaj predmeta": ``,
+        "Način izvođenja nastave": ``,
+        "Obveze studenta": "",
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": ``,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": ``
+    },
+    {
+        "Naziv kolegija": "Programiranje u Javi",
+        "Nositelj predmeta": "dr.sc. Dražena Gašpar, red. prof",
+        "Kod": "INM2085",
+        "P": "30",
+        "S": "0",
+        "V": "30",
+        "Status predmeta": "izborni",
+        "Godina studija u kojoj se izvodi premet": "1.",
+        "Semestar": "2.",
+        "ECTS bodovi": "5",
+        "Ciljevi predmeta": "Upoznati studente s teorijskim osnovama i praktičnom primjenom Java programskog jezika, što podrazumijeva rad s objektima, klasama, metodama, apstraktim klasama, nasljeđivanjem, paketima, s izuzetcima, podacima i sl.",
+        "Uvjeti za upis predmeta": "Završen prvi ciklus (preddiplomski studij).",
+        "Ishodi učenja (kompetencije)": `
+1.Teorijska znanja iz programskog jezika Java.
+2. Praktična znanja iz programskog jezika Java.
+3. Analiza i definiranje problemskog područja za koje se radi Java program.
+4. Rad na računalu – Java programsko okruženje (NetBeans)
+5. Sposobnosti zaključivanja, posebice pri definiranju problema i izradi programa za taj problem`,
+        "Sadržaj predmeta": `
+1. Uvod u Java programiranje
+2. Java tipovi podataka
+3. Upravljanje programskim tokom
+4. Objekti, klase i metode
+5. Nasljeđivanje
+6. Polimorfizam
+7. Enkapsulacija
+8. Apstraktne klase i metode
+9. Grafičko sučelje
+10. Interfejsi i paketi
+11. Rad s izuzetcima
+12. Rad s podacima
+`,
+        "Način izvođenja nastave": `Predavanja i vježbe na računalima`,
+        "Obveze studenta": `
+Aktivno učešće na nastavi i vježbama.
+Izrada projekta – definiranje problema i izrada Java programa za taj problem`,
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `
+1 ECTS za kontakt sate nastave (30 sati)
+1 ECTS za kontakt sate vježbi (30 sati)
+1 ECTS za pripreme za nastavu i vježbe (30 sati)
+2 ECTS za samostalni projekt (rad na projektu 60 sati)        
+`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `
+Načina polaganja ispita:
+- Samostalnni projekt
+Maksimalno 15% ocjene s vježbi (aktivnost i testovi provjere)
+Maksimalno 15% ocjene s nastave (aktivnost i testovi provjere)
+Maksimalno 70% ocjene za samostalni Projekt
+Minimum za prolaznu ocjenu – 60% tj. 60 bodova
+Ocjene:
+    nedovoljan 1…………………… od 0 do 59 bodova
+    dovoljan 2……………………… od 60 do 69 bodova
+    dobar 3 ………………………… od 70 do 79 bodova
+    vrlo dobar 4 …………………. od 80 do 89 bodova
+    izvrstan 5 ……………………. od 90 do 100 bodova        
+`
+    },
+    {
+        "Naziv kolegija": "Pretraživanje informacija",
+        "Nositelj predmeta": "dr.sc. Drago Žagar, red. prof.",
+        "Kod": "INM2095",
+        "P": "30",
+        "S": "0",
+        "V": "30",
+        "Status predmeta": "izborni",
+        "Godina studija u kojoj se izvodi premet": "1.",
+        "Semestar": "2.",
+        "ECTS bodovi": "5",
+        "Ciljevi predmeta": "Studenti će steći znanja o korištenju prikladnih tehnika i alata za uspješno pretraživanju informacija na Internetu",
+        "Uvjeti za upis predmeta": "Nema uvjeta za upis kolegija",
+        "Ishodi učenja (kompetencije)": `
+Usvajanjem sadržaja ovog kolegija studenti će biti sposobni:
+- Usporediti različite tehnike i mogućnosti pretraživanja informacije
+- Primijeniti Booleove operatore za napredno pretraživanje informacije
+- Izabrati prikladne alate za pretraživanje informacije za određene primjene
+`,
+        "Sadržaj predmeta": `
+Pojam i svojstva informacije. Kvaliteta i korisnost informacije. Semantički sadržaj informacije. Pretraživanje informacije na Internetu. Pretraživači informacije (tražilice). Osnove rada web pretraživača. Meta pretraživači. Tehnike efikasnog pretraživanja informacija. Osnovne metode za uspješno pretraživanje informacije. Napredne metode pretraživanja informacije. Primjena Booleovih operatora za uspješno pretraživanje. Najpoznatiji internetski pretraživači. Kriteriji vrednovanja izvora informacije. Vrednovanje sadržaja web stranice.        
+`,
+        "Način izvođenja nastave": `Predavanja i laboratorijske (konstrukcijske) vježbe.`,
+        "Obveze studenta": "Pohađanje predavanja i laboratorijskih vježbi, izrada izvješća i kolokviranje vježbi, izrada seminarskog rada.",
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `Bodovna vrijednost kolegija određena je na osnovu izračuna potrebnog vremena za uspješno svladavanje kolegija`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `
+Studenti tijekom semestra kontinuirano sakupljaju bodove iz aktivnosti: prisustvo i aktivnost na predavanjima, izrada i prezentacija seminarskih radova, laboratorijske (konstrukcijske) vježbe.
+Na završnom usmenom ispitu studenti odgovaraju teorijski dio predmeta te se konačna ocjena formira na temelju svih odrađenih aktivnosti.
+`
+    },
+    {
+        "Naziv kolegija": "Uvod u obradu prirodnog jezika",
+        "Nositelj predmeta": "dr.sc. Branko Žitko, doc.",
+        "Kod": "INM20105",
+        "P": "30",
+        "S": "0",
+        "V": "30",
+        "Status predmeta": "izborni",
+        "Godina studija u kojoj se izvodi premet": "1.",
+        "Semestar": "2.",
+        "ECTS bodovi": "5",
+        "Ciljevi predmeta": "Student treba razumjeti vodeće trendove i sustave za obradu prirodnog jezika. Također, treba razumjeti pojmove fonetike, fonologije, morfologije, sintakse, semantike i pragmatike jezika te moći dati odgovarajuće primjere koji će ilustrirati ta područja",
+        "Uvjeti za upis predmeta": "Završen prvi ciklus (preddiplomski studij).",
+        "Ishodi učenja (kompetencije)": `Upoznavanje sa strukturama i algoritmima za obradu prirodnog jezika i sa strojnim svojstvima prirodnog jezika. Obrada na morfološkom, sintaktičkom, semantičkom i pragmatičkom nivou s lingvističke i algoritamske perspektive.`,
+        "Sadržaj predmeta": `Pregled i povijest računalne lingvistike i obrade prirodnog jezika. Regularni izrazi, jezici i automati. Formalne gramatike, sintaktička analiza teksta i označavanje dijelova teksta. Računalna i lingvistička semantika. Izvlačenje informacija iz teksta`,
+        "Način izvođenja nastave": `Predavanja i vježbe na računalima`,
+        "Obveze studenta": `
+Aktivno učešće na nastavi i vježbama.
+Izrada projekta – definiranje problema i izrada Java programa za taj problem    
+`,
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `
+1 ECTS za kontakt sate nastave (30 sati)
+1 ECTS za kontakt sate vježbi (30 sati)
+1 ECTS za pripreme za nastavu i vježbe (30 sati)
+2 ECTS za samostalni projekt (rad na projektu 60 sati)
+`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `
+Načina polaganja ispita:
+- Samostalnni projekt
+Maksimalno 15% ocjene s vježbi (aktivnost i testovi provjere)
+Maksimalno 15% ocjene s nastave (aktivnost i testovi
+provjere)
+Maksimalno 70% ocjene za samostalni Projekt
+Minimum za prolaznu ocjenu – 60% tj. 60 bodova
+Ocjene:
+    nedovoljan 1…………………… od 0 do 59 bodova
+    dovoljan 2……………………… od 60 do 69 bodova
+    dobar 3 ………………………… od 70 do 79 bodova
+    vrlo dobar 4 …………………. od 80 do 89 bodova
+    izvrstan 5 ……………………. od 90 do 100 bodova
+`
+    },
+    {
+        "Naziv kolegija": "Vrednovanje sustava E-učenja",
+        "Nositelj predmeta": "dr. sc. Slavomir Stankov, red. prof.",
+        "Kod": "INM3015",
+        "P": "30",
+        "S": "0",
+        "V": "30",
+        "Status predmeta": "obvezni",
+        "Godina studija u kojoj se izvodi premet": "2.",
+        "Semestar": "3.",
+        "ECTS bodovi": "5",
+        "Ciljevi predmeta": "Cilj i zadaća kolegija: ovladati metodologijom vrednovanja sustava za e-učenje.",
+        "Uvjeti za upis predmeta": "Odslušan kolegij Sustavi e-učenja",
+        "Ishodi učenja (kompetencije)": `Cilj je steći znanja o evaluaciji sustava za e-učenje kao i efikasnost upotrebe sustava za e-učenje u učenju i poučavanju. Ovako definirani cilj dostiže se učenjem i poučavanjem: formativne i sumativne evaluacija, evaluacijskih metoda i njihove klasifikacije, planiranja, obrade i interpretacije rezultata obrade.`,
+        "Sadržaj predmeta": `
+Vrste istraživanja odgoja i obrazovanja. Formativna i sumativna evaluacija.
+Evaluacijske metode i njihova klasifikacija. Postavljanje hipoteza.
+Kvantitativne i kvalitativne metode i instrumenti za sakupljanje podataka. Planiranje evaluacije.
+Proces evaluacije. Uvod u statističke metode za obradu podataka.
+Kvalitativna i kvantitativna analiza podataka. Obrada i interpretacija rezultata evaluacije. Veličina učinka i meta-analize.`,
+        "Način izvođenja nastave": `Tradicionalna predavanja nastavnika. Diskusije i rasprave u online komunikaciji. Radionice. Rad u grupi u prostoru rješavanja problema.`,
+        "Obveze studenta": "Sudjelovanje u nastavi u svim sadržajnim oblicima. Obaveze se sastoje od: ne manje od tri provjere znanja putem kolokvija. Grupno ili pojedinačno rješavanje zadanog problema. Učenje i poučavanje temeljem zadane osnovne i dopunske literature.",
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `
+Predavanja 30 sati + vježbe 30 sati = 2ECTS
+Domaće zadaće, kolokviji i praktični rad =3 ECTS`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `Postavljene provjere i zadaci pri rješavanju problema se boduju na ljestvici od 0-100 bodova. Bodovi se proračunavaju u tradicionalne ocjene na skali od dovoljan (2) do izvrstan (5).`
+    },
+    {
+        "Naziv kolegija": "Raspodijeljeni sustavi",
+        "Nositelj predmeta": "dr.sc. Marko Rosić, red. prof.",
+        "Kod": "INM3025",
+        "P": "30",
+        "S": "0",
+        "V": "30",
+        "Status predmeta": "obvezni",
+        "Godina studija u kojoj se izvodi premet": "2.",
+        "Semestar": "3.",
+        "ECTS bodovi": "4",
+        "Ciljevi predmeta": "Upoznavanje sa temeljnim principima raspodijeljenih sustava",
+        "Uvjeti za upis predmeta": "Nema",
+        "Ishodi učenja (kompetencije)": `Vladanje temeljnim načelima primjene, vrednovanja te modeliranja raspodijeljenih sustava.`,
+        "Sadržaj predmeta": `Uvod u raspodijeljene sustave, definicija raspodijeljenih sustava, prednosti i nedostatci raspodijeljenih sustava, karakteristike raspodijeljenih sustava, dijeljenje resursa, otvorenost, istovremenost, otpornost na pogreške, transparentnost, sklopovske postavke raspodijeljenih sustava, operacijski sustavi raspodijeljenih sustava, mrežni operacijski sustavi, posrednički vezni programi (middleware), komunikacije u rapodijeljenim sustavima, klijent poslužitelj model, mreže partnerskog umrežavanja.`,
+        "Način izvođenja nastave": `Predavanje, vježbe`,
+        "Obveze studenta": "Redovito pohađanje predavanj i vježbi.",
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `Predavanja i vježbe 2 ECTS, samostalni rad i čitanje literature 2 ECTS.`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `Ispit je moguće položiti kroz uspješno savladavanje kolokvija. Studenti koji ne polože kolegij kroz kolokvije ispit polažu kroz pismeni i usmeni ispit`
+    },
+    {
+        "Naziv kolegija": "Sigurnost računalnih mreža",
+        "Nositelj predmeta": "Dr. sc. Drago Žagar, red. prof.",
+        "Kod": "INM3045",
+        "P": "30",
+        "S": "0",
+        "V": "30",
+        "Status predmeta": "obvezni",
+        "Godina studija u kojoj se izvodi premet": "2.",
+        "Semestar": "3.",
+        "ECTS bodovi": "5",
+        "Ciljevi predmeta": "Osposobiti studenta za osiguranje sigurnosti računalnih mreža.",
+        "Uvjeti za upis predmeta": "Nema",
+        "Ishodi učenja (kompetencije)": `
+1. objasniti sigurnosne prijetnje, objasniti tehnike obrane,
+2. primijeniti koncept vatrozida i odrediti razinu filtriranja,
+3. odrediti podršku za privatne i dinamičke adrese,
+4. projektirati demilitariziranu zonu, sustav za detekciju napada, pravila uzbune i
+5. analizirati mrežni promet, povezati na centralni sustav, rukovati incidentima        
+`,
+        "Sadržaj predmeta": `Sigurnosne prijetnje umreženim računalima. Osnovne tehnike obrane. Obrana lokalne mreže. Koncept vatrozida. Razine filtriranja. Podrška za privatne i dinamičke adrese. Demilitarizirana zona. Detekcija napada, sustavi i mrežni sustavi za detekciju napada. Analiza mrežnog prometa, alati i metode, etherreal, tcpdump, snort. Održavanje i podešavanje pravila i razina uzbune, analiza rezultata, integracija u sustav, pravila primjene, moguće greške. Prevencija napada. Povezivanje na centralni nadzorni sustav. Rukovanje incidentima, priprema i kontrola incidenata. Tipovi organizacije incidentnog tima, raspoloživost timova i resursa. Međunarodna organizacija za rukovanje incidentima, CERT, Planiranje i provođenje programa za rukovanje incidentima. Infrastruktura za rukovanje incidentima, dojave kontrola incidenata. Suradnja sa drugim organizacijama u rješavanju incidenta. Alati i postupci za pojačavanje sigurnosti sustava, tcp wrapperi, kontrola servisa, otisak sustava. Pojačavanje sigurnosti aplikacija. Odnos sigurnosti i pouzdanosti sustava politike sigurnosti.`,
+        "Način izvođenja nastave": `Predavanja, vježbe, samostalni zadaci, konzultacije.`,
+        "Obveze studenta": "Redovito pohađanje nastave",
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `
+predavanja 30 sati - 1 ECTS / auditorne vježbe 15 sati - 0,5 ECTS /
+laboratorijske vježbe 15 sati - 0,5 ECTS / 
+testovi i kolokviji, konzultacije, samostalni rad i samostalno učenje 90 sati – 3 ECTS)
+`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `
+Provjera znanja čini se tijekom semestra i to putem:
+- izrade radnih zadataka
+- aktivnog sudjelovanja u nastavi i diskusijama na vježbama
+Način polaganja ispita: studenti polažu pismeni i usmeni ispit.        
+`
+    },
+    {
+        "Naziv kolegija": "Elektroničko poslovanje",
+        "Nositelj predmeta": "dr.sc. Željko Stojkić, doc.",
+        "Kod": "INM3075",
+        "P": "30",
+        "S": "0",
+        "V": "30",
+        "Status predmeta": "izborni",
+        "Godina studija u kojoj se izvodi premet": "2.",
+        "Semestar": "3.",
+        "ECTS bodovi": "5",
+        "Ciljevi predmeta": "Razvoj konceptualnih i informatičkih znanja i vještina potrebnih za pokretanje, uvođenje i prakticiranje aktivnosti elektroničkog poslovanja u malim, srednjim i velikim tvrtkama.",
+        "Uvjeti za upis predmeta": "",
+        "Ishodi učenja (kompetencije)": `Stjecanje znanja i vještina u procesima elektroničkog poslovanja na velikim skupovima podataka`,
+        "Sadržaj predmeta": `
+1.Uvod
+2.Digitalna konvergencija
+3. Globalizacija
+4. Internet kao novi gospodarski prostor
+5. Virtualizacija
+6. Koncept elektroničkog poslovanja
+7. Područja primjene elektroničkog poslovanja
+8. Webocentrična tvrtka
+9. Elementi i okruženje webocentrične tvrtke
+10. Modeli elektroničkog poslovanja
+11. Tranzicija od klasičnog prema elektroničkom poslovanju
+12. Sigurnosna pitanja u elektroničkom poslovanju
+13. Elektronički vrijednosni lanci i mreže vrijednosti
+14. Virtualne zajednice
+15. Studije slučajeva. `,
+        "Način izvođenja nastave": `Predavanja i vježbe.`,
+        "Obveze studenta": "Aktivno učešće na vježbama i predavanjima.",
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `
+Predavanja + vježbe = 2 ECTS
+Samostalni rad, učenje i praktični zadatak = 3 ECTS`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `
+Načina polaganja ispita:
+- Samostalnni projekt
+Maksimalno 15% ocjene s vježbi (aktivnost i testovi provjere)
+Maksimalno 15% ocjene s nastave (aktivnost i testovi provjere)
+Maksimalno 70% ocjene za samostalni Projekt
+Minimum za prolaznu ocjenu – 60% tj. 60 bodova
+`
+    },
+    {
+        "Naziv kolegija": "Programiranje aplikacija za mobilne uređaje",
+        "Nositelj predmeta": "Dr.sc. Goran Kraljević, doc.",
+        "Kod": "INM3085",
+        "P": "30",
+        "S": "0",
+        "V": "30",
+        "Status predmeta": "obvezni",
+        "Godina studija u kojoj se izvodi premet": "2.",
+        "Semestar": "3.",
+        "ECTS bodovi": "5",
+        "Ciljevi predmeta": "Upoznati studente s osnovnim okruženjima za razvoj mobilnih aplikacija.",
+        "Uvjeti za upis predmeta": "Java programiranje",
+        "Ishodi učenja (kompetencije)": `Studenti će biti sposobni razvijati aplikacije za razne mobilne platforme`,
+        "Sadržaj predmeta": "Prilikom razvoja aplikacija za Google Android platformu studenti će se upoznati sa Eclipse razvojnim okruženjem te Java jezikom. Kreirati će jednostavnu Android aplikaciju, izraditi korisničko sučelje, naučiti obrađivati događaje te koristiti sve resurse uređaja. Obrađivati će se i povezivanje aplikacija s bazama podataka, ali i s popularnim internet servisom Google Maps. Edukacija za razvoj Apple iPhone aplikacija započinje upoznavanjem s iPhone platformom te Xcode razvojnim okruženjem. Nakon prolaska osnova Objective-C programskog jezika, studenti će kreirati sučelje pomoću interface buildera, kroz niz programskih primjera upoznati osnovne interakcije te kontrole (gumbe, tablice, pickerse,..). Posebna pažnja obratit će se na plasiranje gotove aplikacije na AppStore kako bi se polaznicima praktično pokazalo kako ponuditi svoj proizvod putem ovog servisa na globalnoj razini.",
+        "Način izvođenja nastave": `Program se realizira na predavanjima, vježbama i konzultacijama. Vježbe se organiziraju kao aktivne studentske radionice u kojima se izrađuju projekti i kritički razmatraju odabrane teme iz kolegija.`,
+        "Obveze studenta": "Redovito pohađanje nastave. Seminari se organiziraju kao aktivne studentske radionice u kojima se izrađuju vježbe i kritički razmatraju odabrane teme iz didaktike",
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `
+5 ECTS
+30 sati predavanja i 30 sati vježbi = 2 ECTS
+90 sati samostalnog rada uz konzultacije = 3 ECTS`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `Ispit je moguće položiti kroz uspješno savladavanje kolokvija i praktični zadatak. Studenti koji ne polože kolegij kroz kolokvije ispit polažu kroz pismeni i usmeni ispit.`
+    },
+    {
+        "Naziv kolegija": "Rudarenje podataka",
+        "Nositelj predmeta": "dr.sc. Goran Kraljević, doc.",
+        "Kod": "INM3095",
+        "P": "30",
+        "S": "0",
+        "V": "30",
+        "Status predmeta": "izborni",
+        "Godina studija u kojoj se izvodi premet": "2.",
+        "Semestar": "3.",
+        "ECTS bodovi": "5",
+        "Ciljevi predmeta": "Razumijevanje osnovnih koncepata i algoritama za rudarenje podataka.",
+        "Uvjeti za upis predmeta": "",
+        "Ishodi učenja (kompetencije)": `Stjecanje znanja i vještina u procesima rudarenja podataka na velikim skupovima podataka`,
+        "Sadržaj predmeta": `Sustavi poslovne inteligencije. Uvod u rudarenje podataka. Primjena rudarenja podataka. Proces otkrivanja znanja u podacima. Priprema podataka za modeliranje. Modeliranje. Analiza uspješnosti modela. Metode i algoritmi rudarenja podataka. Uvod u statističko zaključivanje. Regresija (linearna, logistička). Klasifikacija. Stabla odlučivanja. Neuronske mreže. Segmentacija. Grupiranje k-sredina. Asocijativna pravila. Apriori algoritam. Metodologije. Alati.`,
+        "Način izvođenja nastave": `Predavanja i vježbe`,
+        "Obveze studenta": "Aktivno učešće na vježbama i predavanjima.",
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `
+Predavanja + vježbe = 2 ECTS
+Samostalni rad, učenje I praktični zadatak = 3 ECTS`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `
+Načina polaganja ispita:
+- Samostalnni projekt
+Maksimalno 15% ocjene s vježbi (aktivnost i testovi provjere)
+Maksimalno 15% ocjene s nastave (aktivnost i testovi provjere)
+Maksimalno 70% ocjene za samostalni Projekt
+Minimum za prolaznu ocjenu – 60% tj. 60 bodova
+`
+    },
+    {
+        "Naziv kolegija": "Multimedijalni sustavi",
+        "Nositelj predmeta": "Dr.sc. Vladimir Šimović, redoviti profesor; Dr. sc. Siniša Fajt, izvanredni profesor",
+        "Kod": "INM30105",
+        "P": "30",
+        "S": "0",
+        "V": "30",
+        "Status predmeta": "izborni",
+        "Godina studija u kojoj se izvodi premet": "2.",
+        "Semestar": "3.",
+        "ECTS bodovi": "5",
+        "Ciljevi predmeta": "Upoznati studente da poznaju sadržaje i vještine uporabe temeljne i napredne audiovizualne multimedijske komunikacije i da kvalitetno koriste sve posebnosti istraživanja zakonitosti u području procesa uporabe naprednih audiovizualnih multimedijskih komunikacija.",
+        "Uvjeti za upis predmeta": "Poznavanje temelja suvremene informacijsko-komunikacijske tehnologije",
+        "Ishodi učenja (kompetencije)": `
+Osposobiti studente da potpuno ovladaju sadržajima i vještinama nužnim da kvalitetno uporabe temeljne i napredne audiovizualne multimedijske komunikacije.
+Osposobiti studente da potpuno ovladaju sadržajima i vještinama nužnim da kvalitetno upoznaju i koriste sve posebnosti istraživanja zakonitosti u području procesa uporabe naprednih audiovizualnih multimedijskih komunikacija.
+        `,
+        "Sadržaj predmeta": `
+(1) Mediji i izvori informacija.
+(2) Digitalizacija zvuka, teksta, slika i video zapisa.
+(3) Formati zvuka, teksta, slika i video zapisa.
+(4) Integracija medija i njihova sinkronizacija.
+(5) Razmjena audiovizualnih sadržaja u multimedijskim komunikacijama.
+(6) Vrste i servisi multimedijskih komunikacija.
+(7) Multimedijske tehologije.
+(8) Multimedijske arhitekture i sustavi. 
+(9) Vrednovanje kvalitete audiovizualnih sadržaja u multimedijskim komunikacijama. 
+(10) Vidovi distribucije audiovizualnih sadržaja u multimedijskim komunikacijama.
+`,
+        "Način izvođenja nastave": "Teorijska nastava uz korištenje audiovizualnih multimedijskih komunikacija kod prikaza oglednih praktičnih vještina, uz konzultacije i izradu i (prezentaciju, te) obranu seminarskog rada.",
+        "Obveze studenta": "Napisati integralni referat - seminarski rad o nekom problemu ili rezultatu znanstvenog istraživanju zakonitosti vezanim za područje procesa uporabe audiovizualnih multimedijskih komunikacija primjenjive u odgoju i obrazovanju, te javno na seminaru organiziranom u obliku usmenog ispita sustavno izložiti i braniti napisane sadržaje.",
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `5 (Pohađanje nastave i izrađen seminarski rad (sa prezentacijom).)`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `
+Seminarski rad (sa prezentacijom) je prihvaćen ukoliko student ostvari više od 50% bodova i uvjet je za dobivanje potpisa i pristupanje ispitu.
+Kriteriji za određivanje ocjene:
+a) >91% = Izvrstan
+b) 81%-90% = Vrlo dobar
+c) 61%-80% = Dobar
+d) 51%-70% = Dovoljan
+e) <51% = Nedovoljan
+Ukoliko student na svakom od seminara osvoji minimalni broj bodova (tj. po svakom od ishoda učenja) i ukupno najmanje 51% bodova, ipak mora izlaziti i na kraći završni (usmeni) ispit.
+Student koji želi višu ocjenu nego što je ostvario tijekom semestra, obavezno mora pristupiti usmenom ispitu, uz uvjet da je ostvario minimalno 51% bodova
+`
+    },
+    {
+        "Naziv kolegija": "Filozofija odgoja i obrazovanja",
+        "Nositelj predmeta": "Dr. sc. Irena Musa, doc.",
+        "Kod": "INM4013",
+        "P": "30",
+        "S": "0",
+        "V": "15",
+        "Status predmeta": "obvezni",
+        "Godina studija u kojoj se izvodi premet": "2.",
+        "Semestar": "4.",
+        "ECTS bodovi": "3",
+        "Ciljevi predmeta": `
+Upoznati studente s osnovnim pojmovima i temama iz Filozofije odgoja i obrazovanja.
+Kritički analizirati sociološke perspektive i relevantnu literaturu o obrazovanju i odgoju.
+Analizirati odgoj i obrazovanje u složenoj strukturi ljudskog društva, s posebnim naglaskom na suvremena društva.        
+`,
+        "Uvjeti za upis predmeta": "Nema uvjeta",
+        "Ishodi učenja (kompetencije)": `
+Studenti će na kraju ovog kolegija moći:
+i. Analizirati važnost odgoja i obrazovanja za razvoj ljudskog društva;
+ii. objasniti utjecaj društva na odgoj i obrazovanje, i obrnutom slučaju utjecaj odgoja i obrazovanja na društvo;
+iii. predočiti smjerove u kojima bi obrazovanje moglo krenuti u budućnosti;
+iv. analizirati pojam inteligencije kao sociološke kategorije, s posebnim naglaskom na teoriju inteligencije Karla Manheima;
+v. objasniti pojam obrazovanja kroz različita filozofska određenja.        
+`,
+        "Sadržaj predmeta": "Kroz ovaj kolegij govorit će se o glavnim problemima filozofije obrazovanja, a potom se obrađuju i osnovni pravci sociologije obrazovanja, funkcionalno i intencionalno obrazovanje, a analizira se i jednakost obrazovnih šansi. Daju se predodžbe o mogućem budućem razvoju obrazovanja, a analizira se pojam inteligencije kao sociološke kategorije i daje se joj se moguće sociološko određenje, a posebno se obrađuje teorija inteligencije Karla Manheima. Nadalje se obrađuje obrazovanje kroz sociološke perspektive: liberalnu, socijaldemokratsku, konfliktnu, postmodernu, interakcionističku, a i osvrće se na moguće promijene u obrazovanju, te daje kritička evaluacija obrazovnih reformi, a obrađuje se i koliko etnička pripadnost pridonosi obrazovnom postignuću, te koji su elementi potpore obrazovanju.",
+        "Način izvođenja nastave": `predavanja, seminari, konzultacije`,
+        "Obveze studenta": `
+Pohađati nastavu i sudjelovati u nastavnom procesu
+Napisati seminarski rad i izložiti ga
+Pisati test        
+`,
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `
+Predavanja i vježbe 1.5 ECTS, samostalni rad i učenje za ispit 1.5 ECTS.        
+`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": ` 
+Izvanredni studenti obzirom da nisu dužni nazočiti na predavanjima, imaju obvezu pisanja seminarskog rada koji nosi 20% ocjene i završnog ispita 80%.
+
+Seminarski rad ocjenjuje se ovako:
+0% = Rad nije napisan.
+2% = Rad ne zadovoljava formalne kriterije.
+4% = Rad zadovoljava formalne kriterije, ali su uočeni veći nedostatci na sadržajnom planu.
+6% = Rad zadovoljava formalno i sadržajno, ali su uočene veće gramatičke i pravopisne pogreške.
+8% = Rad zadovoljava formalno i sadržajno, ali su uočene manje gramatičke i pravopisne pogreške.
+10% = Rad je iscrpan, gramatički i pravopisno točan.
+
+Izlaganje seminarskoga rada ocjenjuje se ovako:
+0% = Rad nije usmeno prezentiran.
+2% = Rad je pročitan.
+4% = Rad je djelomično pročitan i nepripremljen.
+6% = Rad nije pročitan, ali su uočeni veći nedostatci u usmenom izlaganju.
+8% = Izlaganje je dobro pripremljeno, ali su uočene manje pravogovorne pogreške.
+10% = Usmeno izlaganje je izvrsno pripremljeno.
+
+Kolokviji se ocjenjuju na sljedeći način:
+manje od 50% točnih odgovora = 0% ocjene
+od 51% do 60% = do 4% ocjene
+od 61% do 70% = do 8% ocjene
+od 71% do 80% = do 12% ocjene
+od 81% do 90% = do 16% ocjene
+od 91% do 100% = do 20% ocjene
+
+Završni ispit se ocjenjuju na sljedeći način manje od 50% točnih odgovora = 0% ocjene
+od 51% do 60% = do 6% ocjene
+od 61% do 70% = do 12% ocjene
+od 71% do 80% = do 18% ocjene
+od 81% do 90% = do 24% ocjene
+od 91% do 100% = do 30% ocjene
+
+Prema Pravilniku o ocjenjivanju konačna se ocjena dobiva na sljedeći način:
+A = 90 − 100% 5 (izvrstan)
+B = 80 − 89,9% 4 (vrlo dobar)
+C = 70 − 79,9% 3 (dobar)
+D = 60 − 69,9% 2 (dovoljan)
+E = 50 − 59,9% 2 (dovoljan) 
+`
+    },
+    {
+        "Naziv kolegija": "Upravljanje znanjem",
+        "Nositelj predmeta": "dr. sc. Vladimir Šimović, red. prof.",
+        "Kod": "INM4065",
+        "P": "30",
+        "S": "0",
+        "V": "30",
+        "Status predmeta": "izborni",
+        "Godina studija u kojoj se izvodi premet": "2.",
+        "Semestar": "4.",
+        "ECTS bodovi": "5",
+        "Ciljevi predmeta": "Razvijati sposobnost studenata da ovladaju osnovnim znanjima o upravljanju znanjem i ostvarivanju konkurentske prednosti, čime studenti stječu znanja i osnovne vještine o informacijskim i drugim sustavima za potporu u upravljanju znanjem, a u svrhu ostvarivanja temelja na kojima će razvijati specijalizirana znanja potrebna za ostvarivanje realne (tržišne i dr.) konkurentske prednosti (u poslovanju i dr.) tvrtki (te drugih organizacija i institucija). Studenti će upoznati: pojmove znanja i upravljanja znanjem, ključne faktore uspješnosti poslovanja suvremene tvrtke, strategije razvoja i upravljanja tvrtkom i njenim znanjem, uspješno implementirane koncepte i modele upravljanja znanjem vodećih tvrtki, kritične faktore uspjeha za ostvarivanje konkurentske prednosti (uz razne strategije upravljanja znanjem, kulture tvrtki i ključne informacijskokomunikacijske i dr. tehnologije, pristupe i aspekte) koje će im pomoći da ovladaju i postupno primjenjuju nove modele upravljanja tvrtkom i njenim znanjem za ostvarivanje konkurentske prednosti. Jednako tako nastoji se studente upoznati s temeljnim modelima i aplikacijama kojima se mogu istraživati, kreirati i kontrolirati kritični faktori uspjeha za ostvarivanje konkurentske prednosti kod upravljanja znanjem (uz razne strategije upravljanja znanjem, kulture tvrtki i ključne informacijsko-komunikacijske i dr. tehnologije, pristupe i aspekte)..",
+        "Uvjeti za upis predmeta": "Načelno nema",
+        "Ishodi učenja (kompetencije)": `
+Studenti trebaju biti u stanju:
+
+Definirati i objasniti što naprednije koncepte: znanja i upravljanja znanjem (kao: teorija upravljanja znanjem: definicija i vrste znanja, proces upravljanja znanjem), ključne faktore uspješnosti poslovanja suvremene tvrtke, strategije razvoja i upravljanja tvrtkom i njenim znanjem, uspješno implementirane koncepte i modele upravljanja znanjem vodećih tvrtki, kritične faktore uspjeha za ostvarivanje konkurentske prednosti (uz razne strategije upravljanja znanjem, kulture tvrtki i ključne informacijskokomunikacijske i dr. tehnologije, pristupe i aspekte). Znati razlikovati i povezivati znanja i upravljanja znanjem u opsegu vezanom za ostvarivanje konkurentske prednosti. Objasniti koncepte predvidivih trendova razvoja ključnih faktora uspješnosti poslovanja suvremene tvrtke.
+
+Definirati i objasniti sve bitne koncepte i aspekte strategije razvoja i upravljanja tvrtkom i njenim znanjem (kao: upravljanje znanjem u gospodarstvu: preduvjeti uspješnog upravljanja znanjem; koncept upravljanja znanjem; procjena spremnosti tvrtke na upravljanje znanjem; mogući problemi prilikom uvođenja koncepta upravljanja znanjem u tvrtki; kriteriji za odabir adekvatnog pristupa upravljanju znanjem; metode upravljanja znanjem). Znati razlikovati dobre i loše strane uspješno implementiranih koncepta i modela upravljanja znanjem vodećih tvrtki, kritične faktore uspjeha za ostvarivanje konkurentske prednosti (uz razne strategije upravljanja znanjem, kulture tvrtki i ključne informacijskokomunikacijske i dr. tehnologije, pristupe i aspekte) danas i u predvidivoj budućnosti.
+
+Znati što naprednije ovladati i upravljati temeljnim modelima i aplikacijama kojima se mogu istraživati, kreirati ikontrolirati kritični faktori uspjeha za ostvarivanje konkurentske prednosti kod upravljanja znanjem (uz razne strategije upravljanja znanjem, kulture tvrtki i ključne informacijsko-komunikacijske i dr. tehnologije, pristupe i aspekte), te napredno koristiti: razne strategije upravljanja znanjem, najvažnije aspekte kulture tvrtki, ključne informacijsko-komunikacijske i dr. tehnologije, pristupe i aspekte (kao: moguća istraživanja upravljanja znanjem i povezanosti sa ostvarivanjem konkurentske prednosti: hipoteze i ciljevi te metode istraživanja; sudionici i mjerni instrument - varijable; razlike u metodama upravljanja znanjem i povezanosti između skupina varijabli istraživanja).
+
+Znati koristiti što naprednije ključne informacijsko komunikacijske i dr. tehnologije za upravljanje znanjem, kao što su metode upravljanja znanjem: analiza socijalnih mreža - SNA; Intranet i sl.; baze znanja; agente; zajednice znanja, interesa i prakse; trening - „coaching“ i mentorstvo; naučene lekcije - „Lessons learned“; sustav za upravljanje dokumentima - „Document Management“; plave stranice - „Blue Pages“.
+
+Znati koristiti što naprednije ostale ključne tehnologije, pristupe i aspekte za upravljanje znanjem, kao što su metode upravljanja znanjem: korištenje znanja klijenata; sustavi bazirani na umjetnoj inteligenciji; sustavi za poslovnu inteligenciju; načini motiviranja zaposlenika na dijeljenje znanja; dr.
+`,
+        "Sadržaj predmeta": `
+TEMELJNI POJMOVI: ZNANJE I UPRAVLJANJE ZNANJEM (teorija upravljanja znanjem: definicija i vrste znanja, proces upravljanja znanjem) Temelji rada na razvoju znanja i upravljanja znanjem u tvrtkama, drugim organizacijama i institucijama (seminar)
+
+O UPRAVLJANJU ZNANJEM I OSTVARIVANJU KONKURENTSKE PREDNOSTI (upravljanje znanjem u gospodarstvu: preduvjeti uspješnog upravljanja znanjem; koncept upravljanja znanjem; procjena spremnosti tvrtke na upravljanje znanjem; mogući problemi prilikom uvođenja koncepta upravljanja znanjem u tvrtki; kriteriji za odabir adekvatnog pristupa upravljanju znanjem; metode upravljanja znanjem) O ključnim faktorima uspješnosti poslovanja suvremene tvrtke (seminar) Strategije razvoja i upravljanja tvrtkom i njenim znanjem (seminar)
+
+UVODNO O KULTURI TVRTKE ILI KULTURI DRUGIH ORGANIZACIJA I INSTITUCIJA (moguća istraživanja upravljanja znanjem i povezanosti sa ostvarivanjem konkurentske prednosti: hipoteze i ciljevi te metode istraživanja; sudionici i mjerni instrument - varijable; razlike u metodama upravljanja znanjem i povezanosti između skupina varijabli istraživanja)
+
+O kritičnim faktorima uspjeha za ostvarivanje konkurentske prednosti (seminar)
+
+O KLJUČNIM INFORMACIJSKO-KOMUNIKACIJSKIM I DR. TEHNOLOGIJAMA ZA UPRAVLJANJE ZNANJEM (metode upravljanja znanjem: analiza socijalnih mreža - SNA; Intranet i sl.; baze znanja; agenti; zajednice znanja, interesa i prakse; trening - „coaching“ i mentorstvo; naučene lekcije - „Lessons learned“; sustav za upravljanje dokumentima - „Document Management“; plave stranice - „Blue Pages“) Razmatranje razvoja raznih strategija upravljanja znanjem (seminar)
+
+O OSTALIM KLJUČNIM TEHNOLOGIJAMA, PRISTUPIMA I ASPEKTIMA ZA UPRAVLJANJE ZNANJEM (metode upravljanja znanjem: korištenje znanja klijenata; sustavi bazirani na umjetnoj inteligenciji; sustavi za poslovnu inteligenciju; načini motiviranja zaposlenika na dijeljenje znanja; dr.)
+
+O predvidivim budućim trendovima razvoja upravljanja znanjem i ostvarivanja konkurentske prednosti (seminar)
+        `,
+        "Način izvođenja nastave": `
+Skupno - predavanja (i/ili javni razgovor). Nastava se provodi kroz predavanja i seminare. Gradivo se izlaže uz maksimalno korištenje prezentacijskih programskih alata, crteža, tablica i dijagrama da bi se olakšalo razumijevanje, uz prikaz konkretnih primjera iz prakse. Potiče se aktivno sudjelovanje studenata u nastavi. Seminari: Studenti koncipiraju svoje seminarske radove i prezentacije sa nizom riješenih primjera i zadataka uporabe UZ (uz pomoć nastavnika), te samostalno izrađuju seminarski rad od minimalno 3.000 riječi. Student temu bira ili koncipira iz okvirno ponuđenih tema (prema ponuđenim pitanjima-temama u obveznoj literuturi), a može se dogovoriti i s asistentom ili nastavnikom. Rad i prezentacija se predaje u elektroničkoj i pisanoj formi te minimalno uvezan (zaklaman ili u spiralnom uvezu).`,
+"Obveze studenta": "Prisustvo na predavanjima i seminarima, te izrada seminarskog rada sa prezentacijom. Pojedinačno - konzultacije i izrada seminarskog rada sa prezentacijom (minimum: uz uporabu prijenosnog računala i projektora).",
+"ECTS bodovi dodijeljeni na osnovu obveza studenata": "5 (Pohađanje nastave i izrađen seminarski rad (sa prezentacijom).)",
+"Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `
+Seminarski rad (sa prezentacijom) je prihvaćen ukoliko student ostvari više od 50% bodova i uvjet je za dobivanje potpisa i pristupanje ispitu.
+
+Kriteriji za određivanje ocjene:
+a) >91% = Izvrstan
+b) 81%-90% = Vrlo dobar
+c) 61%-80% = Dobar
+d) 51%-70% = Dovoljan
+e) <51% = Nedovoljan
+
+Ukoliko student na svakom od seminara osvoji minimalni broj bodova (tj. po svakom od ishoda učenja) i ukupno najmanje 51% bodova, ipak mora izlaziti i na kraći završni (usmeni) ispit.
+Student koji želi višu ocjenu nego što je ostvario tijekom semestra, obavezno mora pristupiti usmenom ispitu, uz uvjet da je ostvario minimalno 51% bodova       `
+    },
+    {
+        "Naziv kolegija": "Inteligentni agenti",
+        "Nositelj predmeta": "Dr.sc. Marko Rosić, red. .prof.",
+        "Kod kolegija": "INM4075",
+        "P": "30",
+        "S": "0",
+        "V": "30",
+        "Status predmeta": "izborni",
+        "Godina studija u kojoj se izvodi premet": "2.",
+        "Semestar": "4.",
+        "ECTS bodovi": "5",
+        "Ciljevi predmeta": "Upoznati studente s osnovnim spoznajama o inteligentnim agentima; demonstrirati suvremene metode i strategije u oblikovanju inteligentnih agenata. ",
+        "Uvjeti za upis predmeta": "",
+        "Ishodi učenja (kompetencije)": `Poznavanje arhitekture, primjene i načina programiranja inteligentnih agenata.`,
+        "Sadržaj predmeta": `
+Definicije inteligentnih agenata. Autonomnost, komunikacija s drugim nteligentnim agentima, proaktivnost i reaktivnost inteligentnih agenata.
+Arhitektura inteligentnih agenata. Okolina izvršavanja inteligentnih agenata. osrednički agenti. Osobni agenti. Kreiranje i održavanje korisničkih profila osobnih agenata. Inteligentni agenti i tehnologije raspodijeljenih objekata.
+Višeagentski sustavi. Komunikacija u višeagentskim sustavima.
+Sigurnosni aspekti. Zajedničko rješavanje problema u višeagentskim sustavima. Inteligentni agenti u heterogenim okruženjima. Ontologije. Prikaz znanja korištenjem ontologija. Prikaz Z specifikacijom. Programiranje inteligentnih agenata. Inteligentni agenti u sustavu World Wide Web.
+Semantički Web. Primjena inteligentnih agenata.`,
+        "Način izvođenja nastave": `
+Program se realizira na predavanjima, vježbama i konzultacijama.
+Vježbe se organiziraju kao aktivne studentske radionice u kojima se
+izrađuju projekti i kritički razmatraju odabrane teme iz kolegija.        
+`,
+        "Obveze studenta": "Redovito pohađanje nastave. Seminari se organiziraju kao aktivne studentske radionice u kojima se izrađuju vježbe i kritički razmatraju odabrane teme iz didaktike",
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `
+5 ECTS
+30 sati predavanja i 30 sati vježbi = 2 ECTS
+90 sati samostalnog rada uz konzultacije = 3 ECTS
+`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `
+Ispit je moguće položiti kroz uspješno savladavanje kolokvija.
+Studenti koji ne polože kolegij kroz kolokvije ispit polažu kroz pismeni i usmeni ispit.        
+`
+    },
+    {
+        "Naziv kolegija": "Robotika u obrazovanju",
+        "Nositelj predmeta": "dr.sc. Snježana Rezić, red. prof.",
+        "Kod kolegija": "INM4085",
+        "P": "30",
+        "S": "0",
+        "V": "30",
+        "Status predmeta": "izborni",
+        "Godina studija u kojoj se izvodi premet": "2.",
+        "Semestar": "4.",
+        "ECTS bodovi": "5",
+        "Ciljevi predmeta": `
+- steći temeljna znanja o nastavi primjeni robotike u redovitom nastavnome programu i izvannastavnim aktivnostima
+- upoznati mogućnosti primjene vježbi iz robotike u nastavi
+- kroz praktičan rad izradu vježbi različite složenosti savladati samostalnu izgradnju robota te pisati jednostavne programe za upravljanjem robotom.        
+`,
+        "Uvjeti za upis predmeta": "",
+        "Ishodi učenja (kompetencije)": "Stjecanje praktičnih vještina u održavanju nastave I ovladavanje raznovrsnim repertoarom metoda poučavanja koristeći robote.",
+        "Sadržaj predmeta": `
+Uvod u robotiku. Savremeni Lego Mindstorm NXT roboti.
+Dijelovi Lego Mindstorm NXT robota. Upravljački dio Lego NXT robota (eng. intelligent brick), senzori, izvor energije.
+Radno okruženje Lego Minstorms NXT 2.0 programa za upravljanje Lego robotom.
+Programiranje Lego robota da obavlja osnovne operacije (kretanje unapred, unazad, lijevo, desno, okretanje, izbjegavanje prepreke, rotacija, izgovaranje riječi, snimljenog govora) korišćenjem NXT tehnologije. Naredbe back left, turn left, turn left to, empty, backwards, forward, back left, back right, turn right, tone, sound, light, touch, loop, wait, my blocks.
+Upravljanje Lego robotom posredstvom računala, daljinskog
+upravljača ili telefona posredstvom bluetooth konekcije.
+Radno okruženje programa Microsoft Robotics Studio 1.0.
+VPL – Visual Programming Language razvojno okruženje.
+Aktivnosti, servisi. Kreiranje jednostavnog programa        
+`,
+        "Način izvođenja nastave": `Predavanja i vježbe na robotu.`,
+        "Obveze studenta": "Aktivno učešće na vježbama i predavanjima.",
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `
+Predavanja + vježbe = 2 ECTS
+Samostalni rad, učenje I praktični zadataka = 3 ECTS
+`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `
+Načina polaganja ispita:
+- Samostalnni projekt
+Maksimalno 15% ocjene s vježbi (aktivnost i testovi provjere)
+Maksimalno 15% ocjene s nastave (aktivnost i testovi provjere)
+Maksimalno 70% ocjene za samostalni Projekt
+Minimum za prolaznu ocjenu – 60% tj. 60 bodova
+`
+    },
+    {
+        "Naziv kolegija": "Računalni vid",
+        "Nositelj predmeta": "dr.sc. ŽELJKO MARUŠIĆ, doc.",
+        "Kod kolegija": "INM4095",
+        "P": "30",
+        "S": "0",
+        "V": "30",
+        "Status predmeta": "izborni",
+        "Godina studija u kojoj se izvodi premet": "2.",
+        "Semestar": "4.",
+        "ECTS bodovi": "5",
+        "Ciljevi predmeta": "Poznavanje osnovnih elemenata sustava te algoritama i metoda koje se koriste u aplikacijama računalnog vida.",
+        "Uvjeti za upis predmeta": "Nema.",
+        "Ishodi učenja (kompetencije)": `Sposobnost primjene i samostalne prilagodbe algoritama za konkretne primjene računalnog vida.`,
+        "Sadržaj predmeta": `Uvod. (Povijesni pregled. Elementi sustava računalnog vida. Primjeri primjena). Obrada binarnih slika. Poboljšanje svojstava sivih slika. Segmentacija slike. Regije. Detekcija rubova. Teksture. Boja u slikama. 3D prostor. Objekti u pokretu. Prepoznavanje objekata.`,
+        "Način izvođenja nastave": `Predavanja. Laboratorijske vježbe. Praktičan rad. Izrada projekta. Konzultacije. Samostalno istraživanje studenata.`,
+        "Obveze studenta": "Predavanja i laboratorijske vježbe su obvezni.",
+        "ECTS bodovi dodijeljeni na osnovu obveza studenata": `
+5 ECTS
+30 sati predavanja i 30 sati vježbi = 2 ECTS 
+90 sati samostalnog rada uz konzultacije = 3 ECTS
+`,
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `
+Kontinuirana provjera znanja tijekom nastave (dijagnostički testovi, provjera domaćih radova, testovi postignuća, seminarski radovi,...
+Ispit: usmeni/prezentacija seminarskog rada`
+    },
 ]

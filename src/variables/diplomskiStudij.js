@@ -91,7 +91,7 @@ export default [
           {
             "Redni broj": "9.",
             "Kod": "INM1094",
-            "Naziv kolegija": "Baze podataka ",
+            "Naziv kolegija": "Baze podataka 2",
             "P": "15",
             "S": "0",
             "V": "30",
@@ -109,17 +109,6 @@ export default [
             "Status kolegija": "C",
             "ECTS bodovi": "5",
             "Nastavnik/asistent": "dr. sc.  Ljiljanka Kvesić, doc. mr. sc. Anela Čolak, asist."
-          },
-          {
-            "Redni broj": "11.",
-            "Kod": "INM10115",
-            "Naziv kolegija": "Numerička matematika",
-            "P": "30",
-            "S": "0",
-            "V": "30",
-            "Status kolegija": "C",
-            "ECTS bodovi": "5",
-            "Nastavnik/asistent": "dr. sc. Vedrana Mikulić"
           },
     ],
     [
@@ -169,28 +158,6 @@ export default [
           },
           {
             "Redni broj": "5.",
-            "Kod": "",
-            "Naziv kolegija": "Izborni kolegij",
-            "P": "30",
-            "S": "0",
-            "V": "30",
-            "Status kolegija": "B",
-            "ECTS bodovi": "5",
-            "Nastavnik/asistent": ""
-          },
-          {
-            "Redni broj": "6.",
-            "Kod": "",
-            "Naziv kolegija": "Izborni kolegij",
-            "P": "30",
-            "S": "0",
-            "V": "30",
-            "Status kolegija": "B",
-            "ECTS bodovi": "5",
-            "Nastavnik/asistent": ""
-          },
-          {
-            "Redni broj": "7.",
             "Kod": "INM2075",
             "Naziv kolegija": "Napredna arhitektura računala",
             "P": "30",
@@ -201,20 +168,20 @@ export default [
             "Nastavnik/asistent": "dr. sc. Sven Gotovac, red. prof. Željko Marušić, asist."
           },
           {
-            "Redni broj": "8.",
+            "Redni broj": "6.",
             "Kod": "INM2085",
-            "Naziv kolegija": "",
+            "Naziv kolegija": "Programiranje u Javi",
             "P": "30",
             "S": "0",
             "V": "30",
             "Status kolegija": "B",
             "ECTS bodovi": "5",
-            "Nastavnik/asistent": "dr. sc. Dražena Gašpar, red. prof."
+            "Nastavnik/asistent": "dr. sc. Dražena Gašpar, red. prof., Daniel Vasić, asist."
           },
           {
-            "Redni broj": "9.",
+            "Redni broj": "7.",
             "Kod": "INM2095",
-            "Naziv kolegija": "Pretraživanje informacija ",
+            "Naziv kolegija": "Pretraživanje informacija",
             "P": "30",
             "S": "0",
             "V": "30",
@@ -223,7 +190,7 @@ export default [
             "Nastavnik/asistent": "Dr.sc. Drago Žagar, red.prof."
           },
           {
-            "Redni broj": "10.",
+            "Redni broj": "8.",
             "Kod": "INM20105",
             "Naziv kolegija": "Uvod u obradu prirodnog jezika",
             "P": "30",
@@ -259,17 +226,6 @@ export default [
           },
           {
             "Redni broj": "3.",
-            "Kod": "INM3035",
-            "Naziv kolegija": "Teorija informacija",
-            "P": "30",
-            "S": "0",
-            "V": "30",
-            "Status kolegija": "A",
-            "ECTS bodovi": "5",
-            "Nastavnik/asistent": "dr.sc. Irena Galić, doc. Daniel Vasić, asist."
-          },
-          {
-            "Redni broj": "4.",
             "Kod": "INM3045",
             "Naziv kolegija": "Sigurnost računalnih mreža",
             "P": "30",
@@ -280,29 +236,7 @@ export default [
             "Nastavnik/asistent": "dr. sc. Drago Žagar, red. prof. Tomislav Volarić, viš. asist."
           },
           {
-            "Redni broj": "5.",
-            "Kod": "",
-            "Naziv kolegija": "Izborni kolegij",
-            "P": "30",
-            "S": "0",
-            "V": "30",
-            "Status kolegija": "A",
-            "ECTS bodovi": "5",
-            "Nastavnik/asistent": "dr. sc. Goran Kraljević, doc."
-          },
-          {
-            "Redni broj": "6.",
-            "Kod": "",
-            "Naziv kolegija": "Izborni kolegij",
-            "P": "30",
-            "S": "0",
-            "V": "30",
-            "Status kolegija": "B",
-            "ECTS bodovi": "5",
-            "Nastavnik/asistent": ""
-          },
-          {
-            "Redni broj": "7.",
+            "Redni broj": "4.",
             "Kod": "INM3075",
             "Naziv kolegija": "Elektroničko poslovanje",
             "P": "30",
@@ -313,7 +247,7 @@ export default [
             "Nastavnik/asistent": "dr. sc. Željko Stojkić, doc."
           },
           {
-            "Redni broj": "8.",
+            "Redni broj": "5.",
             "Kod": "INM3085",
             "Naziv kolegija": "Programiranje aplikacija za mobilne uređaje",
             "P": "30",
@@ -324,9 +258,9 @@ export default [
             "Nastavnik/asistent": "dr. sc. Goran Kraljević, doc. Daniel Vasić, asist."
           },
           {
-            "Redni broj": "9.",
+            "Redni broj": "6.",
             "Kod": "INM3095",
-            "Naziv kolegija": "Rudarenje podataka ",
+            "Naziv kolegija": "Rudarenje podataka",
             "P": "30",
             "S": "0",
             "V": "30",
@@ -335,7 +269,7 @@ export default [
             "Nastavnik/asistent": "Dr.sc. Goran Kraljević,doc."
           },
           {
-            "Redni broj": "10.",
+            "Redni broj": "7.",
             "Kod": "INM30105",
             "Naziv kolegija": "Multimedijalni sustavi",
             "P": "30",
@@ -382,28 +316,6 @@ export default [
           },
           {
             "Redni broj": "4.",
-            "Kod": "",
-            "Naziv kolegija": "Izborni kolegij",
-            "P": "30",
-            "S": "0",
-            "V": "30",
-            "Status kolegija": "B",
-            "ECTS bodovi": "5",
-            "Nastavnik/asistent": ""
-          },
-          {
-            "Redni broj": "5.",
-            "Kod": "",
-            "Naziv kolegija": "Izborni kolegij",
-            "P": "30",
-            "S": "0",
-            "V": "30",
-            "Status kolegija": "B",
-            "ECTS bodovi": "5",
-            "Nastavnik/asistent": ""
-          },
-          {
-            "Redni broj": "6.",
             "Kod": "INM4065",
             "Naziv kolegija": "Upravljanje znanjem",
             "P": "30",
@@ -414,8 +326,8 @@ export default [
             "Nastavnik/asistent": "dr. sc. Vladimir Šimović, red. prof."
           },
           {
-            "Redni broj": "7.",
-            "Kod": "",
+            "Redni broj": "5.",
+            "Kod": "INM4075",
             "Naziv kolegija": "Inteligentni agenti",
             "P": "30",
             "S": "0",
@@ -425,7 +337,7 @@ export default [
             "Nastavnik/asistent": "dr. sc. Marko Rosić, red. prof."
           },
           {
-            "Redni broj": "8.",
+            "Redni broj": "6.",
             "Kod": "INM4085",
             "Naziv kolegija": "Robotika u obrazovanju",
             "P": "30",
@@ -436,7 +348,7 @@ export default [
             "Nastavnik/asistent": "dr. sc. Snježana Rezić, red. prof."
           },
           {
-            "Redni broj": "9.",
+            "Redni broj": "7.",
             "Kod": "INM4095",
             "Naziv kolegija": "Računalni vid",
             "P": "30",

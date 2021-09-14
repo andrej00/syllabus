@@ -6,7 +6,7 @@
 			<h1 class="headline">PREDDIPLOMSKI STUDIJ</h1>
             <div v-for="(semestar, i) in preddiplomskiStudij" :key="i" class="pb-5">
                 <h2> {{ semestarNames[i] }}</h2>
-                <b-table striped bordered hover :items="semestar" @row-clicked="rowClick"></b-table>
+                <b-table striped bordered hover :items="semestar" id="my-table" @row-clicked="rowClick"></b-table>
             </div>
 
 			<hr />
@@ -122,8 +122,11 @@ export default {
 	}
 };
 </script>
-<style scoped>
+<style>
+    tbody {
+        cursor: pointer;
+    };
     .headline {
         margin: 45px 0;
-    }
+    };
 </style>

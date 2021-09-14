@@ -79,7 +79,7 @@ export default [
           },
           {
             "Redni broj": "8.",
-            "Kod": "FFB1012",
+            "Kod": "INBB1012",
             "Naziv kolegija": "Filozofija znanosti",
             "P": "15",
             "S": "0",
@@ -125,7 +125,7 @@ export default [
           },
           {
             "Redni broj": "3.",
-            "Kod": "FIB2043",
+            "Kod": "IMB2503",
             "Naziv kolegija": "Računalni praktikum 2",
             "P": "15",
             "S": "0",
@@ -136,7 +136,7 @@ export default [
           },
           {
             "Redni broj": "4.",
-            "Kod": "INB2028",
+            "Kod": "INB2048",
             "Naziv kolegija": "Matematika 2",
             "P": "45",
             "S": "0",
@@ -148,7 +148,7 @@ export default [
           {
             "Redni broj": "5.",
             "Kod": "OPB2092",
-            "Naziv kolegija": "Strani jezik 2 (engleski)",
+            "Naziv kolegija": "Engleski jezik 2",
             "P": "0",
             "S": "0",
             "V": "30",
@@ -226,7 +226,7 @@ export default [
           },
           {
             "Redni broj": "5.",
-            "Kod": "INB3046",
+            "Kod": "INB3058",
             "Naziv kolegija": "Strukture podataka i algoritmi",
             "P": "30",
             "S": "15",
@@ -237,7 +237,7 @@ export default [
           },
           {
             "Redni broj": "6.",
-            "Kod": "INB3044",
+            "Kod": "INB4044",
             "Naziv kolegija": "Baze podataka",
             "P": "15",
             "S": "0",
@@ -261,7 +261,7 @@ export default [
     [
         {
             "Redni broj": "1.",
-            "Kod": "INB4092",
+            "Kod": "INB4016",
             "Naziv kolegija": "Informatički projekt Baze podataka",
             "P": "0",
             "S": "0",
@@ -305,7 +305,7 @@ export default [
           },
           {
             "Redni broj": "5.",
-            "Kod": "INM3035",
+            "Kod": "IMB5095",
             "Naziv kolegija": "Teorija informacija",
             "P": "30",
             "S": "0",
@@ -327,8 +327,8 @@ export default [
           },
           {
             "Redni broj": "7.",
-            "Kod": "INB4096",
-            "Naziv kolegija": " Objektno orijentirano programiranje",
+            "Kod": "INB4062",
+            "Naziv kolegija": "Objektno orijentirano programiranje",
             "P": "30",
             "S": "0",
             "V": "45",
@@ -351,7 +351,7 @@ export default [
     [
         {
             "Redni broj": "1.",
-            "Kod": "INM1065",
+            "Kod": "INB5078",
             "Naziv kolegija": "Numerička matematika",
             "P": "30",
             "S": "0",
@@ -374,7 +374,7 @@ export default [
           {
             "Redni broj": "3.",
             "Kod": "INB5038",
-            "Naziv kolegija": "	Programiranje za internet",
+            "Naziv kolegija": "Programiranje za internet",
             "P": "30",
             "S": "0",
             "V": "45",
@@ -384,7 +384,7 @@ export default [
           },
           {
             "Redni broj": "4.",
-            "Kod": "INB5046",
+            "Kod": "IMB5035",
             "Naziv kolegija": "Uvod u umjetnu inteligenciju",
             "P": "30",
             "S": "0",
@@ -419,7 +419,7 @@ export default [
           },
           {
             "Redni broj": "2.",
-            "Kod": "INB6026",
+            "Kod": "IMB6035",
             "Naziv kolegija": "Programsko inženjerstvo",
             "P": "30",
             "S": "0",
@@ -441,18 +441,18 @@ export default [
           },
           {
             "Redni broj": "4.",
-            "Kod": "INB6185",
+            "Kod": "INB9039",
             "Naziv kolegija": "Završni informatički projekt",
             "P": "0",
             "S": "30",
             "V": "30",
             "Status kolegija": "A",
             "ECTS bodovi": "5",
-            "Nastavnik/asistent": "dr. sc.  Tomislav Volarić, doc Hrvoje Ljubić. asistent"
+            "Nastavnik/asistent": ""
           },
           {
             "Redni broj": "5.",
-            "Kod": "INB6116",
+            "Kod": "INB6047",
             "Naziv kolegija": "Informatička praksa",
             "P": "",
             "S": "",

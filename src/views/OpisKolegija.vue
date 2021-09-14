@@ -7,7 +7,7 @@
 				<b-col lg="6" md="8" sm="12">
 					<b-form-input
 						v-model="subjectInput"
-						placeholder="Paralelno programiranje"
+						placeholder="Naziv kolegija"
 					></b-form-input>
 				</b-col>
 			</b-row>
@@ -111,8 +111,6 @@ export default {
                 delete subject.Ocjenjivanje
                 let pair = Object.entries(subject);
                 
-                ocjenjivanje.map(values => innerContent.push(Object.values(values)));
-
                 content.push({
                     margin: [0, 10, 0, 30],
                     table: {
@@ -121,25 +119,29 @@ export default {
                     }
                 });
 
-                const innerTable = [{
-                    colSpan: 2,
-                    table: {
-                        widths: [200, '*', '*', '*'],
-                        body: innerContent
-                    }
-                }];
+                if (ocjenjivanje) {
+                    ocjenjivanje.map(values => innerContent.push(Object.values(values)));
 
-                innerContent.unshift([
-                    {
-                        text: 'Detaljan prikaz ocjenjivanja unutar Europskoga sustava prijenosa bodova', 
-                        colSpan: 4, 
-                        style: { fontSize: 15, bold: true }
-                    }, {}, {}, {}
-                ]);
+                    const innerTable = [{
+                        colSpan: 2,
+                        table: {
+                            widths: [200, '*', '*', '*'],
+                            body: innerContent
+                        }
+                    }];
 
-                content[index].table.body.push(innerTable);
+                    innerContent.unshift([
+                        {
+                            text: 'Detaljan prikaz ocjenjivanja unutar Europskoga sustava prijenosa bodova', 
+                            colSpan: 4, 
+                            style: { fontSize: 15, bold: true }
+                        }, {}, {}, {}
+                    ]);
 
-                subject.Ocjenjivanje = ocjenjivanjeBackup;
+                    content[index].table.body.push(innerTable);
+
+                    subject.Ocjenjivanje = ocjenjivanjeBackup;
+                }
             })
 
 			const docDefinition = { content };
@@ -164,6 +166,9 @@ export default {
 .table.b-table.b-table-stacked {
 	margin-bottom: 80px;
     white-space: break-spaces;
+}
+tbody {
+    cursor: default;
 }
 
 </style>

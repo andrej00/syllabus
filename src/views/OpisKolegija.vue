@@ -167,7 +167,7 @@ export default {
 	margin-bottom: 80px;
     white-space: break-spaces;
 }
-tbody {
+tbody, div table tbody {
     cursor: default;
 }
 

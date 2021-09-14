@@ -33,35 +33,35 @@ export default [
             { "Obveze studenta": "Završni usmeni ispit", "Sati (procjena)": "15", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 20%" }
         ],
         "Dodatna pojašnjenja": `
-            *Student može pismeni dio ispita polagati preko dvaju kolokvija ili integralno na završnom pismenom ispitu.
-            
-            Angažiranost u nastavi ocjenjuje se na sljedeći način:
-            - manje od 80% dolazaka = 0% ocjene
-            - manje od 85% dolazaka = 5.5% ocjene
-            - manje od 90% dolazaka = 7% ocjene
-            - manje od 95% dolazaka = 8.5% ocjene
-            - od 95% do 100% dolazaka = 10% ocjene
+*Student može pismeni dio ispita polagati preko dvaju kolokvija ili integralno na završnom pismenom ispitu.
 
-            Kolokviji ili završni pismeni ispit ocjenjuju se na sljedeći način:
-            - manje od 55% točnih odgovora = 0% ocjene
-            - od 55% do 66% točnih odgovora = 27.5% ocjene
-            - od 67% do 78% točnih odgovora = 35% ocjene
-            - od 79% do 90% točnih odgovora = 42.5% ocjene
-            - od 91% do 100% točnih odgovora = 50% ocjene
+Angažiranost u nastavi ocjenjuje se na sljedeći način:
+- manje od 80% dolazaka = 0% ocjene
+- manje od 85% dolazaka = 5.5% ocjene
+- manje od 90% dolazaka = 7% ocjene
+- manje od 95% dolazaka = 8.5% ocjene
+- od 95% do 100% dolazaka = 10% ocjene
 
-            Završni usmeni ispit ocjenjuje se na sljedeći način:
-            manje od 55% točnih odgovora = 0% ocjene
-            - od 55% do 66% točnih odgovora = 22% ocjene
-            - od 67% do 78% točnih odgovora = 28% ocjene
-            - od 79% do 90% točnih odgovora = 34% ocjene
-            - od 91% do 100% točnih odgovora = 40% ocjene
-            
-            Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način:
-            0 – 55% nedovoljan (1)
-            55 – 66% dovoljan (2)
-            67 – 78% dobar (3)
-            79 – 90% vrlodobar (4)
-            91 – 100% odličan (5)
+Kolokviji ili završni pismeni ispit ocjenjuju se na sljedeći način:
+- manje od 55% točnih odgovora = 0% ocjene
+- od 55% do 66% točnih odgovora = 27.5% ocjene
+- od 67% do 78% točnih odgovora = 35% ocjene
+- od 79% do 90% točnih odgovora = 42.5% ocjene
+- od 91% do 100% točnih odgovora = 50% ocjene
+
+Završni usmeni ispit ocjenjuje se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene
+- od 55% do 66% točnih odgovora = 22% ocjene
+- od 67% do 78% točnih odgovora = 28% ocjene
+- od 79% do 90% točnih odgovora = 34% ocjene
+- od 91% do 100% točnih odgovora = 40% ocjene
+
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način:
+0 – 55% nedovoljan (1)
+55 – 66% dovoljan (2)
+67 – 78% dobar (3)
+79 – 90% vrlodobar (4)
+91 – 100% odličan (5)
         `
     },
     {
@@ -92,6 +92,43 @@ export default [
         "Način izvođenja nastave": "predavanja, vježbe, samostalni zadaci, konzultacije, praktični rad",
         "Studentske obveze": "pohađati nastavu i sudjelovati u nastavnome procesu, pisati kolokvije, polagati pismeni ispit, polagati usmeni ispit",
         "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, praktični rad, usmeni ispit, pismeni ispit, kontinuirana provjera znanja",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "45", "UDIO u ECTS-u": "1.5", "Udio u ocjeni": "Max 10%" },
+            { "Obveze studenta": "Kolokviji i priprema za kontinuiranu provjeru znanja", "Sati (procjena)": "30", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 50%" },
+            { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "15", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 40%" },
+        ],
+        "Dodatna pojašnjenja": `
+*Student može pismeni dio ispita polagati preko dvaju kolokvija ili integralno na završnom 
+pismenom ispitu.
+
+Angažiranost u nastavi ocjenjuje se na sljedeći način:
+- manje od 80% dolazaka = 0% ocjene
+- manje od 85% dolazaka = 5.5% ocjene 
+- manje od 90% dolazaka = 7% ocjene 
+- manje od 95% dolazaka = 8.5% ocjene 
+- od 95% do 100% dolazaka = 10% ocjene
+
+Kolokviji ili završni pismeni ispit ocjenjuju se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 27.5% ocjene 
+od 67% do 78% točnih odgovora = 35% ocjene 
+od 79% do 90% točnih odgovora = 42.5% ocjene 
+od 91% do 100% točnih odgovora = 50% ocjene
+
+Završni usmeni ispit ocjenjuje se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 22% ocjene 
+od 67% do 78% točnih odgovora = 28% ocjene 
+od 79% do 90% točnih odgovora = 34% ocjene
+od 91% do 100% točnih odgovora = 40% ocjene
+
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+0 – 55% nedovoljan (1)
+55 – 66% dovoljan (2)
+67 – 78% dobar (3)
+79 – 90% vrlodobar (4)
+91 – 100% odličan (5)
+`
     },
     {
         "Naziv kolegija": "Matematika 1",
@@ -121,6 +158,33 @@ export default [
         "Način izvođenja nastave": "predavanja, vježbe",
         "Studentske obveze": "",
         "Praćenje i ocjenjivanje studenta": "usmeni ispit, pismeni ispit, kontinuirana provjera znanja",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "90", "UDIO u ECTS-u": "3", "Udio u ocjeni": "Max %" },
+            { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "60", "UDIO u ECTS-u": "2", "Udio u ocjeni": "Max 50%" },
+            { "Obveze studenta": "Završni usmeni ispit", "Sati (procjena)": "60", "UDIO u ECTS-u": "2", "Udio u ocjeni": "Max 50%" },
+        ],
+        "Dodatna pojašnjenja": `
+Kolokviji/ završni pismeni se ocjenjuju na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% = do 27.5% ocjene 
+od 67% do 78% = do 35% ocjene 
+od 79% do 90% = do 42.5% ocjene 
+od 91% do 100% = do 50% ocjene
+
+Završni usmeni ispit se ocjenjuje na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% = do 27.5% ocjene 
+od 67% do 78% = do 35% ocjene 
+od 79% do 90% = do 42.5% ocjene 
+od 91% do 100% = do 50% ocjene 
+
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+0 – 54% nedovoljan (1)
+55 – 66% dovoljan (2)
+67 – 78% dobar (3)
+79 – 90% vrlo dobar (4)
+91 – 100% odličan (5)
+`
     },
     {
         "Naziv kolegija": "Osnove informatike 1",
@@ -145,11 +209,86 @@ export default [
         "Asistent | Kontakt sati/konzultacije": "Prema rasporedu",
         "Asistent | E-mail adresa i broj telefona": "zeljko.marusic@fpmoz.sum.ba",
         "Ciljevi kolegija": "Ciljevi kolegija su: Ovaj kolegij pruža uvid u sadržaje više kolegija koji se slušaju tijekom studija. Kolegij daje pregled prodručja koje izučava računalna znanost, podjednako u smislu područja istraživanja i primjene. Pored toga cilj je upoznati temeljne matematičke temelje potrebne za razumijevanje rada računala. Kroz kolegij se upoznaju područja: povijest računarstva, podjela računarstva po područjima, arhitektura računala, operacijski sustavi, baze podataka, računalne mreže, arhitektura internetskih aplikacija, računalna grafika i umjetna inteligencija. U praktičnom dijelu kolegija kroz zadatke se usvajaju koncepti: brojevni sustavi, logički sklopovi, obrada teksta, proračunske tablice i baze podataka.",
-        "Ishodi učenja (opće i specifične kompetencije)": "Nakon položenog kolegija student će znati/moći: Opisati povijest razvoja računarstva. Razumjeti podjelu računarstva na područja. Raspravljati o osnovnim konceptima iz područja arhitekture računala, operacijskih sustava, baza podataka, računalnih mreža, arhitekture internetskih aplikacija, računalne grafike i umjetne inteligencije. Primijeniti aplikacije za obradu teksta, proračunske tablice i sustav za upravljanje bazom podataka za rješavanje problema. Prepoznati granice mogućnosti pojedinih područja računarstva.",
-        "Sadržaj silabusa/izvedbenog plana (ukratko)": "Predavanja: Algoritmi i računala kroz vrijeme, Osnovni principi računalne tehnologije, Brojevni sustavi i predstavljanje podataka, Pohrana podataka i problemi kompresije, Arhitektura računala i simulacija računalnih sklopova, Operacijski sustavi, Računalne mreže i internet, Mrežni protokoli i sigurnost, Baze podataka, Računalna grafika, Umjetna inteligencija, Vježbe: Uvod, Brojevni sustavi, Logički sklopovi, Problemski zadaci, Obrada teksta, Proračunske tablice, Baze podataka, Problemski zadaci",
+        "Ishodi učenja (opće i specifične kompetencije)": `
+Nakon položenog kolegija student će znati/moći:
+- Opisati povijest razvoja računarstva.
+- Razumjeti podjelu računarstva na područja.
+- Raspravljati o osnovnim konceptima iz područja arhitekture računala, operacijskih sustava, baza podataka, računalnih mreža,  arhitekture internetskih aplikacija, računalne grafike i umjetne inteligencije.
+- Primijeniti aplikacije za obradu teksta, proračunske tablice i sustav za upravljanje bazom podataka za rješavanje problema.
+- Prepoznati granice mogućnosti pojedinih područja računarstva.
+`,
+        "Sadržaj silabusa/izvedbenog plana (ukratko)": `
+Predavanja:
+1. Algoritmi i računala kroz vrijeme
+2. Osnovni principi računalne tehnologije
+3. Brojevni sustavi i predstavljanje podataka
+4. Pohrana podataka i problemi kompresije
+5. Arhitektura računala i simulacija računalnih sklopova
+6. Operacijski sustavi
+7. Računalne mreže i internet
+8. Mrežni protokoli i sigurnost
+9. Baze podataka
+10. Računalna grafika 
+11. Umjetna inteligencija
+Vježbe
+1. Uvod
+2. Brojevni sustavi
+3. Logički sklopovi
+4. Problemski zadaci
+5. Obrada teksta
+6. Proračunske tablice
+7. Baze podataka
+8. Problemski zadaci
+        
+`,
         "Način izvođenja nastave": "predavanja, vježbe, seminari, samostalni zadaci, konzultacije",
-        "Studentske obveze": "pohađati nastavu i sudjelovati u nastavnome procesu, pisati kolokvije, pisati seminarski rad, polagati pismeni ispit, polagati usmeni ispit",
+        "Studentske obveze": `
+- pohađati nastavu i sudjelovati u nastavnome procesu.
+- pisati kolokvije. 
+- pisatiseminarski rad
+- polagati pismeni ispit.
+- polagati usmeni ispit.          
+`,
         "Praćenje i ocjenjivanje studenta": "pohađanje nastae, aktivnosti u nastavi, seminarski rad, praktični rad, usmeni ispit, pismeni ispit, kontinuirana provjera znanja",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "60", "UDIO u ECTS-u": "2", "Udio u ocjeni": "Max 10%" },
+            { "Obveze studenta": "Kolokviji i priprema za kontinuiranu provjeru znanja", "Sati (procjena)": "120", "UDIO u ECTS-u": "4", "Udio u ocjeni": "Max 50%" },
+            { "Obveze studenta": "Seminarski rad", "Sati (procjena)": "30", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 10%" },
+            { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "15", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 20%" },
+            { "Obveze studenta": "Završni usmeni ispit", "Sati (procjena)": "15", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 10%" },
+        ],
+        "Dodatna pojašnjenja": `
+Dodatna pojašnjenja:
+*Student može pismeni dio ispita polagati preko dvaju kolokvija ili integralno na završnom pismenom ispitu.
+
+Angažiranost u nastavi ocjenjuje se na sljedeći način:
+- manje od 80% dolazaka = 0% ocjene 
+- manje od 85% dolazaka = 5.5% ocjene 
+- manje od 90% dolazaka = 7% ocjene 
+- manje od 95% dolazaka = 8.5% ocjene 
+- od 95% do 100% dolazaka = 10% ocjene
+
+Kolokviji ili završni pismeni ispit ocjenjuju se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 27.5% ocjene 
+od 67% do 78% točnih odgovora = 35% ocjene 
+od 79% do 90% točnih odgovora = 42.5% ocjene 
+od 91% do 100% točnih odgovora = 50% ocjene
+
+Završni usmeni ispit ocjenjuje se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 22% ocjene 
+od 67% do 78% točnih odgovora = 28% ocjene 
+od 79% do 90% točnih odgovora = 34% ocjene
+od 91% do 100% točnih odgovora = 40% ocjene
+
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+0 – 55% nedovoljan (1)
+55 – 66% dovoljan (2)
+67 – 78% dobar (3)
+79 – 90% vrlodobar (4)
+91 – 100% odličan (5)
+`
     },
     {
         "Naziv kolegija": "Engleski jezik 1",
@@ -174,11 +313,38 @@ export default [
         "Asistent | Kontakt sati/konzultacije": "",
         "Asistent | E-mail adresa i broj telefona": "",
         "Ciljevi kolegija": "Osposobiti studente za samostalno praćenje i razumijevanje pisanog i govornog engleskog jezika; ispravno korištenje gramatičkih konstrukcija engleskog jezika; obogaćivanje vokabulara različitim vrstama tekstova.",
-        "Ishodi učenja (opće i specifične kompetencije)": "Nakon odslušanog kolegija studenti će znati i moći: ispravno koristiti engleska glagolska vremena, točno koristiti pasivne konstrukcije u engleskom jeziku, samostalno pratiti i razumijeti elemente pisanog i govornog engleskog jezika, razgovarati na engleskom jeziku o stručnim temama",
-        "Sadržaj silabusa/izvedbenog plana (ukratko)": "Gramatičke vježbe u kombinaciji s vježbama čitanja i prevođenja tekstova izvan struke kao i stručnih tekstova. Predavanja se kombiniraju s komunikativnim pristupom u nastavi  - potrebno je aktivno sudjelovanje u raspravama i grupnom radu. Korištenje audio/video/web-materijala. Studente se potiče na korištenje fakultetske računalne opreme prilikom držanja prezentacija. Obrađuju se temeljne gramatičke cjeline (sustav engleskih glagolskih vremena, passiv, itd.)",
+        "Ishodi učenja (opće i specifične kompetencije)": `
+Nakon odslušanog kolegija studenti će znati i moći:
+- ispravno koristiti engleska glagolska vremena
+- točno koristiti pasivne konstrukcije u engleskom jeziku
+- samostalno pratiti i razumijeti elemente pisanog i govornog engleskog  jezika
+- razgovarati na engleskom jeziku o stručnim temama
+`,
+        "Sadržaj silabusa/izvedbenog plana (ukratko)": `
+Gramatičke vježbe u kombinaciji s vježbama čitanja i prevođenja tekstova  izvan struke kao i stručnih tekstova. 
+Predavanja se kombiniraju s komunikativnim pristupom u nastavi - potrebno je aktivno sudjelovanje u raspravama i grupnom radu.  Korištenje audio/video/web-materijala. Studente se potiče na  korištenje fakultetske računalne opreme prilikom držanja  prezentacija. Obrađuju se temeljne gramatičke cjeline (sustav  engleskih glagolskih vremena, passiv, itd.)     
+`,
         "Način izvođenja nastave": "predavanja, seminari, konzultacije",
-        "Studentske obveze": "redovito pohađati nastavu, aktivno sudjelovati u nastavi napisati koherentan seminarski rad na zadanu temu, pisati završni ispit",
+        "Studentske obveze": `
+- redovito pohađati nastavu
+- aktivno sudjelovati u nastavi
+- napisati koherentan seminarski rad na zadanu temu
+- pisati završni ispit
+`,
         "Praćenje i ocjenjivanje studenta": "pohađanje nastave, seminarski rad, pismeni ispit",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "30", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 10%" },
+            { "Obveze studenta": "Seminarski rad", "Sati (procjena)": "10", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 20%" },
+            { "Obveze studenta": "Pismeni ispit", "Sati (procjena)": "60", "UDIO u ECTS-u": "2", "Udio u ocjeni": "Max 70%" },
+        ],
+        "Dodatna pojašnjenja": `
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+A = 91-100% 5 (izvrstan)
+B = 79 to 90% 4 (vrlo dobar)
+C = 67 to 78% 3 (dobar)
+D = 55 to 66% 2 (dovoljan)
+F = 0 to 54% 1 (nedovoljan)
+`
     },
     {
         "Naziv kolegija": "Tjelesna i zdravstvena kultura 1",
@@ -203,11 +369,52 @@ export default [
         "Asistent | Kontakt sati/konzultacije": "",
         "Asistent | E-mail adresa i broj telefona": "",
         "Ciljevi kolegija": "Ciljevi ovog kolegija su: Stjecanje općih kompetencija po pitanju poznavanja utjecaja kinezioloških aktivnosti na stupanj zdravlja. Studente upoznati sa općim procesom vježbanja kao i posljedicama djelovanja tih procesa na ljudski organizam s posebnim osvrtom na očuvanje zdravlja koje postižu kineziološkim procesima. Upoznati studente s načinima rješavanja problematike vezane uz upravljanje procesom vježbanja. Osposobiti ih i potaknuti na samostalan rad i posvijestiti im važnost bavljenja sportom u svakodnevnom životu.",
-        "Ishodi učenja (opće i specifične kompetencije)": "Nakon što odslušaju i polože ovaj kolegij, studenti će znati / moći i biti: osposobljeni i potaknuti na samostalan rad i posviješteni na važnost baljenja sportom u svakodnevnom životu, prepoznati potrebu i važnost redovite tjelovježbe u svrhu očuvanja zdravlja i poboljšanja kvalitete života, Kreirati aktivni odmor (aktivna stanka između učenja, tijekom slobodnog vremena), prezentirati tolerantnost, radne navike i samodisciplinu, primijeniti nekoliko vježbi zagrijavanja za pojedinu kineziološku aktivnost, primijeniti neke vježbe istezanja za pojedinu kineziološku aktivnost, objasniti osnove o utjecaju redovitog vježbanja na zdravlje, osmisliti tjelovježbu u svrhu aktivnog provođenja slobodnog vremena, kreirati uvodni i završni dio sata (treninga)",
-        "Sadržaj silabusa/izvedbenog plana (ukratko)": "Ponuđeni sadržaji studentima koje mogu birati kao svoje aktivnosti: aerobik, fittnes, plesovi (plesne strukture), nogomet, košarka, dbojka, livanje, vaterpolo, stolni tenis, tenis, samoobrana, aktivnosti na trim stazi na Bijelom Brijegu, izleti-pješačke ture, organizacija natjecanja u više sportova unutar Fakulteta, sportska suradnja ekipa sa drugim fakultetima u regiji",
+        "Ishodi učenja (opće i specifične kompetencije)": `
+Nakon što odslušaju i polože ovaj kolegij, studenti će znati / moći i biti:
+1. Osposobljeni i potaknuti na samostalan rad i posviješteni na važnost bavljenja sportom u svakodnevnom životu
+2. Prepoznati potrebu i važnost redovite tjelovježbe u svrhu očuvanja  zdravlja i poboljšanja kvalitete života
+3. Kreirati aktivni odmor (aktivna stanka između učenja, tijekom  slobodnog vremena)
+4. Prezentirati tolerantnost, radne navike i samodisciplinu
+5. Primijeniti nekoliko vježbi zagrijavanja za pojedinu kineziološku  aktivnost
+6. Primijeniti neke vježbe istezanja za pojedinu kineziološku aktivnost
+7. Objasniti osnove o utjecaju redovitog vježbanja na zdravlje
+8. Osmisliti tjelovježbu u svrhu aktivnog provođenja slobodnog vremena
+9. Kreirati uvodni i završni dio sata (treninga)      
+`,
+        "Sadržaj silabusa/izvedbenog plana (ukratko)": `
+Ponuđeni sadržaji studentima koje mogu birati kao svoje aktivnosti:
+1. Aerobik
+2. Fittnes
+3. Plesovi (plesne strukture)
+4. Nogomet
+5. Košarka
+6. Odbojka
+7. Plivanje
+8. Vaterpolo
+9. Stolni tenis
+10. Tenis
+11. Samoobrana
+12. Aktivnosti na trim stazi na Bijelom Brijegu
+13. Izleti-pješačke ture
+14. Organizacija natjecanja u više sportova unutar Fakulteta
+15. Sportska suradnja ekipa sa drugim fakultetima u regiji
+`,
         "Način izvođenja nastave": "vježbe, seminari, samostalni zadaci",
         "Studentske obveze": "Obavezno pohađanje vježbi",
         "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, seminarski rad",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "30", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 0%" },
+            { "Obveze studenta": "Seminarski rad", "Sati (procjena)": "30", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 0%" },
+        ],
+        "Dodatna pojašnjenja": `
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+A = 91-100% 5 (izvrstan)
+B = 79 to 90% 4 (vrlo dobar)
+C = 67 to 78% 3 (dobar)
+D = 55 to 66% 2 (dovoljan)
+F = 0 to 54% 1 (nedovoljan)
+- Ocjena iz kolegija Tjelesna i zdravstvena kultura je opisna ocjena „obavljeno“.
+`
     },
     {
         "Naziv kolegija": "Filozofija znanosti",
@@ -235,8 +442,48 @@ export default [
         "Ishodi učenja (opće i specifične kompetencije)": "Nakon položenog kolegija student će znati/moći: napraviti logičku analizu znanstvenih tekstova.",
         "Sadržaj silabusa/izvedbenog plana (ukratko)": " Kolegij obuhvaća tri dijela. Prvi je dio uvodnog karaktera i posvećen je općenitom filozofsko-logičkom i metodološkom obrazovanju. Drugi i treći usmjereni su prema izabranim pitanjima filozofije znanosti. U prvom se dijelu uvode osnovni logički i metodološki pojmovi. U drugom dijelu razmatraju se izabrani problemi filozofije znanosti uz tumačenje izvornih tekstova. Odnos spoznaje i jezika tematizira se na Wittgensteinovom Tractatus-u. Proučava se Carnapov (empirijski) kriterij smislenosti. Analizira se Popperov prikaz znanstvene metode. Razlike između znanosti o čovjeku i znanosti o prirodi analiziraju se obzirom na razliku u vrsti objašnjenja (Von Wright) i obzirom na jezik (Davidson). Pitanje ograničenja spoznaje istražuje se u filozofskom tumačenju Gödelovih metateorijskih rezultata. U trećem, kraćem dijelu analizira se pitanje promjene teorije u okviru Kuhnove filozofije povijesti znanosti te u okviru suvremenih formalnih teorija.",
         "Način izvođenja nastave": "predavanja, vježbe",
-        "Studentske obveze": "pohađati nastavu i sudjelovati u nastavnome procesu, pisati kolokvije, polagati pismeni ispit, polagati usmeni ispit",
-        "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, usmeni ispit, pismeni ispit",
+        "Studentske obveze": `
+- redovito pohađati nastavu
+- aktivno sudjelovati u nastavi
+- napisati koherentan seminarski rad na zadanu temu
+- pisati završni ispit
+`,        "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, usmeni ispit, pismeni ispit",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "30", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 10%" },
+            { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "15", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 45%" },
+            { "Obveze studenta": "Završni usmeni ispit", "Sati (procjena)": "15", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 45%" },
+        ],
+        "Dodatna pojašnjenja": `
+*Student može pismeni dio ispita polagati preko dvaju kolokvija ili integralno na završnom  pismenom ispitu.
+
+Angažiranost u nastavi ocjenjuje se na sljedeći način:
+- manje od 80% dolazaka = 0% ocjene 
+- manje od 85% dolazaka = 5.5% ocjene 
+- manje od 90% dolazaka = 7% ocjene 
+- manje od 95% dolazaka = 8.5% ocjene 
+- od 95% do 100% dolazaka = 10% ocjene
+
+Kolokviji ili završni pismeni ispit ocjenjuju se na sljedeći način: 
+manje od 55% točnih odgovora = 0% ocjene
+od 55% do 66% točnih odgovora = 27.5% ocjene 
+od 67% do 78% točnih odgovora = 35% ocjene 
+od 79% do 90% točnih odgovora = 42.5% ocjene 
+od 91% do 100% točnih odgovora = 50% ocjene
+
+Završni usmeni ispit ocjenjuje se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 22% ocjene 
+od 67% do 78% točnih odgovora = 28% ocjene 
+od 79% do 90% točnih odgovora = 34% ocjene
+od 91% do 100% točnih odgovora = 40% ocjene
+
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+ 0 – 55% nedovoljan (1)
+ 55 – 66% dovoljan (2)
+ 67 – 78% dobar (3)
+ 79 – 90% vrlodobar (4)
+ 91 – 100% odličan (5)
+`
     },
     {
         "Naziv kolegija": "Novi mediji u odgoju i obrazovanju",
@@ -261,11 +508,49 @@ export default [
         "Asistent | Kontakt sati/konzultacije": "",
         "Asistent | E-mail adresa i broj telefona": "",
         "Ciljevi kolegija": "Upoznati studente s temeljnim spoznajama iz područja medijske pedagogije i didaktike. Steći znanja o vrstama i ulozi medija i mogućnostima korištenja medija u nastavnom procesu..",
-        "Ishodi učenja (opće i specifične kompetencije)": "Nakon položenog ispita studenti će moći: definirati i razumjeti temeljne spoznaje iz područja primjene, utjecaja i važnosti korištenja medija u odgoju i obrazovanju, definirati, razlikovati i vrednovati medije u odgojno-obrazovnom procesu s obzirom na izbor, funkciju i klasifikaciju medija te njihovu primjenu u nastavnom procesu i slobodnom vremenu, vrednovati prema glavnim značajkama specifičnosti pojedinih medija, analizirati i vrednovati specifične medije s obzirom na njihovu odgojnu i obrazovnu ulogu, kvalitetu i utjecaj na mlade",
+        "Ishodi učenja (opće i specifične kompetencije)": `
+Nakon položenog ispita studenti će moći:
+- definirati i razumjeti temeljne spoznaje iz područja primjene, utjecaja i važnosti korištenja medija u odgoju i obrazovanju
+- definirati, razlikovati i vrednovati medije u odgojno-obrazovnom procesu s obzirom na izbor, funkciju i klasifikaciju medija te njihovu primjenu u nastavnom  procesu i slobodnom vremenu
+- vrednovati prema glavnim značajkama specifičnosti pojedinih medija
+- analizirati i vrednovati specifične medije s obzirom na njihovu odgojnu i obrazovnu ulogu, kvalitetu i utjecaj na mlade
+`,
         "Sadržaj silabusa/izvedbenog plana (ukratko)": "Mediji u obrazovanju, medijska pedagogija E-učenje, područja medija u odgoju i obrazovanju",
         "Način izvođenja nastave": "predavanja, vježbe, seminari, samostalni zadaci, konzultacije",
-        "Studentske obveze": "prisustvovati nastavi, izraditi i izložiti radni zadatak, polagati pismeni ispit",
-        "Praćenje i ocjenjivanje studenta": "pohađanje nastave, seminarski rad, pismeni ispit, kontinuirana provjera znanja",
+        "Studentske obveze": `
+- prisustvovati nastavi
+- izraditi i izložiti radni zadatak
+- polagati pismeni ispit
+`,        "Praćenje i ocjenjivanje studenta": "pohađanje nastave, seminarski rad, pismeni ispit, kontinuirana provjera znanja",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Prisustvovanje na predavanjima i vježbama", "Sati (procjena)": "60", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 10%" },
+            { "Obveze studenta": "Radni zadatak", "Sati (procjena)": "80", "UDIO u ECTS-u": "1.5", "Udio u ocjeni": "Max 40%" },
+            { "Obveze studenta": "Završni ispit", "Sati (procjena)": "80", "UDIO u ECTS-u": "2.5", "Udio u ocjeni": "Max 50%" },
+        ],
+        "Dodatna pojašnjenja": `
+*Student može pismeni dio ispita polagati preko dvaju kolokvija ili integralno na završnom pismenom ispitu.
+
+Angažiranost u nastavi ocjenjuje se na sljedeći način:
+- manje od 80% dolazaka = 0% ocjene 
+- manje od 85% dolazaka = 5.5% ocjene 
+- manje od 90% dolazaka = 7% ocjene 
+- manje od 95% dolazaka = 8.5% ocjene 
+- od 95% do 100% dolazaka = 10% ocjene
+
+Radni zadatak ocjenjuje se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 22% ocjene 
+od 67% do 78% točnih odgovora = 28% ocjene 
+od 79% do 90% točnih odgovora = 34% ocjene
+od 91% do 100% točnih odgovora = 40% ocjene
+
+Kolokvij ili pismeni ispit ocjenjuju se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 27.5% ocjene 
+od 67% do 78% točnih odgovora = 35% ocjene 
+od 79% do 90% točnih odgovora = 42.5% ocjene 
+od 91% do 100% točnih odgovora = 50% ocjene
+`
     },
     {
         "Naziv kolegija": "Rješavanje problemskih zadataka programiranjem",
@@ -291,25 +576,66 @@ export default [
         "Asistent | E-mail adresa i broj telefona": "emil.brajkovic@fpmoz.sum.ba",
         "Ciljevi kolegija": "Ciljevi kolegija su: Riješiti problemski zadatak algoritamskim pristupom. Razumjeti i formalizirati problemski zadatak. Oblikovati i implementirati algoritamsko rješenje. Testirati i izmjeriti algoritamsko rješenje.",
         "Ishodi učenja (opće i specifične kompetencije)": "Nakon položenog kolegija student će znati/moći: analizirati problemski zadatak, formulirati algoritamsko rješenje problemskog zadatka, evaluirati algoritamsko rješenje, implementirati algoritam u programskom jeziku Python",
-        "Sadržaj silabusa/izvedbenog plana (ukratko)": `Uvodno predavanje: nastavnici, obaveze studenata, elementi tekućeg praćenja, ispit, ocjena, predstavljanje ciljeva kolegija, literatura; Varijabla, brojčani tip i operatori, logički tip i operatori, grananje, uvjetna petlja, funkcija (3).
-    String i metode nad stringom, bezuvjetna petlja, operator sadržavanja (3).
-    Lista i metode nad listom, operatori liste, generatori, rezanje liste, shvaćanje liste, sortiranje, prilagođeno sortiranje, nepromjenjive liste (3)
-    Matrica kao lista koja sadrži liste, inicijalizacija matrice, promjena matrice, ispis materice, Rječnik, metode rječnika, brisanje varijabli (3).
-    Rekurzija, faktorijela, rekurzivno generiranje niza, rekurzivno permutiranje niza, dubinsko pretraživanje pomoću rekurzije (3).
-    Kolokvij (3).
-    Rješavanje lakših problemskih zadataka s natjecanja (3).
-    Rješavanje lakših problemskih zadataka s natjecanja (3).
-    Rješavanje lakših problemskih zadataka s natjecanja (3).
-    Kolokvij (3).
-    Timsko rješavanje težih problemskih zadataka s natjecanja (3).
-    Skupovi i metode na skupovima, timsko rješavanje težih problemskih zadataka s natjecanja (3).
-    Timsko rješavanje težih problemskih zadataka s natjecanja (3).
-    Timsko rješavanje težih problemskih zadataka s natjecanja (3).
-    Kolokvij (3).
+        "Sadržaj silabusa/izvedbenog plana (ukratko)": `
+Uvodno predavanje: nastavnici, obaveze studenata, elementi tekućeg praćenja, ispit, ocjena, predstavljanje ciljeva kolegija, literatura; Varijabla, brojčani tip i operatori, logički tip i operatori, grananje, uvjetna petlja, funkcija (3).
+String i metode nad stringom, bezuvjetna petlja, operator sadržavanja (3).
+Lista i metode nad listom, operatori liste, generatori, rezanje liste, shvaćanje liste, sortiranje, prilagođeno sortiranje, nepromjenjive liste (3)
+Matrica kao lista koja sadrži liste, inicijalizacija matrice, promjena matrice, ispis materice, Rječnik, metode rječnika, brisanje varijabli (3).
+Rekurzija, faktorijela, rekurzivno generiranje niza, rekurzivno permutiranje niza, dubinsko pretraživanje pomoću rekurzije (3).
+Kolokvij (3).
+Rješavanje lakših problemskih zadataka s natjecanja (3).
+Rješavanje lakših problemskih zadataka s natjecanja (3).
+Rješavanje lakših problemskih zadataka s natjecanja (3).
+Kolokvij (3).
+Timsko rješavanje težih problemskih zadataka s natjecanja (3).
+Skupovi i metode na skupovima, timsko rješavanje težih problemskih zadataka s natjecanja (3).
+Timsko rješavanje težih problemskih zadataka s natjecanja (3).
+Timsko rješavanje težih problemskih zadataka s natjecanja (3).
+Kolokvij (3).
 `,
         "Način izvođenja nastave": "predavanja, vježbe",
-        "Studentske obveze": "pohađati nastavu i sudjelovati u nastavnome procesu, pisati kolokvije, polagati pismeni ispit, polagati usmeni ispit",
-        "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, pismeni ispit, kontinuirana provjera znanja",
+        "Studentske obveze": `
+- redovito pohađati nastavu
+- aktivno sudjelovati u nastavi
+- napisati koherentan seminarski rad na zadanu temu
+- pisati završni ispit
+`,        "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, pismeni ispit, kontinuirana provjera znanja",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "60", "UDIO u ECTS-u": "2", "Udio u ocjeni": "Max 10%" },
+            { "Obveze studenta": "Kolokviji i priprema za kontinuiranu provjeru znanja", "Sati (procjena)": "95", "UDIO u ECTS-u": "3.5", "Udio u ocjeni": "Max 70%" },
+            { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "15", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 20%" },
+        ],
+        "Dodatna pojašnjenja": `
+*Student može pismeni dio ispita polagati preko dvaju kolokvija ili integralno na završnom pismenom ispitu.
+
+Angažiranost u nastavi ocjenjuje se na sljedeći način:
+- manje od 80% dolazaka = 0% ocjene 
+- manje od 85% dolazaka = 5.5% ocjene 
+- manje od 90% dolazaka = 7% ocjene 
+- manje od 95% dolazaka = 8.5% ocjene 
+- od 95% do 100% dolazaka = 10% ocjene
+
+Kolokviji ili završni pismeni ispit ocjenjuju se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 27.5% ocjene 
+od 67% do 78% točnih odgovora = 35% ocjene 
+od 79% do 90% točnih odgovora = 42.5% ocjene 
+od 91% do 100% točnih odgovora = 50% ocjene
+
+Završni usmeni ispit ocjenjuje se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 22% ocjene 
+od 67% do 78% točnih odgovora = 28% ocjene 
+od 79% do 90% točnih odgovora = 34% ocjene
+od 91% do 100% točnih odgovora = 40% ocjene
+
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+0 – 55% nedovoljan (1)
+55 – 66% dovoljan (2)
+67 – 78% dobar (3)
+79 – 90% vrlodobar (4)
+91 – 100% odličan (5)
+`
     },
     {
         "Naziv kolegija": "Programiranje 2",
@@ -334,43 +660,95 @@ export default [
         "Asistent | Kontakt sati/konzultacije": "Prema rasporedu",
         "Asistent | E-mail adresa i broj telefona": "emil.brajkovic@fpmoz.sum.ba",
         "Ciljevi kolegija": "Ciljevi kolegija su: Urediti znanja stečena o ovom području u prethodnom obrazovanju. Razumjeti, usvojiti i naučiti proceduru i aktivnosti za rješavanje problema i razvoj programske podrške na računalu. Razumjeti, usvojiti i naučiti osnovne koncepte objektno- orijentiranog programiranja. Razumjeti, usvojiti i naučiti osnovni koncept za spremanje i ponovno korištenje podataka.",
-        "Ishodi učenja (opće i specifične kompetencije)": "Nakon položenog kolegija student će znati/moći: klasificirati tipove podataka, klasificirati osnovne algoritamske strukture, klasificirati osnovne tipove grešaka, identificirati i ukloniti greške u programskom rješenju, kreirati konzolske i grafičke aplikacije, napisati vlastite tipove podataka, napisati klase, razlikovati osnovne strukture podataka",
-        "Sadržaj silabusa/izvedbenog plana (ukratko)": `Predavanja:
-    Pregled kolegija, uvod u programski jezik C# (2).
-    Izrada programske podrške, integrirana razvojna okolina, primjeri okruženja, instalacija okruženja za rad (2).
-    tipovi podataka u C# (jednostavni: tekstualni i brojčani), algoritamske strukture odluke i petlje (2).
-    Složenije strukture podataka: nizovi (jednodimenzionalni i dvodimenzionalni), strukture (struct) (2).
-    rekurzije, top-down metoda na primjeru (2).
-    testiranje programske podrške, vrste pogrešaka, prepoznavanje i uklanjanje, rješavanje primjera kolokvija (2).
-    grafičko korisničko sučelje, uvod u .NET, oblikovanje osnovnih GUI elemenata, kontrole (2).
-    okruženje za izradu GUI aplikacije (2).
-    Klase i objekti u C# (2).
-    Elementi naprednih grafičkih aplikacija (2).
-    Nizovi, liste i kolekcije (2).
-    Tokovi podataka i datoteke (2).
-    Napredni sustavi pohrane (binarne datoteke) (2).
-    Primjeri zadataka i priprema za 2. kolokvij (2).
-    Analiza kolokvija (2).
-    Vježbe:
-    Ulazni test na računalu (2).
-    Osnovne I/O naredbe (2).
-    Slučajni brojevi, algoritmi za traženje minimuma, maksimuma, prostih brojeva (2).
-    Nizovi, unos ispis niza, nizovi riječi, matrice (dvodimenzionalni nizovi), metode (2).
-    rekurzije (2).
-    ponavljanje za kolokvij (2).
-    Kolokvij 1 (2).
-    Izrada jednostavne GUI (2).
-    Unos i čitanje podataka iz kontrola combo, list, … (2).
-    Rad s više obrazaca, izbornik (2).
-    Upotreba i kreiranje klasa, instanci, konstruktora, tipova, svojstava (2).
-    Upotreba nizova i lista (2).
-    Datoteke i tokovi podataka (2).
-    ponavljanje za 2. kolokvij (2).
-    Kolokvij 2. (2).
+        "Ishodi učenja (opće i specifične kompetencije)": `
+Nakon položenog kolegija student će znati/moći:
+- klasificirati tipove podataka
+- klasificirati osnovne algoritamske strukture
+- klasificirati osnovne tipove grešaka
+- identificirati i ukloniti greške u programskom rješenju
+- kreirati konzolske i grafičke aplikacije
+- napisati vlastite tipove podataka
+- napisati klase
+- razlikovati osnovne strukture podataka
+`,
+        "Sadržaj silabusa/izvedbenog plana (ukratko)": `
+Predavanja:
+Pregled kolegija, uvod u programski jezik C# (2).
+Izrada programske podrške, integrirana razvojna okolina, primjeri okruženja, instalacija okruženja za rad (2).
+tipovi podataka u C# (jednostavni: tekstualni i brojčani), algoritamske strukture odluke i petlje (2).
+Složenije strukture podataka: nizovi (jednodimenzionalni i dvodimenzionalni), strukture (struct) (2).
+rekurzije, top-down metoda na primjeru (2).
+testiranje programske podrške, vrste pogrešaka, prepoznavanje i uklanjanje, rješavanje primjera kolokvija (2).
+grafičko korisničko sučelje, uvod u .NET, oblikovanje osnovnih GUI elemenata, kontrole (2).
+okruženje za izradu GUI aplikacije (2).
+Klase i objekti u C# (2).
+Elementi naprednih grafičkih aplikacija (2).
+Nizovi, liste i kolekcije (2).
+Tokovi podataka i datoteke (2).
+Napredni sustavi pohrane (binarne datoteke) (2).
+Primjeri zadataka i priprema za 2. kolokvij (2).
+
+Analiza kolokvija (2).
+Vježbe:
+Ulazni test na računalu (2).
+Osnovne I/O naredbe (2).
+Slučajni brojevi, algoritmi za traženje minimuma, maksimuma, prostih brojeva (2).
+Nizovi, unos ispis niza, nizovi riječi, matrice (dvodimenzionalni nizovi), metode (2).
+rekurzije (2).
+ponavljanje za kolokvij (2).
+Kolokvij 1 (2).
+Izrada jednostavne GUI (2).
+Unos i čitanje podataka iz kontrola combo, list, … (2).
+Rad s više obrazaca, izbornik (2).
+Upotreba i kreiranje klasa, instanci, konstruktora, tipova, svojstava (2).
+Upotreba nizova i lista (2).
+Datoteke i tokovi podataka (2).
+ponavljanje za 2. kolokvij (2).
+Kolokvij 2. (2).
 `,
         "Način izvođenja nastave": "predavanja, vježbe, samostalni zadaci",
-        "Studentske obveze": "pohađati nastavu i sudjelovati u nastavnome procesu, pisati kolokvije, pisati seminarski rad, polagati pismeni ispit, polagati usmeni ispit",
-        "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, seminarski rad, praktični rad, usmeni ispit, pismeni ispit, kontinuirana znanja",
+        "Studentske obveze": `
+- redovito pohađati nastavu
+- aktivno sudjelovati u nastavi
+- napisati koherentan seminarski rad na zadanu temu
+- pisati završni ispit
+`,        "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, seminarski rad, praktični rad, usmeni ispit, pismeni ispit, kontinuirana znanja",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "60", "UDIO u ECTS-u": "2", "Udio u ocjeni": "Max 10%" },
+            { "Obveze studenta": "Kolokviji i priprema za kontinuiranu provjeru znanja", "Sati (procjena)": "45", "UDIO u ECTS-u": "1.5", "Udio u ocjeni": "Max 70%" },
+            { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "15", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 20%" },
+        ],
+        "Dodatna pojašnjenja": `
+*Student može pismeni dio ispita polagati preko dvaju kolokvija ili integralno na završnom pismenom ispitu.
+
+Angažiranost u nastavi ocjenjuje se na sljedeći način:
+- manje od 80% dolazaka = 0% ocjene 
+- manje od 85% dolazaka = 5.5% ocjene 
+- manje od 90% dolazaka = 7% ocjene 
+- manje od 95% dolazaka = 8.5% ocjene 
+- od 95% do 100% dolazaka = 10% ocjene
+
+Kolokviji ili završni pismeni ispit ocjenjuju se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 27.5% ocjene 
+od 67% do 78% točnih odgovora = 35% ocjene
+od 79% do 90% točnih odgovora = 42.5% ocjene 
+od 91% do 100% točnih odgovora = 50% ocjene
+
+Završni usmeni ispit ocjenjuje se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 22% ocjene 
+od 67% do 78% točnih odgovora = 28% ocjene 
+od 79% do 90% točnih odgovora = 34% ocjene
+od 91% do 100% točnih odgovora = 40% ocjene
+
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+ 0 – 55% nedovoljan (1)
+ 55 – 66% dovoljan (2)
+ 67 – 78% dobar (3)
+ 79 – 90% vrlodobar (4)
+ 91 – 100% odličan (5)
+`
     },
     {
         "Naziv kolegija": "Računalni praktikum 2",
@@ -395,19 +773,71 @@ export default [
         "Asistent | Kontakt sati/konzultacije": "",
         "Asistent | E-mail adresa i broj telefona": "",
         "Ciljevi kolegija": "Stjecanje znanja o računalnim mrežama (prijenos podataka, podjela računalnim mreža po različitim kriterijima). Stjecanje znanja o internetu (povijest, organizacija, arhitektura, protokoli i usluge). Poznavanje internet usluga i odgovarajućih protokola aplikacijskog sloja. Upoznati se s različitim vrstama adresa na internetu. Upoznati se s različitim tehnologijama pristupa internetu. Poznavanje sigurnosnih problema na internetu i načina zaštite. Na vježbama savladati korištenje internet aplikacija. Izrađivati i oblikovati web stranice.",
-        "Ishodi učenja (opće i specifične kompetencije)": "Nakon položenog kolegija student će znati/moći: 1. Nabrojati različite podjele računalnih mreža i objasniti razlike, razlikovati usluge i protokole na internetu po namjeni. 2. Nabrojati i objasniti vrste adresa na Internet. 3. Nabrojati i objasniti razliku između tehnologija pristupa internetu. 4. Nabrojati sigurnosne prijetnje na internetu i objasniti razlike. 5. Izrađivati HTML datoteke i primjenjivati oblikovanje CSSom. 6. Postavljati web stranice na poslužitelj. 7. Koristiti aplikacija u oblaku (eng. cloud computing)",
-        "Sadržaj silabusa/izvedbenog plana (ukratko)": `1. Računalne mreže (prijenos podataka, podjela), Internet (povijest i razvoj) 
-    2. Internet usluge (načini korištenja, usluge, protokoli) 
-    3. TCP/IP model (osnovno), adresiranje na internetu 
-    4. Pristup internetu (tehnologije koje se koriste, brzina prijenosa podataka) 
-    5. Sigurnost na internetu (vrste prijetnji i kako se štititi) 
-    6. HTML 
-    7. Postavljanje na poslužitelj
-    8. Aplikacije na internetu (računarstvo u oblaku) 3 sata; CSS 
+        "Ishodi učenja (opće i specifične kompetencije)": `
+Nakon položenog kolegija student će znati/moći:
+1. Nabrojati različite podjele računalnih mreža i objasniti razlike,  razlikovati usluge i protokole na internetu po namjeni 
+2. Nabrojati i objasniti vrste adresa na Internet 
+3. Nabrojati i objasniti razliku između tehnologija pristupa internetu 
+4. Nabrojati sigurnosne prijetnje na internetu i objasniti razlike
+5. Izrađivati HTML datoteke i primjenjivati oblikovanje CSSom
+6. Postavljati web stranice na poslužitelj 
+7. Koristiti aplikacija u oblaku (eng. cloud computing)
+
+`,
+        "Sadržaj silabusa/izvedbenog plana (ukratko)": `
+1. Računalne mreže (prijenos podataka, podjela), Internet (povijest i razvoj) 
+2. Internet usluge (načini korištenja, usluge, protokoli) 
+3. TCP/IP model (osnovno), adresiranje na internetu 
+4. Pristup internetu (tehnologije koje se koriste, brzina prijenosa podataka) 
+5. Sigurnost na internetu (vrste prijetnji i kako se štititi) 
+6. HTML 
+7. Postavljanje na poslužitelj
+8. Aplikacije na internetu (računarstvo u oblaku) 3 sata; CSS 
     `,
         "Način izvođenja nastave": "predavanja, vježbe",
-        "Studentske obveze": "pohađati nastavu i sudjelovati u nastavnome procesu, pisati kolokvije",
-        "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, usmeni ispit, pismeni ispit",
+        "Studentske obveze": `
+- redovito pohađati nastavu
+- aktivno sudjelovati u nastavi
+- napisati koherentan seminarski rad na zadanu temu
+- pisati završni ispit
+`,        "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, usmeni ispit, pismeni ispit",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "30", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 10%" },
+            { "Obveze studenta": "Kolokviji i priprema za kontinuiranu provjeru znanja", "Sati (procjena)": "30", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 50%" },
+            { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "15", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 20%" },
+            { "Obveze studenta": "Završni usmeni ispit", "Sati (procjena)": "15", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 20%" },
+        ],
+        "Dodatna pojašnjenja": `
+*Student može pismeni dio ispita polagati preko dvaju kolokvija ili integralno na završnom pismenom ispitu.
+
+Angažiranost u nastavi ocjenjuje se na sljedeći način:
+- manje od 80% dolazaka = 0% ocjene 
+- manje od 85% dolazaka = 5.5% ocjene 
+- manje od 90% dolazaka = 7% ocjene 
+- manje od 95% dolazaka = 8.5% ocjene 
+- od 95% do 100% dolazaka = 10% ocjene
+
+Kolokviji ili završni pismeni ispit ocjenjuju se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 27.5% ocjene 
+od 67% do 78% točnih odgovora = 35% ocjene 
+od 79% do 90% točnih odgovora = 42.5% ocjene 
+od 91% do 100% točnih odgovora = 50% ocjene
+
+Završni usmeni ispit ocjenjuje se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 22% ocjene 
+od 67% do 78% točnih odgovora = 28% ocjene 
+od 79% do 90% točnih odgovora = 34% ocjene
+od 91% do 100% točnih odgovora = 40% ocjene
+
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+0 – 55% nedovoljan (1)
+55 – 66% dovoljan (2)
+67 – 78% dobar (3)
+79 – 90% vrlodobar (4)
+91 – 100% odličan (5)
+`
     },
     {
         "Naziv kolegija": "Matematika 2",
@@ -432,26 +862,77 @@ export default [
         "Asistent | Kontakt sati/konzultacije": "Prema rasporedu",
         "Asistent | E-mail adresa i broj telefona": "mila.zovko@fpmoz.sum.ba",
         "Ciljevi kolegija": "Ciljevi kolegija su: Intuitivnim prezentiranjem teorije i ilustrativnim primjerima osposobiti studente za praćenje stručnih predmeta i rješavanje praktičnih problema.",
-        "Ishodi učenja (opće i specifične kompetencije)": "Nakon položenog kolegija student će znati/moći: Geometrijski i analitički prikazati vektor te koristiti skalarni i vektorski produkt u analitičkoj prezentaciji ravnina i pravaca; geometrijski interpretirati jednadžbe pravca, ravnine te jednostavnijih konika i kvadrika; izračunati limes i derivaciju funkcija 2 i 3 varijable; primijeniti diferencijalni račun u rješavanju optimizacijskih problema; primijeniti integralni račun za određivanje površina likova i volumena tijela;prepoznati i riješiti različite ODJ 1. reda i LDJ n-tog reda",
-        "Sadržaj silabusa/izvedbenog plana (ukratko)": `Klasična algebra vektora (4)
-    Analitička geometrija ravnine i pravca (4)
-    Ravninski i prostorni koordinatni sustavi (3)
-    Krivulje i plohe drugog reda (3)
-    Skalarne funkcije više varijabli (2)
-    Limes i neprekidnost funkcije više varijabli (2)
-    Parcijalna derivacija (3)
-    Diferencijal i tangencijalna ravnina (3)
-    Lokalni ekstrem funkcije više varijabli (4)
-    Uvjetni ekstrem i Lagrangeov multiplikator (3)
-    Dvostruki i trostruki integral (3)
-    Fubinijev teorem, zamjena varijabli (3)
-    Primjene dvostrukog i trostrukog integrala (2)
-    ODJ 1. reda (3)
-    LDJ 2. reda (3)
-    `,
+        "Ishodi učenja (opće i specifične kompetencije)": `
+Nakon položenog kolegija student će znati/moći:
+- Geometrijski i analitički prikazati vektor te koristiti skalarni i vektorski produkt u analitičkoj prezentaciji ravnina i pravaca
+- geometrijski interpretirati jednadžbe pravca, ravnine te jednostavnijih konika i kvadrika;
+- izračunati limes i derivaciju funkcija 2 i 3 varijable;
+- primijeniti diferencijalni račun u rješavanju optimizacijskih problema;
+- primijeniti integralni račun za određivanje površina likova i volumena tijela
+- prepoznati i riješiti različite ODJ 1. reda i LDJ n-tog reda
+`,
+        "Sadržaj silabusa/izvedbenog plana (ukratko)": `
+1. Klasična algebra vektora (4)
+2. Analitička geometrija ravnine i pravca (4)
+3. Ravninski i prostorni koordinatni sustavi (3)
+4. Krivulje i plohe drugog reda (3)
+5. Skalarne funkcije više varijabli (2)
+6. Limes i neprekidnost funkcije više varijabli (2)
+7. Parcijalna derivacija (3)
+8. Diferencijal i tangencijalna ravnina (3)
+9. Lokalni ekstrem funkcije više varijabli (4)
+10. Uvjetni ekstrem i Lagrangeov multiplikator (3)
+11. Dvostruki i trostruki integral (3)
+12. Fubinijev teorem, zamjena varijabli (3)
+13. Primjene dvostrukog i trostrukog integrala (2)
+14. ODJ 1. reda (3)
+15. LDJ 2. reda (3)
+`,
         "Način izvođenja nastave": "predavanja, vježbe, samostalni zadaci, konzultacije",
-        "Studentske obveze": "pohađati nastavu i sudjelovati u nastavnome procesu, pisati kolokvije, polagati pismeni ispit, polagati usmeni ispit",
-        "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, pismeni ispit, usmeni ispit, kontinuirana provjera znanja"
+        "Studentske obveze": `
+- redovito pohađati nastavu
+- aktivno sudjelovati u nastavi
+- napisati koherentan seminarski rad na zadanu temu
+- pisati završni ispit
+`,        
+        "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, pismeni ispit, usmeni ispit, kontinuirana provjera znanja",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "90", "UDIO u ECTS-u": "3", "Udio u ocjeni": "Max 10%" },
+            { "Obveze studenta": "Kolokviji i priprema za kontinuiranu provjeru znanja", "Sati (procjena)": "90", "UDIO u ECTS-u": "3", "Udio u ocjeni": "Max 50%" },
+            { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "30", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 20%" },
+            { "Obveze studenta": "Završni usmeni ispit", "Sati (procjena)": "30", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 20%" },
+        ],
+        "Dodatna pojašnjenja": `
+*Student može pismeni dio ispita polagati preko dvaju kolokvija ili integralno na završnom pismenom ispitu.
+
+Angažiranost u nastavi ocjenjuje se na sljedeći način:
+- manje od 80% dolazaka = 0% ocjene 
+- manje od 85% dolazaka = 5.5% ocjene 
+- manje od 90% dolazaka = 7% ocjene 
+- manje od 95% dolazaka = 8.5% ocjene 
+- od 95% do 100% dolazaka = 10% ocjene
+
+Kolokviji ili završni pismeni ispit ocjenjuju se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 27.5% ocjene 
+od 67% do 78% točnih odgovora = 35% ocjene 
+od 79% do 90% točnih odgovora = 42.5% ocjene 
+od 91% do 100% točnih odgovora = 50% ocjene
+
+Završni usmeni ispit ocjenjuje se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 22% ocjene 
+od 67% do 78% točnih odgovora = 28% ocjene 
+od 79% do 90% točnih odgovora = 34% ocjene
+od 91% do 100% točnih odgovora = 40% ocjene
+
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+0 – 55% nedovoljan (1)
+55 – 66% dovoljan (2)
+67 – 78% dobar (3)
+79 – 90% vrlodobar (4)
+91 – 100% odličan (5)
+`
     },
     {
         "Naziv kolegija": "Engleski jezik 2",
@@ -479,8 +960,26 @@ export default [
         "Ishodi učenja (opće i specifične kompetencije)": "Nakon odslušanog kolegija studenti će znati i moći: ispravno koristiti vrste riječi u engleskom jeziku, točno koristititi složenije gramatičke konstrukcije, samostalno pratiti i razumijeti elemente pisanog i govornog engleskog jezika, razgovarati na engleskom jeziku o stručnim temama",
         "Sadržaj silabusa/izvedbenog plana (ukratko)": "Gramatičke vježbe u kombinaciji s vježbama čitanja i prevođenja tekstova izvan struke kao i stručnih tekstova. Predavanja se kombiniraju s komunikativnim pristupom u nastavi  - potrebno je aktivno sudjelovanje u raspravama i grupnom radu. Korištenje audio/video/web-materijala. Studente se potiče na korištenje fakultetske računalne opreme prilikom držanja prezentacija. Obrađuju se složenije gramatičke cjeline (vrste riječi, if-rečenice, slaganje vremena itd.)",
         "Način izvođenja nastave": "predavanja, seminari, konzultacije",
-        "Studentske obveze": "redovito pohađati nastavu, aktivno sudjelovati u nastavi, napisati koherentan seminarski rad na zadanu temu, pisati završni ispit",
+        "Studentske obveze": `
+- redovito pohađati nastavu
+- aktivno sudjelovati u nastavi
+- napisati koherentan seminarski rad na zadanu temu
+- pisati završni ispit
+`,            
         "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, seminarski rad, pismeni ispit",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "30", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 10%" },
+            { "Obveze studenta": "Seminarski rad", "Sati (procjena)": "10", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 20%" },
+            { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "60", "UDIO u ECTS-u": "2", "Udio u ocjeni": "Max 70%" },
+        ],
+        "Dodatna pojašnjenja": `
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+A = 91-100% 5 (izvrstan)
+B = 79 to 90% 4 (vrlo dobar)
+C = 67 to 78% 3 (dobar)
+D = 55 to 66% 2 (dovoljan)
+F = 0 to 54% 1 (nedovoljan)
+`
     },
     {
         "Naziv kolegija": "Tjelesna i zdravstvena kultura 2",
@@ -506,21 +1005,50 @@ export default [
         "Asistent | E-mail adresa i broj telefona": "",
         "Ciljevi kolegija": "Ciljevi ovog kolegija su: Stjecanje općih kompetencija po pitanju poznavanja utjecaja kinezioloških aktivnosti na stupanj zdravlja. Studente upoznati sa općim procesom vježbanja kao i posljedicama djelovanja tih procesa na ljudski organizam s posebnim osvrtom na očuvanje zdravlja koje postižu kineziološkim procesima. Upoznati studente s načinima rješavanja problematike vezane uz upravljanje procesom vježbanja. Osposobiti ih i potaknuti na samostalan rad i posvijestiti im važnost baljenja sportom u svakodnevnom životu.",
         "Ishodi učenja (opće i specifične kompetencije)": `
-    Nakon što odslušaju i polože ovaj kolegij, studenti će znati / moći i biti:
-    Osposobljeni i potaknuti na samostalan rad i posviješteni na važnost baljenja sportom u svakodnevnom životu.
-    Prepoznati potrebu i važnost redovite tjelovježbe u svrhu očuvanja zdravlja i poboljšanja kvalitete života.
-    Kreirati aktivni odmor (aktivna stanka između učenja, tijekom slobodnog vremena).
-    Prezentirati tolerantnost, radne navike i samodisciplinu.
-    Primijeniti nekoliko vježbi zagrijavanja za pojedinu kineziološku aktivnost.
-    Primijeniti neke vježbe istezanja za pojedinu kineziološku aktivnost.
-    Objasniti osnove o utjecaju redovitog vježbanja na zdravlje.
-    Osmisliti tjelovježbu u svrhu aktivnog provođenja slobodnog vremena.
-    Kreirati uvodni i završni dio sata (treninga).
-    `,
-        "Sadržaj silabusa/izvedbenog plana (ukratko)": "Ponuđeni sadržaji studentima koje mogu birati kao svoje aktivnosti: Aerobik, Fittnes, Plesovi (plesne strukture), Nogomet, Košarka, Odbojka, Plivanje, Vaterpolo, Stolni tenis, Tenis, Samoobrana, Aktivnosti na trim stazi na Bijelom Brijegu, Izleti-pješačke ture, Organizacija natjecanja u više sportova unutar Fakulteta, Sportska suradnja ekipa sa drugim fakultetima u regiji",
+Nakon što odslušaju i polože ovaj kolegij, studenti će znati / moći i biti:
+Osposobljeni i potaknuti na samostalan rad i posviješteni na važnost baljenja sportom u svakodnevnom životu.
+Prepoznati potrebu i važnost redovite tjelovježbe u svrhu očuvanja zdravlja i poboljšanja kvalitete života.
+Kreirati aktivni odmor (aktivna stanka između učenja, tijekom slobodnog vremena).
+Prezentirati tolerantnost, radne navike i samodisciplinu.
+Primijeniti nekoliko vježbi zagrijavanja za pojedinu kineziološku aktivnost.
+Primijeniti neke vježbe istezanja za pojedinu kineziološku aktivnost.
+Objasniti osnove o utjecaju redovitog vježbanja na zdravlje.
+Osmisliti tjelovježbu u svrhu aktivnog provođenja slobodnog vremena.
+Kreirati uvodni i završni dio sata (treninga).
+`,
+        "Sadržaj silabusa/izvedbenog plana (ukratko)": `
+Ponuđeni sadržaji studentima koje mogu birati kao svoje aktivnosti:
+1. Aerobik
+2. Fittnes
+3. Plesovi (plesne strukture)
+4. Nogomet
+5. Košarka
+6. Odbojka
+7. Plivanje
+8. Vaterpolo
+9. Stolni tenis
+10. Tenis
+11. Samoobrana
+12. Aktivnosti na trim stazi na Bijelom Brijegu
+13. Izleti-pješačke ture
+14. Organizacija natjecanja u više sportova unutar Fakulteta
+15. Sportska suradnja ekipa sa drugim fakultetima u regiji
+`,
         "Način izvođenja nastave": "vježbe seminari, samostalni zadaci, ",
-        "Studentske obveze": "Obavezno pohađanje vježbi",
+        "Studentske obveze": `obavezno podađanje vježbi`,            
         "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, seminarski rad",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Pohađanje nastave i angažiranost na nastavi", "Sati (procjena)": "30", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 0%" },
+            { "Obveze studenta": "Seminarski rad", "Sati (procjena)": "30", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max0 %" },
+        ],
+        "Dodatna pojašnjenja": `
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+A = 91-100% 5 (izvrstan)
+B = 79 to 90% 4 (vrlo dobar)
+C = 67 to 78% 3 (dobar)
+D = 55 to 66% 2 (dovoljan)
+F = 0 to 54% 1 (nedovoljan)
+`
     },
     {
         "Naziv kolegija": "Informatički projekt 1",
@@ -545,17 +1073,34 @@ export default [
         "Asistent | Kontakt sati/konzultacije": "Prema rasporedu",
         "Asistent | E-mail adresa i broj telefona": "hrvoje.ljubic@fpmoz.sum.ba",
         "Ciljevi kolegija": "Primijeniti stečena znanja i vještine pri rješavanju konkretnomg problema",
-        "Ishodi učenja (opće i specifične kompetencije)": `Nakon položenog kolegija student će moći:
-    1. Definirati problem sukladno pravilima struke. 
-    2. Samostalno riješiti praktični problem/zadatak. 
-    3. primjeniti usvojena znanja i opće kompetencije stečene tijekom prve godine studija. 
-    4. Primijeniti usvojena znanja i specifične kompetencije pripadnog
-    predmeta (Programiranje 1, Programiranje 2, Osnove informatike, Računalni praktikum 2, Rješavanje problemskih zadataka programiranjem)
+        "Ishodi učenja (opće i specifične kompetencije)": `
+Nakon položenog kolegija student će moći:
+1. Definirati problem sukladno pravilima struke. 
+2. Samostalno riješiti praktični problem/zadatak. 
+3. primjeniti usvojena znanja i opće kompetencije stečene tijekom prve godine studija. 
+4. Primijeniti usvojena znanja i specifične kompetencije pripadnog
+predmeta (Programiranje 1, Programiranje 2, Osnove informatike, Računalni praktikum 2, Rješavanje problemskih zadataka programiranjem)
     `,
-        "Sadržaj silabusa/izvedbenog plana (ukratko)": "Student po uputama nastavnika samostalno radi informatički projektni zadatak. Pručavanje načina izrade i specifikacije informatičkog projekta. Praktični rad. Priprema prezentacije. Obrana projektnog zadatka.",
+        "Sadržaj silabusa/izvedbenog plana (ukratko)": `
+Student po uputama nastavnika samostalno radi informatički 
+projektni zadatak.
+Pručavanje načina izrade i specifikacije informatičkog projekta.
+Praktični rad
+Priprema prezentacije.
+Obrana projektnog zadatka.
+`,
         "Način izvođenja nastave": "vježbe, samostalni zadatci, konzultacije, seminarski rad",
-        "Studentske obveze": "pohađati nastavu i sudjelovati u nastavnome procesu, polagati usmeni ispit",
+        "Studentske obveze": `
+- pohađati nastavu i sudjelovati u nastavnome procesu
+- polagati usmeni ispit
+`,           
         "Praćenje i ocjenjivanje studenta": "kontinuirana provjera znanja",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "30", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 10%" },
+            { "Obveze studenta": "Kolokviji i priprema za kontinuiranu provjeru znanja", "Sati (procjena)": "15", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 60%" },
+            { "Obveze studenta": "Završni usmeni ispit", "Sati (procjena)": "15", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 30%" },
+        ],
+        "Dodatna pojašnjenja": ``
     },
     {
         "Naziv kolegija": "Strukture podataka i algoritmi",
@@ -580,44 +1125,95 @@ export default [
         "Asistent | Kontakt sati/konzultacije": "Prema rasporedu",
         "Asistent | E-mail adresa i broj telefona": "hrvoje.ljubic@fpmoz.sum.ba",
         "Ciljevi kolegija": "Ciljevi kolegija su: Razumjeti, usvojiti i naučiti koncepte algoritama i struktura podataka. Razumjeti, usvojiti i naučiti primjenu i implementaciju algoritama, apstraktnih tipova i struktura podataka, razumijevanje i primjena jednostavnih i složenih algoritama za sortiranje",
-        "Ishodi učenja (opće i specifične kompetencije)": "Nakon položenog kolegija student će znati/moći: klasificirati osnovne strukture podataka, klasificirati osnovne vrste algoritama, analizirati složenost postojećih algoritama, usporediti algoritme, izraditi linijske i razgranate strukture podataka, primijeniti algoritme i strukture podataka, nadograditi postojeće strukture podataka (klase)",
+        "Ishodi učenja (opće i specifične kompetencije)": `
+Nakon položenog kolegija student će znati/moći:
+- klasificirati osnovne strukture podataka
+- klasificirati osnovne vrste algoritama
+- analizirati složenost postojećih algoritama
+- usporediti algoritme
+- izraditi linijske i razgranate strukture podataka
+- primijeniti algoritme i strukture podataka
+- nadograditi postojeće strukture podataka (klase
+`,
         "Sadržaj silabusa/izvedbenog plana (ukratko)": `
-    Predavanja:
-    Uvodno predavanje. Pregled kolegija. Pojam apstraktnog podatka, pojam strukture podataka i algoritma. Pregled struktura podataka.(2)
-    Algoritmi, analiza složenosti algoritama. (2)
-    Linijske strukture podataka. Upoznavanje s kolekcijom postojećih struktura u programskom jeziku. Skupovi. (2)
-    Rječnik (Dictionary). Raspršeno adresiranje (Hashtable). (2)
-    Jednostruke vezane liste. Dvostruke vezane liste. Preskočne liste (skip list).
-    Algoritmi sortiranja. (2)
-    Algoritmi sortiranja – primjena i način implementacije. Priprema za kolokvij. (2)
-    Razgranate strukture. Binarna stabla. Binarna uređena stabla. (2)
-    Balansirana stabla. Samobalansirajuća stabla. (2)
-    Red prioriteta. Struktura gomile (Heap). Heapsort. (2)
-    Grafovi. Načini implementacije grafova. Minimalno razapinjuće stablo. (2)
-    Načini obilaska grafova (pretraga po dubini, pretraga po širini). (2)
-    Putovi u grafu. Najkraći put u grafu (Dijkstra, Floyd Warshall). (2)
-    Uvod u dinamičko programiranje. (2)
-    Ponavljanje i priprema za drugi kolokvij. (2)
+Predavanja:
+Uvodno predavanje. Pregled kolegija. Pojam apstraktnog podatka, pojam strukture podataka i algoritma. Pregled struktura podataka.(2)
+Algoritmi, analiza složenosti algoritama. (2)
+Linijske strukture podataka. Upoznavanje s kolekcijom postojećih struktura u programskom jeziku. Skupovi. (2)
+Rječnik (Dictionary). Raspršeno adresiranje (Hashtable). (2)
+Jednostruke vezane liste. Dvostruke vezane liste. Preskočne liste (skip list).
+Algoritmi sortiranja. (2)
+Algoritmi sortiranja – primjena i način implementacije. Priprema za kolokvij. (2)
+Razgranate strukture. Binarna stabla. Binarna uređena stabla. (2)
+Balansirana stabla. Samobalansirajuća stabla. (2)
+Red prioriteta. Struktura gomile (Heap). Heapsort. (2)
+Grafovi. Načini implementacije grafova. Minimalno razapinjuće stablo. (2)
+Načini obilaska grafova (pretraga po dubini, pretraga po širini). (2)
+Putovi u grafu. Najkraći put u grafu (Dijkstra, Floyd Warshall). (2)
+Uvod u dinamičko programiranje. (2)
+Ponavljanje i priprema za drugi kolokvij. (2)
 
-    Vježbe:
-    Ulazni test. Ponavljanje sintakse i programskih koncepata. (2)
-    Izrada jednostavnih linijskih struktura podataka. (2)
-    Primjena stoga i reda. (2)
-    Rješavanje zadataka sa strukturama Dictionary i Hashtable. Primjena tehnika za rješavanje kolizije. (2)
-    Osnovne operacije s vezanim listama. (2)
-    Primjena algoritama sortiranja. Usporedba vremena izvršavanja. (2)
-    1. kolokvij (2)
-    Dodavanje i brisanje čvorova iz binarnog uređenog stabla. (2)
-    Primjena rotacija. Visina stabla. (2)
-    Izrada reda prioriteta. Primjena Heapsorta. (2)
-    Implementacija grafa. Operacije s grafovima. (2)
-    Primjena pretraga. (2)
-    Izrada primjera s traženjem najkraćeg puta i usporedba. (2)
-    Primjena dinamičkog programiranja. (2)
-    2. kolokvij (2)`,
+Vježbe:
+Ulazni test. Ponavljanje sintakse i programskih koncepata. (2)
+Izrada jednostavnih linijskih struktura podataka. (2)
+Primjena stoga i reda. (2)
+Rješavanje zadataka sa strukturama Dictionary i Hashtable. Primjena tehnika za rješavanje kolizije. (2)
+Osnovne operacije s vezanim listama. (2)
+Primjena algoritama sortiranja. Usporedba vremena izvršavanja. (2)
+1. kolokvij (2)
+Dodavanje i brisanje čvorova iz binarnog uređenog stabla. (2)
+Primjena rotacija. Visina stabla. (2)
+Izrada reda prioriteta. Primjena Heapsorta. (2)
+Implementacija grafa. Operacije s grafovima. (2)
+Primjena pretraga. (2)
+Izrada primjera s traženjem najkraćeg puta i usporedba. (2)
+Primjena dinamičkog programiranja. (2)
+2. kolokvij (2)`,
         "Način izvođenja nastave": "predavanja, vježbe",
-        "Studentske obveze": "pohađati nastavu i sudjelovati u nastavnome procesu, pisati kolokvije, pisati seminarski rad, polagati pismeni ispit, polagati usmeni ispit",
+        "Studentske obveze": `
+- pohađati nastavu i sudjelovati u nastavnome procesu.
+- pisati kolokvije
+- pisati seminartski rad
+- polagati pismeni ispit.
+- polagati usmeni ispit.
+`,            
         "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, seminarski rad, usmeni ispit, pisemni ispit, kontinuirana provjera zanja",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "45", "UDIO u ECTS-u": "1.5", "Udio u ocjeni": "Max 10%" },
+            { "Obveze studenta": "Kolokviji i priprema za kontinuiranu provjeru znanja", "Sati (procjena)": "120", "UDIO u ECTS-u": "4", "Udio u ocjeni": "Max 70%" },
+            { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "30", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 20%" },
+        ],
+        "Dodatna pojašnjenja": `
+*Student može pismeni dio ispita polagati preko dvaju kolokvija ili integralno na završnom pismenom ispitu.
+
+Angažiranost u nastavi ocjenjuje se na sljedeći način:
+- manje od 80% dolazaka = 0% ocjene 
+- manje od 85% dolazaka = 5.5% ocjene 
+- manje od 90% dolazaka = 7% ocjene 
+- manje od 95% dolazaka = 8.5% ocjene 
+- od 95% do 100% dolazaka = 10% ocjene
+
+Kolokviji ili završni pismeni ispit ocjenjuju se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 27.5% ocjene 
+od 67% do 78% točnih odgovora = 35% ocjene 
+od 79% do 90% točnih odgovora = 42.5% ocjene 
+od 91% do 100% točnih odgovora = 50% ocjene
+
+Završni usmeni ispit ocjenjuje se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 22% ocjene 
+od 67% do 78% točnih odgovora = 28% ocjene 
+od 79% do 90% točnih odgovora = 34% ocjene
+od 91% do 100% točnih odgovora = 40% ocjene
+
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+ 0 – 55% nedovoljan (1)
+ 55 – 66% dovoljan (2)
+ 67 – 78% dobar (3)
+ 79 – 90% vrlodobar (4)
+ 91 – 100% odličan (5)
+`
     },
     {
         "Naziv kolegija": "Primjenjena statistika",
@@ -642,11 +1238,38 @@ export default [
         "Asistent | Kontakt sati/konzultacije": "",
         "Asistent | E-mail adresa i broj telefona": "",
         "Ciljevi kolegija": "Cilj predmeta je da studenti usvoje teorijske osnove statističkih metoda i da ovladaju praktičnim vještinama potrebnim za statističku analizu i interpretaciju rezultata",
-        "Ishodi učenja (opće i specifične kompetencije)": "Student je sposoban: grupirati prikupljene statističke podatke, tablično i/ili grafički prikazati te podatke, analizirati statističke podatke, izračunati sve parametre za zadane statističke podatke i interpratirati njihove vrijednosti, definirati sve osnovne statističke pojmove, kao i pojmove iz vjerojatnosnih osnova, riješiti zadatke srednje složenosti iz vjerojatnosnih osnova, objasniti sve osnovne statističke testove i znati ih primijeniti, interpretirati rezultate osnovnih testova",
-        "Sadržaj silabusa/izvedbenog plana (ukratko)": "Deskriptivna statistika, vjerojatnost i slučajna varijabla, dvodimenzionalna slučajna varijabla, korelacije i neovisnosti slučajnih varijabli, inferencijalna statistika, najosnovniji testovi za testiranje hipoteza",
+        "Ishodi učenja (opće i specifične kompetencije)": `
+Student je sposoban:
+- grupirati prikupljene statističke podatke, tablično i/ili grafički prikazati te podatke
+- analizirati statističke podatke
+- izračunati sve parametre za zadane statističke podatke i interpratirati njihove vrijednostii
+- definirati sve osnovne statističke pojmove, kao i pojmove iz vjerojatnosnih osnova
+- riješiti zadatke srednje složenosti iz vjerojatnosnih osnova
+- objasniti sve osnovne statističke testove i znati ih primijeniti
+- interpretirati rezultate osnovnih testova
+`,      
+        "Sadržaj silabusa/izvedbenog plana (ukratko)": `Deskriptivna statistika, vjerojatnost i slučajna varijabla, dvodimenzionalna slučajna varijabla, korelacije i neovisnosti slučajnih varijabli, inferencijalna statistika, najosnovniji testovi za testiranje hipoteza`,
         "Način izvođenja nastave": "predavanja, vježbe",
-        "Studentske obveze": "",
+        "Studentske obveze": `
+- redovito pohađati nastavu
+- aktivno sudjelovati u nastavi
+- napisati koherentan seminarski rad na zadanu temu
+- pisati završni ispit
+`,           
         "Praćenje i ocjenjivanje studenta": "pohađanje nastave, usmeni ispit, pismeni ispit",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 10%" },
+            { "Obveze studenta": "Pismeni ispit", "Sati (procjena)": "", "UDIO u ECTS-u": "3", "Udio u ocjeni": "Max 45%" },
+            { "Obveze studenta": "Usmeni ispit", "Sati (procjena)": "", "UDIO u ECTS-u": "2", "Udio u ocjeni": "Max 45%" },
+        ],
+        "Dodatna pojašnjenja": `
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+A = 91-100% 5 (izvrstan)
+B = 79 to 90% 4 (vrlo dobar)
+C = 67 to 78% 3 (dobar)
+D = 55 to 66% 2 (dovoljan)
+F = 0 to 54% 1 (nedovoljan)
+`
     },
     {
         "Naziv kolegija": "Modeliranje i simuliranje",
@@ -671,29 +1294,46 @@ export default [
         "Asistent | Kontakt sati/konzultacije": "",
         "Asistent | E-mail adresa i broj telefona": "",
         "Ciljevi kolegija": "Ciljevi kolegija su: Upoznati studente s osnovnim koracima u procesu modeliranja te primjenama u rješavanju jednostavnih probleme iz fizike i drugih znanosti ",
-        "Ishodi učenja (opće i specifične kompetencije)": "Nakon položenog kolegija student će znati/moći: razumjeti osnovne korake u procesu modeliranja, znati primijeniti simulacijske alate u rješavanju razmatranih i srodnih problema, razviti sposobnost vizualizacije i kritičke evaluacije dobivenih rezultata, razumjeti osnovne razmatrane fizikalne pojmove i relacije",
+        "Ishodi učenja (opće i specifične kompetencije)": `
+Nakon položenog kolegija student će znati/moći:
+- razumjeti osnovne korake u procesu modeliranja
+- znati primijeniti simulacijske alate u rješavanju razmatranih i srodnih problema.
+- razviti sposobnost vizualizacije i kritičke evaluacije dobivenih rezultata
+- razumjeti osnovne razmatrane fizikalne pojmove i relacije.
+`,
         "Sadržaj silabusa/izvedbenog plana (ukratko)": `
-    1. Klasifikacija modela. 
-    2. Proces modeliranja. 
-    3. Simulacijski alati. 
-    4. Modeliranje brzine promjene. 
-    5. Tehnike simuliranja. 
-    6. Sila i gibanje (padanje, bungee jumping, njihala). 
-    7. Zakoni očuvanja energije i impulsa. 
-    8. Modeliranje rakete. 
-    9. Plinski zakoni i ronjenje. 
-    10. Neograničen i ograničen rast. 
-    11. Modeliranje radioaktivnog raspada. 
-    12. Kompeticija. 
-    13. Doziranje lijekova. 
-    14. Električni krugovi. 
-    15. Širenje bolesti. 
-    16. Globalno zatopljenje. 
-    17. Empirijski modeli. 
-    18. Stohastičko modeliranje. `,
+1. Klasifikacija modela. 
+2. Proces modeliranja. 
+3. Simulacijski alati. 
+4. Modeliranje brzine promjene. 
+5. Tehnike simuliranja. 
+6. Sila i gibanje (padanje, bungee jumping, njihala). 
+7. Zakoni očuvanja energije i impulsa. 
+8. Modeliranje rakete. 
+9. Plinski zakoni i ronjenje. 
+10. Neograničen i ograničen rast. 
+11. Modeliranje radioaktivnog raspada. 
+12. Kompeticija. 
+13. Doziranje lijekova. 
+14. Električni krugovi. 
+15. Širenje bolesti. 
+16. Globalno zatopljenje. 
+17. Empirijski modeli. 
+18. Stohastičko modeliranje. `,
         "Način izvođenja nastave": "predavanja, vježbe",
-        "Studentske obveze": "pohađati nastavu i sudjelovati u nastavnome procesu, pisati kolokvije, polagati pismeni ispit, polagati usmeni ispit",
+        "Studentske obveze": `
+- redovito pohađati nastavu
+- aktivno sudjelovati u nastavi
+- napisati koherentan seminarski rad na zadanu temu
+- pisati završni ispit
+`,           
         "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, usmeni ispit, pismen ispit, kontinuirana provjera znanja",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "60", "UDIO u ECTS-u": "2", "Udio u ocjeni": "Max 10%" },
+            { "Obveze studenta": "Kolokviji i priprema za kontinuiranu provjeru znanja", "Sati (procjena)": "90", "UDIO u ECTS-u": "3", "Udio u ocjeni": "Max 50%" },
+            { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "30", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 40%" },
+        ],
+        "Dodatna pojašnjenja": ``
     },
     {
         "Naziv kolegija": "Računalne mreže",
@@ -718,33 +1358,81 @@ export default [
         "Asistent | Kontakt sati/konzultacije": "Prema rasporedu",
         "Asistent | E-mail adresa i broj telefona": "ivo.prskalo@fpmoz.sum.ba",
         "Ciljevi kolegija": "Ciljevi kolegija su: Cilj kolegija je naučiti studente teoretske i praktične osnove računalnih mreža, mrežne protokole, TCP/IP model i arhitekturu lokalnih mreža. Upoznavanje sa osnovnim komponentama kao što su mrežni uređaji, mediji za prijenos podataka I mrežni protokoli. ",
-        "Ishodi učenja (opće i specifične kompetencije)": "Nakon položenog kolegija student će znati/moći: opisati osnovne mehanizme prenošenja informacija kod mreža  sa prospajanjem paketa, opisati osnovne mehanizme rada i svrhu pojedinih ISO-OSI razina, demonstrirati pojedine mrežne tehnologije u praksi, organizirati podmreže, dizajnirati jednostavnu mrežu",
+        "Ishodi učenja (opće i specifične kompetencije)": `
+Nakon položenog kolegija student će znati/moći:
+- razumjeti osnovne korake u procesu modeliranja
+- znati primijeniti simulacijske alate u rješavanju razmatranih i srodnih problema.
+- razviti sposobnost vizualizacije i kritičke evaluacije dobivenih rezultata
+- razumjeti osnovne razmatrane fizikalne pojmove i relacije.        
+`,
         "Sadržaj silabusa/izvedbenog plana (ukratko)": `
-    Predavanja: 
-    Ponavljanje (Internet, povezivanje na Internet, …)  
-    Uvod u računalne mreže (podjela računalnih mreža, topologije)  
-    Mrežne arhitekture (OSI model i TCP/IP model)  
-    Fizički sloj (OSI model) –  Podatkovni sloj (OSI model)  
-    Arhitektura lokalnim mreža (IEEE 802 serija standarda)  
-    Mrežni sloj (OSI model) – Arhitektura TCP/IP modela, Mrežni sloj na interneti (IP protokol)  
-    Prijenosni sloj na internetu (TCP, UDP)  
-    Aplikacijski sloj  
-    Vježbe: 
-    Uvod u računalne mreže (2) 
-    Kablovi i brojni sustavi (2) 
-    Naredbe (2) 
-    Protokoli (ARP) (2) 
-    Protokoli (IP) (4) 
-    IPv4 Adrese (2) 
-    IPv4 podešavanje (4) 
-    IPv4 podmreže (4) 
-    IPv4 VLSM (2) 
-    Primjena pravila za kreiranje mreža (4) 
-    VLSM struktura tipa stablo – 2 sata 
-    `,
+1. Ponavljanje (Internet, povezivanje na Internet, …)
+2. Uvod u računalne mreže (podjela računalnih mreža, topologije)
+3. Mrežne arhitekture (OSI model i TCP/IP model)
+4. Fizički sloj (OSI model) – Podatkovni sloj (OSI model)
+5. Arhitektura lokalnim mreža (IEEE 802 serija standarda)
+6. Mrežni sloj (OSI model) – Arhitektura TCP/IP modela, Mrežni sloj na interneti (IP protokol)
+7. Prijenosni sloj na internetu (TCP, UDP)
+8. Aplikacijski sloj
+
+Vježbe:
+1. Uvod u računalne mreže (2)
+2. Kablovi i brojni sustavi (2)
+3. Naredbe (2)
+4. Protokoli (ARP) (2)
+5. Protokoli (IP) (4)
+6. IPv4 Adrese (2)
+7. IPv4 podešavanje (4)
+8. IPv4 podmreže (4)
+9. IPv4 VLSM (2)
+10. Primjena pravila za kreiranje mreža (4)
+11. VLSM struktura tipa stablo – 2 sata
+`,
         "Način izvođenja nastave": "predavanja, vježbe",
-        "Studentske obveze": "pohađati nastavu i sudjelovati u nastavnome procesu, pisati kolokvije, polagati pismeni ispit, polagati usmeni ispit",
+        "Studentske obveze": `
+- redovito pohađati nastavu
+- aktivno sudjelovati u nastavi
+- napisati koherentan seminarski rad na zadanu temu
+- pisati završni ispit
+`,            
         "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, usmen ispit, pismeni ispit, kontinuirana provjera znanja",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "60", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 10%" },
+            { "Obveze studenta": "Kolokviji i priprema za kontinuiranu provjeru znanja", "Sati (procjena)": "90", "UDIO u ECTS-u": "3", "Udio u ocjeni": "Max 60%" },
+            { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "15", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 20%" },
+            { "Obveze studenta": "Završni usmeni ispit", "Sati (procjena)": "15", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 10%" },
+        ],
+        "Dodatna pojašnjenja": `
+*Student može pismeni dio ispita polagati preko dvaju kolokvija ili integralno na završnom pismenom ispitu.
+
+Angažiranost u nastavi ocjenjuje se na sljedeći način:
+- manje od 80% dolazaka = 0% ocjene 
+- manje od 85% dolazaka = 5.5% ocjene 
+- manje od 90% dolazaka = 7% ocjene 
+- manje od 95% dolazaka = 8.5% ocjene 
+- od 95% do 100% dolazaka = 10% ocjene
+
+Kolokviji ili završni pismeni ispit ocjenjuju se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 27.5% ocjene 
+od 67% do 78% točnih odgovora = 35% ocjene 
+od 79% do 90% točnih odgovora = 42.5% ocjene 
+od 91% do 100% točnih odgovora = 50% ocjene
+
+Završni usmeni ispit ocjenjuje se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 22% ocjene 
+od 67% do 78% točnih odgovora = 28% ocjene 
+od 79% do 90% točnih odgovora = 34% ocjene
+od 91% do 100% točnih odgovora = 40% ocjene
+
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+0 – 55% nedovoljan (1)
+55 – 66% dovoljan (2)
+67 – 78% dobar (3)
+79 – 90% vrlodobar (4)
+91 – 100% odličan (5)        
+`
     },
     {
         "Naziv kolegija": "Praktikum računalne mreže",
@@ -769,24 +1457,72 @@ export default [
         "Asistent | Kontakt sati/konzultacije": "Prema rasporedu ",
         "Asistent | E-mail adresa i broj telefona": "ivo.prskalo@fpmoz.sum.ba ",
         "Ciljevi kolegija": "Ciljevi kolegija su: naučiti studente praktične osnove računalnih mreža. Studenti bi trebali steći praktično znanje za upravljanje uređajima za oblikovanje i analizu različitih tipova lokalnih mreža. ",
-        "Ishodi učenja (opće i specifične kompetencije)": "Nakon položenog kolegija student će znati/moći: dizajnirati jednostavnu mrežu koristeći mrežne uređaje, analizirati osnovne podatke za odabrane mrežne protokole hvatajući pakete u realnom vremenu, dizajnirati mreže uz pomoć različitih programskih alata i prikazati karakteristike iste mreže promjenom postavki za različite uređaje i protokole, obraditi i izložiti drugim studentima jedan od protokola sa osnovnim karakteristikama. Poseban osvrt na prednosti i mane",
-        "Sadržaj silabusa/izvedbenog plana (ukratko)": `Vježbe u praktikumu: 
-    Upoznavanje sa programskom podrškom za vježbe (2) 
-    Spajanje na različite tipove uređaja i kreiranje mreža (6) 
-    Hvatanje i analiza paketa za različite tipove protokola • DNS, UDP, TCP (2) 
-    ARP, ICMP (2) 
-    IPv4, IPv6 (2) 
-    HTTP, HTTPS (2) 
-    DHCPv4, DHCPv6 (2) 
-    WLAN (2) 
-    NAT (2) 
-    POP, IMAP (2) 
-    VPN/IPsec (2) 
-    Programski alati za vizualno modeliranje, analizu protokola i podataka, detekciju grešaka i nedostataka mrežnih postavki. Ethernet LAN (2) 
-    VPN/IPsec`,
+        "Ishodi učenja (opće i specifične kompetencije)": `
+Nakon položenog kolegija student će znati/moći:
+- dizajnirati jednostavnu mrežu koristeći mrežne uređaje.
+- analizirati osnovne podatke za odabrane mrežne protokole hvatajući pakete u realnom vremenu.
+- dizajnirati mreže uz pomoć različitih programskih alata i prikazati karakteristike iste  mreže promjenom postavki za različite uređaje i  protokole.
+- obraditi i izložiti drugim studentima jedan od protokola sa osnovnim karakteristikama. Poseban osvrt na prednosti i mane    
+`,
+        "Sadržaj silabusa/izvedbenog plana (ukratko)": `
+Vježbe u praktikumu:
+1. Upoznavanje sa programskom podrškom za vježbe (2)
+2. Spajanje na različite tipove uređaja i kreiranje mreža (6)
+3. Hvatanje i analiza paketa za različite tipove protokola • DNS, UDP, TCP(2)
+4. ARP, ICMP (2)
+5. IPv4, IPv6 (2)
+6. HTTP, HTTPS (2)
+7. DHCPv4, DHCPv6 (2)
+8. WLAN (2)
+9. NAT (2)
+10. POP, IMAP (2)
+11. VPN/IPsec (2)
+12. Programski alati za vizualno modeliranje, analizu protokola i podataka, detekciju grešaka i nedostataka mrežnih postavki. Ethernet LAN (2)
+13. VPN/IPsec
+`,
         "Način izvođenja nastave": "vježbe",
-        "Studentske obveze": "pohađati nastavu i sudjelovati u nastavnome procesu, pisati kolokvije, polagati pismeni ispit, polagati usmeni ispit",
+        "Studentske obveze": `
+- pohađati nastavu i sudjelovati u nastavnome procesu
+- pisati klokvije
+- napisati koherentan seminarski rad na zadanu temu
+- pisati završni ispit
+`,            
         "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, seminarski rad, praktični rad",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Seminarski rad", "Sati (procjena)": "30", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 50%" },
+            { "Obveze studenta": "Praktični rad", "Sati (procjena)": "30", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 50%" },
+        ],
+        "Dodatna pojašnjenja": `
+*Student može pismeni dio ispita polagati preko dvaju kolokvija ili integralno na završnom pismenom ispitu.
+
+Angažiranost u nastavi ocjenjuje se na sljedeći način:
+- manje od 80% dolazaka = 0% ocjene 
+- manje od 85% dolazaka = 5.5% ocjene 
+- manje od 90% dolazaka = 7% ocjene 
+- manje od 95% dolazaka = 8.5% ocjene 
+- od 95% do 100% dolazaka = 10% ocjene
+
+Kolokviji ili završni pismeni ispit ocjenjuju se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 27.5% ocjene 
+od 67% do 78% točnih odgovora = 35% ocjene 
+od 79% do 90% točnih odgovora = 42.5% ocjene 
+od 91% do 100% točnih odgovora = 50% ocjene
+
+Završni usmeni ispit ocjenjuje se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 22% ocjene 
+od 67% do 78% točnih odgovora = 28% ocjene 
+od 79% do 90% točnih odgovora = 34% ocjene
+od 91% do 100% točnih odgovora = 40% ocjene
+
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+0 – 55% nedovoljan (1)
+55 – 66% dovoljan (2)
+67 – 78% dobar (3)
+79 – 90% vrlodobar (4)
+91 – 100% odličan (5)
+`
     },
     {
         "Naziv kolegija": "Tjelesna i zdravstvena kultura 3",
@@ -811,11 +1547,53 @@ export default [
         "Asistent | Kontakt sati/konzultacije": "",
         "Asistent | E-mail adresa i broj telefona": "",
         "Ciljevi kolegija": "Ciljevi ovog kolegija su: Stjecanje općih kompetencija po pitanju poznavanja utjecaja kinezioloških aktivnosti na stupanj zdravlja. Studente upoznati sa općim procesom vježbanja kao i posljedicama djelovanja tih procesa na ljudski organizam s posebnim osvrtom na očuvanje zdravlja koje postižu kineziološkim procesima. Upoznati studente s načinima rješavanja problematike vezane uz upravljanje procesom vježbanja. Osposobiti ih i potaknuti na samostalan rad i posvijestiti im važnost baljenja sportom u svakodnevnom životu. ",
-        "Ishodi učenja (opće i specifične kompetencije)": "Nakon što odslušaju i polože ovaj kolegij, studenti će znati / moći i biti:  Osposobljeni i potaknuti na samostalan rad i posviješteni na važnost baljenja sportom u svakodnevnom životu. Prepoznati potrebu i važnost redovite tjelovježbe u svrhu očuvanja zdravlja i poboljšanja kvalitete života. Kreirati aktivni odmor (aktivna stanka između učenja, tijekom slobodnog vremena). Prezentirati tolerantnost, radne navike i samodisciplinu. Primijeniti nekoliko vježbi zagrijavanja za pojedinu kineziološku aktivnost. Primijeniti neke vježbe istezanja za pojedinu kineziološku aktivnost. Objasniti osnove o utjecaju redovitog vježbanja na zdravlje. Osmisliti tjelovježbu u svrhu aktivnog provođenja slobodnog vremena. Kreirati uvodni i završni dio sata (treninga)",
-        "Sadržaj silabusa/izvedbenog plana (ukratko)": "Ponuđeni sadržaji studentima koje mogu birati kao svoje aktivnosti: 1. Aerobik 2. Fittnes 3. Plesovi (plesne strukture) 4. Nogomet 5. Košarka 6. Odbojka 7. Plivanje 8. Vaterpolo 9. Stolni tenis 10. Tenis 11. Samoobrana 12. Aktivnosti na trim stazi na Bijelom Brijegu 13. Izleti-pješačke ture 14. Organizacija natjecanja u više sportova unutar Fakulteta 15. Sportska suradnja ekipa sa drugim fakultetima u regiji ",
+        "Ishodi učenja (opće i specifične kompetencije)": `
+Nakon što odslušaju i polože ovaj kolegij, studenti će znati / moći i biti:
+Osposobljeni i potaknuti na samostalan rad i posviješteni na važnost  baljenja sportom u svakodnevnom životu
+Prepoznati potrebu i važnost redovite tjelovježbe u svrhu očuvanja  zdravlja i poboljšanja kvalitete života
+Kreirati aktivni odmor (aktivna stanka između učenja, tijekom  slobodnog vremena)
+Prezentirati tolerantnost, radne navike i samodisciplinu
+Primijeniti nekoliko vježbi zagrijavanja za pojedinu kineziološku  aktivnost
+Primijeniti neke vježbe istezanja za pojedinu kineziološku aktivnost
+Objasniti osnove o utjecaju redovitog vježbanja na zdravlje
+Osmisliti tjelovježbu u svrhu aktivnog provođenja slobodnog vremena
+Kreirati uvodni i završni dio sata (treninga)
+`,
+        "Sadržaj silabusa/izvedbenog plana (ukratko)": `
+Ponuđeni sadržaji studentima koje mogu birati kao svoje aktivnosti:
+1. Aerobik
+2. Fittnes
+3. Plesovi (plesne strukture)
+4. Nogomet
+5. Košarka
+6. Odbojka
+7. Plivanje
+8. Vaterpolo
+9. Stolni tenis
+10. Tenis
+11. Samoobrana
+12. Aktivnosti na trim stazi na Bijelom Brijegu
+13. Izleti-pješačke ture
+14. Organizacija natjecanja u više sportova unutar Fakulteta
+15. Sportska suradnja ekipa sa drugim fakultetima u regiji        
+`,
         "Način izvođenja nastave": "vježbe, seminari, samostalni zadaci",
-        "Studentske obveze": "Obavezno pohađanje vježbi ",
+        "Studentske obveze": `Obavezno pohađanje vježbi`,            
         "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, seminarski rad",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "30", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 0%" },
+            { "Obveze studenta": "Seminarski rad", "Sati (procjena)": "30", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 0%" },
+        ],
+        "Dodatna pojašnjenja": `
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+A = 91-100% 5 (izvrstan)
+B = 79 to 90% 4 (vrlo dobar)
+C = 67 to 78% 3 (dobar)
+D = 55 to 66% 2 (dovoljan)
+F = 0 to 54% 1 (nedovoljan)
+
+- Ocjena iz kolegija Tjelesna i zdravstvena kultura je opisna ocjena „obavljeno“
+`
     },
     {
         "Naziv kolegija": "Kombinatorna i diskretna matematika",
@@ -841,16 +1619,43 @@ export default [
         "Asistent | E-mail adresa i broj telefona": "iva.cuze@fpmoz.sum.ba",
         "Ciljevi kolegija": "Usvajanje znanja iz kombinatorike i teorije grafova. Studenta osposobiti za rješavanje kombinatornih zadataka primjenom različitih metoda kombinatornih prebrojavanja. Naučiti koristiti osnovne koncepte iz teorije grafova u matematici i primjenama. ",
         "Ishodi učenja (opće i specifične kompetencije)": `
-        Student je sposoban: 
-        - korektno formulirat definicije i iskazati tvrdnje iz sadržaja kolegija,
-        - ilustrirati pojmove i zaključke odgovarajućim primjerima,
-        - izvesti dokaze bitnih tvrdnji,  
-        - rješavati zadatke koristeći različite metode prebrojavanja, 
-        - primijeniti koncepte iz teorije grafova u modeliranu i rješavanju određenih tipova diskretnih problema.`,
+Student je sposoban: 
+- korektno formulirat definicije i iskazati tvrdnje iz sadržaja kolegija,
+- ilustrirati pojmove i zaključke odgovarajućim primjerima,
+- izvesti dokaze bitnih tvrdnji,  
+- rješavati zadatke koristeći različite metode prebrojavanja, 
+- primijeniti koncepte iz teorije grafova u modeliranu i rješavanju određenih tipova diskretnih problema.`,
         "Sadržaj silabusa/izvedbenog plana (ukratko)": "Kombinatorika: Povijesni pregled, predmet i metode proučavanja. Neki poznati kombinatorni problemi. (3) Dirichletovo načelo. Ramseyevi brojevi. (2) Kombinatorna prebrojavanja. Principi prebrojavanja. (2) Permutacije i kombinacije skupova. (2) Permutacije i kombinacije multiskupova. (2) Binomni i multinomni koeficijenti. (2) Formula uključivanja-isključivanja. Broj deranžmana. (3) Rekurzivne relacije. Fibonaccijevi brojevi. Linearne rekurzije i njihovo rješavanje (homogene i nehomogene).(3) Sustavi rekurzija i neke nelinearne rekurzije. (2) Funkcije izvodnice. Osnovna svojstva i neki primjeri. Rekurzije i funkcije izvodnice. (3) Grafovi: Temeljni pojmovi teorije grafova, primjeri nekih tipova grafovi. (3) Povezanost grafova, šetnje, staze, putovi, Eulerovi grafovi, Hamiltonovi grafovi. (3) Stabla, karakterizacija i svojstva stabala, prebrojavanje stabala. (3) Planarni grafovi (3) Bojenje grafova. (4) Usmjereni i težinski grafovi. (3) Neki važni optimizacijski problemi. (2) ",
         "Način izvođenja nastave": "predavanja, vježbe",
         "Studentske obveze": "Pohađanje nastave najmanje 70%. ",
         "Praćenje i ocjenjivanje studenta": "usmeni ispit, pismen ispit",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Pohađanje nastave", "Sati (procjena)": "60", "UDIO u ECTS-u": "2", "Udio u ocjeni": "Max 10%" },
+            { "Obveze studenta": "Kolokviji ili završni pismeni ispit", "Sati (procjena)": "75", "UDIO u ECTS-u": "2.5", "Udio u ocjeni": "Max 70%" },
+            { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "15", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 20%" },
+        ],
+        "Dodatna pojašnjenja": `
+Angažiranost u nastavi se ocjenjuje na sljedeći način: manje od 80% dolazaka = 0% ocjene 
+od 81% do 84% = do 2% ocjene 
+od 85% do 88% = do 4% ocjene 
+od 89% do 92% = do 6% ocjene 
+od 93% do 96% = do 8% ocjene 
+od 97% do 100% = do 10% ocjene
+
+Kolokviji se ocjenjuju na sljedeći način: manje od 50% točnih odgovora = 0% ocjene 
+od 51% do 60% = do 6% ocjene 
+od 61% do 70% = do 12% ocjene 
+od 71% do 80% = do 18% ocjene 
+od 81% do 90% = do 24% ocjene 
+od 91% do 100% = do 30% ocjene
+
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+0 – 54% nedovoljan (1)
+55 – 66% dovoljan (2)
+67 – 78% dobar (3)
+79 – 90% vrlo dobar (4)
+91 – 100% odličan (5).
+`
     },
     {
         "Naziv kolegija": "Arhitektura računala",
@@ -876,46 +1681,89 @@ export default [
         "Asistent | E-mail adresa i broj telefona": "zeljko.marusic@fpmoz.sum.ba",
         "Ciljevi kolegija": "Ciljevi kolegija su: Stjecati temeljna znanja o arhitekturi procesora i računalnog sustava. Usvojiti teorijsko znanje i praktičnog iskustva iz temeljnih aspekata vezanih za osnovni koncept izgradnje računalnog sustava, funkcija osnovnih funkcionalnih jedinica, načina dohvata, dekodiranja i izvođenja instrukcija, te tijeka podataka i instrukcija. Stjecati znanja o aktualnim i budućim tehnološkim i arhitektonskim trendovima. ",
         "Ishodi učenja (opće i specifične kompetencije)": `
-        Nakon položenog kolegija student će znati/moći: 
-        Imenovati i objasniti osnovnu terminologiju i koncepte vezane za povijesni razvoj, ulogu i načela digitalnih računalnih sustava. 
-        Analizirati i klasificirati jednostavnije logičke sklopove 
-        Formalno opisati kombinacijske i sekvencijske logičke sklopove korištenjem Booleove algebre 
-        Analizirati složenije logičke funkcije 
-        Identificirati različite funkcionalne komponente računalnog sustava, razumjeti funkcije te relevantni tijek instrukcija i podataka. 
-        Primijeniti znanja i vještine vezane za ključne aspekte strojnog programiranja (programiranja u asembleru). 
-        Opisati model mikroprocesora jednostavne arhitekture. 
-        Formulirati i primijeniti osnovne principe strojnog/asemblerskog programiranja na jednostavnu mikroprocesorsku arhitekturu.`,
+Nakon položenog kolegija student će znati/moći: 
+Imenovati i objasniti osnovnu terminologiju i koncepte vezane za povijesni razvoj, ulogu i načela digitalnih računalnih sustava. 
+Analizirati i klasificirati jednostavnije logičke sklopove 
+Formalno opisati kombinacijske i sekvencijske logičke sklopove korištenjem Booleove algebre 
+Analizirati složenije logičke funkcije 
+Identificirati različite funkcionalne komponente računalnog sustava, razumjeti funkcije te relevantni tijek instrukcija i podataka. 
+Primijeniti znanja i vještine vezane za ključne aspekte strojnog programiranja (programiranja u asembleru). 
+Opisati model mikroprocesora jednostavne arhitekture. 
+Formulirati i primijeniti osnovne principe strojnog/asemblerskog programiranja na jednostavnu mikroprocesorsku arhitekturu.`,
         "Sadržaj silabusa/izvedbenog plana (ukratko)": `
-        Predavanja: 
-        Povijesni pregled razvoja računskih strojeva (2) 
-        Turingov stoj, von Neumannovo računalo; model računala s pohranjenim programom (4) 
-        Arhitektonske generacije računala (4) 
-        Mikroračunalo (2) 
-        Pojednostavljeni model mikroprocesora (2) 
-        Izvođenje instrukcija, načini adresiranja (4) 
-        Memorijski sustav, ulazno-izlazni sustav, sabirnice (4) 
-        CISC i RISC procesori (2) 
-        Napredne arhitekture procesora, višeprocesorski sustavi, višejezgreni procesori (4) 
-        Tehnološki i arhitektonski trendovi, tehnologija budućnosti (2) 
-        Vježbe: 
-        Uvod i organizacija vježbi. Booleove funkcije i ostvarivanje Booleovih funkcija na razini osnovnih logičkih sklopova. (2) 
-        Logika sudova. Booleova algebra. Kanonski oblici Booleovih funkcija. Svođenje funkcije na kanonski oblik. (2) 
-        Minimizacija Booleovih funkcija: algebarska metoda, Karnaughove tablice. (2) 
-        Nepotpuno specificirane funkcije. Transformacija logičke jednadžbe u oblik pogodan za hardversku realizaciju. (2) 
-        Aritmetički sklopovi. Standardni kombinacijski moduli. Ostvarivanje Booleovih funkcija standardnim kombinacijskim modulima. (2) 
-        Bistabil. Sekvencijski sklopovi, dijagram, tablica stanja, minimizacija. Projektiranje sekvencijskih sklopova. (2) 
-        Memorije: karakteristični parametri; statičke i dinamičke memorije; organizacija memorijskih modula. (2) 
-        Kolokvij 1 (2) 
-        Model mikroprocesora M6800. Programski model. (2) 
-        Načini adresiranja (2) 
-        Program kao niz instrukcija. Izvođenje instrukcija na simulatoru. (2) 
-        Programiranje u asembleru: Instrukcije za prijenos podataka. (2) 
-        Programiranje u asembleru: Aritmetičke i logičke instrukcije. (2) 
-        Programiranje u asembleru: Upravljačke instrukcije. (2) 
-        Kolokvij 2 (2)`,
+Predavanja: 
+Povijesni pregled razvoja računskih strojeva (2) 
+Turingov stoj, von Neumannovo računalo; model računala s pohranjenim programom (4) 
+Arhitektonske generacije računala (4) 
+Mikroračunalo (2) 
+Pojednostavljeni model mikroprocesora (2) 
+Izvođenje instrukcija, načini adresiranja (4) 
+Memorijski sustav, ulazno-izlazni sustav, sabirnice (4) 
+CISC i RISC procesori (2) 
+Napredne arhitekture procesora, višeprocesorski sustavi, višejezgreni procesori (4) 
+Tehnološki i arhitektonski trendovi, tehnologija budućnosti (2)
+
+Vježbe: 
+Uvod i organizacija vježbi. Booleove funkcije i ostvarivanje Booleovih funkcija na razini osnovnih logičkih sklopova. (2) 
+Logika sudova. Booleova algebra. Kanonski oblici Booleovih funkcija. Svođenje funkcije na kanonski oblik. (2) 
+Minimizacija Booleovih funkcija: algebarska metoda, Karnaughove tablice. (2) 
+Nepotpuno specificirane funkcije. Transformacija logičke jednadžbe u oblik pogodan za hardversku realizaciju. (2) 
+Aritmetički sklopovi. Standardni kombinacijski moduli. Ostvarivanje Booleovih funkcija standardnim kombinacijskim modulima. (2) 
+Bistabil. Sekvencijski sklopovi, dijagram, tablica stanja, minimizacija. Projektiranje sekvencijskih sklopova. (2) 
+Memorije: karakteristični parametri; statičke i dinamičke memorije; organizacija memorijskih modula. (2) 
+Kolokvij 1 (2) 
+Model mikroprocesora M6800. Programski model. (2) 
+Načini adresiranja (2) 
+Program kao niz instrukcija. Izvođenje instrukcija na simulatoru. (2) 
+Programiranje u asembleru: Instrukcije za prijenos podataka. (2) 
+Programiranje u asembleru: Aritmetičke i logičke instrukcije. (2) 
+Programiranje u asembleru: Upravljačke instrukcije. (2) 
+Kolokvij 2 (2)`,
         "Način izvođenja nastave": "predavanja, vježbe, samostalni zadaci, konzultacije",
-        "Studentske obveze": "pohađati nastavu i sudjelovati u nastavnome procesu, pisati kolokvije, polagati pismeni ispit, polagati usmeni ispit, samostalni zadaci, multimedija, laboratorij, mentorski rad",
+        "Studentske obveze": `
+- pohađati nastavu i sudjelovati u nastavnome procesu.
+- pisati kolokvije. 
+- polagati pismeni ispit.
+- polagati usmeni ispit.
+- samostalni zadaci 
+- multimedija
+- laboratorij
+- mentorski rad
+`,            
         "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, usmeni ispit, pismen ispit, kontinuirana provjera znanja",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "60", "UDIO u ECTS-u": "2", "Udio u ocjeni": "Max 10%" },
+            { "Obveze studenta": "Kolokviji i priprema za kontinuiranu provjeru znanja", "Sati (procjena)": "60", "UDIO u ECTS-u": "2", "Udio u ocjeni": "Max 60%" },
+            { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "15", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 15%" },
+            { "Obveze studenta": "Završni usmeni ispit", "Sati (procjena)": "15", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 15%" },
+        ],
+        "Dodatna pojašnjenja": `
+*Student može pismeni dio ispita polagati preko dvaju kolokvija ili integralno na završnom pismenom ispitu.
+Angažiranost u nastavi ocjenjuje se na sljedeći način:
+- manje od 80% dolazaka = 0% ocjene 
+- manje od 85% dolazaka = 5.5% ocjene 
+- manje od 90% dolazaka = 7% ocjene 
+- manje od 95% dolazaka = 8.5% ocjene 
+- od 95% do 100% dolazaka = 10% ocjene
+Kolokviji ili završni pismeni ispit ocjenjuju se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 27.5% ocjene 
+od 67% do 78% točnih odgovora = 35% ocjene 
+od 79% do 90% točnih odgovora = 42.5% ocjene 
+od 91% do 100% točnih odgovora = 50% ocjene
+Završni usmeni ispit ocjenjuje se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 22% ocjene 
+od 67% do 78% točnih odgovora = 28% ocjene 
+od 79% do 90% točnih odgovora = 34% ocjene
+od 91% do 100% točnih odgovora = 40% ocjene
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+0 – 55% nedovoljan (1)
+55 – 66% dovoljan (2)
+67 – 78% dobar (3)
+79 – 90% vrlodobar (4)
+91 – 100% odličan (5)
+`
     },
     {
         "Naziv kolegija": "Baze podataka",
@@ -940,43 +1788,93 @@ export default [
         "Asistent | Kontakt sati/konzultacije": "Prema rasporedu ",
         "Asistent | E-mail adresa i broj telefona": "daniel.vasic@fpmoz.sum.ba",
         "Ciljevi kolegija": "Ciljevi kolegija su: Razumijevanje osnovnih pojmova relacijskog modela podataka. Stjecanje znanja i vještine potrebnih pri oblikovanju relativno jednostavnih baza podataka zasnovanih na relacijskom modelu. Usvajanje znanja sintakse i semantike SQL upitnog jezika i razumijevanje plana izvršavanja SQL upita. Relacijsku bazu predstaviti objektno",
-        "Ishodi učenja (opće i specifične kompetencije)": "Nakon položenog kolegija student će znati/moći: definirati osnovne pojmove relacijskog modela baze podataka, oblikovati relacijski model jednostavnijih problema iz realnog svijeta opisanih prirodnim jezikom, predstaviti relacijsku bazu objektno, upotrijebiti SQL upitni jezik pri pretraživanju i ažuriranju relacijske baze podataka, razumjeti plan izvršavanja SQL upita i ulogu indeksa pri tome, razumjeti osnovne pojmove vezane uz administraciju i sigurnost baza podataka",
+        "Ishodi učenja (opće i specifične kompetencije)": `
+Nakon položenog kolegija student će znati/moći:
+- definirati osnovne pojmove relacijskog modela baze podataka
+- oblikovati relacijski model jednostavnijih  problema iz realnog svijeta opisanih prirodnim jezikom
+- predstaviti relacijsku bazu objektno
+- upotrijebiti SQL upitni jezik pri pretraživanju i  ažuriranju relacijskebaze podataka
+- razumjeti plan izvršavanja SQL upita i ulogu indeksa pri tome
+- razumjeti osnovne pojmove vezane uz administraciju i sigurnost baza podataka
+`,
         "Sadržaj silabusa/izvedbenog plana (ukratko)": `
-        Predavanja: 
-        Uvod u predmet. Informacija i podatak. Uloga baze podataka u informacijskom sustavu. Povijesni razvoj baza podataka: datotečne, hijerarhijske, mrežne, relacijske i objektne baze podataka. (2) 
-        Pojmovi relacijskog modela podataka. Relacijska algebra (1. dio): operacije unije, presjeka, razlike, projekcije i restrikcije. Nepotpune informacije i NULL-vrijednost. Svojstva relacijskog upitnog jezika SQL. (2) 
-        Relacijska algebra (2. dio): theta i prirodno spajanje, operacije agregacije. (2) 
-        Pogledi. DDL dio SQL jezika. Coddova pravila. Struktura tipičnog sustava za upravljanje relacijskom bazom podataka. (2) 
-        Oblikovanje relacijskog modela podataka. Integritet i konzistencija baze podataka. Ograničenja radi očuvanja integriteta. (2) 
-        Funkcijske zavisnosti podataka. Postupci normalizacije. Normalne forme: 1NF, 2NF i 3NF. (2) 
-        Normalne forme: Boyce-Coddova, 4NF4 i 5NF. (2) 
-        ER model (1. dio): utvrđivanje entiteta i njihovih atributa. Vrste veza između entiteta. (2) 
-        ER model (2. dio): dekompozicija veze M : N. Rekurzivna veza. (2) 
-        Studijski primjer oblikovanja ER modela. (2) 
-        Indeksi. Optimizacija SQL upita. Materijalizirani pogledi. (2) 
-        Transakcije. Vrste zaključavanja elemenata relacijske baze podataka. Okidači, pohranjene procedure i funkcije. (2) 
-        Svojstva LINQ upitnog jezika. Predstavljanje relacijske baze objektno. (2) 
-        Osnovno administriranje baze podataka. Upravljanje pravima korisnika. Pričuvne kopije i restauracija. (2) 
-        Uloga dnevnika (engl. log) baze podataka. Oporavak baze podataka nakon urušavanja. Pojam replikacije. Distribuirane baze podataka. (2) 
-        Vježbe: 
-        povezivanje klijenta – korisničkog sučelja uređivača SQL upita – sa sustavom za upravljanje relacijskom bazom podataka MS SQL Server. Stvaranje baze podataka pomoću grafičkog korisničkog sučelja. Tipovi podataka. (2) 
-        Sintaksa i semantika SQL jezika (1. dio): select-from-where. Često korištene funkcije u upitima. Operacije s NULL-vrijednostima. (2) 
-        Sintaksa i semantika SQL jezika (2. dio): inner join, left i right outer join te full join. Uvježbavanje upita nad pripremljenom bazom podataka. (2) 
-        Sintaksa i semantika SQL jezika (3. dio): insert into, update from, delete from, create, alter i drop. (2) 
-        ugnježđeni SQL upiti. SQL upiti agregacije: group by – having. Uvježbavanje upita. (2) 
-        Upoznavanje plana izvršavanja SQL instrukcija. Uvježbavanje upita. (2) 
-        Priprema za prvi kolokvij. (2) 
-        Prvi kolokvij. (2) 
-        Oblikovanje ER modela (1. dio) na temelju analize problema opisanog prirodnim jezikom. (2) 
-        Oblikovanje ER modela (2. dio). Implementacija relacijske sheme. (2) 
-        Uvježbavanje oblikovanja ER modela. (2) 
-        Optimizacija SQL upita. (2) 
-        alat LINQ to SQL Classes. Povezivanje sa sustavom za upravljanje relacijskom bazom podataka iz primjenskih programa. LINQ upiti u jednostavnom konzolnom programu. (2) 
-        Priprema za drugi kolokvij. (2) 
-        Drugi kolokvij. (2)`,
+Predavanja: 
+1. Uvod u predmet. Informacija i podatak. Uloga baze podataka u informacijskom sustavu. Povijesni razvoj baza podataka: datotečne, hijerarhijske, mrežne, relacijske i objektne baze podataka. (2) 
+2. Pojmovi relacijskog modela podataka. Relacijska algebra (1. dio): operacije unije, presjeka, razlike, projekcije i restrikcije. Nepotpune informacije i NULL-vrijednost. Svojstva relacijskog upitnog jezika SQL. (2) 
+3. Relacijska algebra (2. dio): theta i prirodno spajanje, operacije agregacije. (2) 
+4. Pogledi. DDL dio SQL jezika. Coddova pravila. Struktura tipičnog sustava za upravljanje relacijskom bazom podataka. (2) 
+5. Oblikovanje relacijskog modela podataka. Integritet i konzistencija baze podataka. Ograničenja radi očuvanja integriteta. (2) 
+6. Funkcijske zavisnosti podataka. Postupci normalizacije. Normalne forme: 1NF, 2NF i 3NF. (2) 
+7. Normalne forme: Boyce-Coddova, 4NF4 i 5NF. (2) 
+8. ER model (1. dio): utvrđivanje entiteta i njihovih atributa. Vrste veza između entiteta. (2) 
+9. ER model (2. dio): dekompozicija veze M : N. Rekurzivna veza. (2) 
+10. Studijski primjer oblikovanja ER modela. (2) 
+11. Indeksi. Optimizacija SQL upita. Materijalizirani pogledi. (2) 
+12. Transakcije. Vrste zaključavanja elemenata relacijske baze podataka. Okidači, pohranjene procedure i funkcije. (2) 
+13. Svojstva LINQ upitnog jezika. Predstavljanje relacijske baze objektno. (2) 
+14. Osnovno administriranje baze podataka. Upravljanje pravima korisnika. Pričuvne kopije i restauracija. (2) 
+15. Uloga dnevnika (engl. log) baze podataka. Oporavak baze podataka nakon urušavanja. Pojam replikacije. Distribuirane baze podataka. (2) 
+Vježbe: 
+1. Povezivanje klijenta – korisničkog sučelja uređivača SQL upita – sa sustavom za upravljanje relacijskom bazom podataka MS SQL Server. Stvaranje baze podataka pomoću grafičkog korisničkog sučelja. Tipovi podataka. (2) 
+2. Sintaksa i semantika SQL jezika (1. dio): select-from-where. Često korištene funkcije u upitima. Operacije s NULL-vrijednostima. (2) 
+3. Sintaksa i semantika SQL jezika (2. dio): inner join, left i right outer join te full join. Uvježbavanje upita nad pripremljenom bazom podataka. (2) 
+4. Sintaksa i semantika SQL jezika (3. dio): insert into, update from, delete from, create, alter i drop. (2) 
+5. Ugnježđeni SQL upiti. SQL upiti agregacije: group by – having. Uvježbavanje upita. (2) 
+6. Upoznavanje plana izvršavanja SQL instrukcija. Uvježbavanje upita. (2) 
+7. Priprema za prvi kolokvij. (2) 
+8. Prvi kolokvij. (2) 
+9. blikovanje ER modela (1. dio) na temelju analize problema opisanog prirodnim jezikom. (2) 
+10. Oblikovanje ER modela (2. dio). Implementacija relacijske sheme. (2) 
+11. Uvježbavanje oblikovanja ER modela. (2) 
+12. Optimizacija SQL upita. (2) 
+13. Alat LINQ to SQL Classes. Povezivanje sa sustavom za upravljanje relacijskom bazom podataka iz primjenskih programa. LINQ upiti u jednostavnom konzolnom programu. (2) 
+14. Priprema za drugi kolokvij. (2) 
+15. Drugi kolokvij. (2)`,
         "Način izvođenja nastave": "predavanja, vježbe, samostalni zadaci, konzultacije",
-        "Studentske obveze": "pohađati nastavu i sudjelovati u nastavnome procesu, pisati kolokvije, polagati pismeni ispit, polagati usmeni ispit",
+        "Studentske obveze": `
+- redovito pohađati nastavu
+- aktivno sudjelovati u nastavi
+- napisati koherentan seminarski rad na zadanu temu
+- pisati završni ispit
+`,            
         "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, usmeni ispit, pismeni ispit, kontinuirana provjera znanja",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "45", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 10%" },
+            { "Obveze studenta": "Kolokviji i priprema za kontinuiranu provjeru znanja", "Sati (procjena)": "60", "UDIO u ECTS-u": "2", "Udio u ocjeni": "Max 50%" },
+            { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "15", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 20%" },
+            { "Obveze studenta": "Završni usmeni ispit", "Sati (procjena)": "15", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 20%" },
+        ],
+        "Dodatna pojašnjenja": `
+*Student može pismeni dio ispita polagati preko dvaju kolokvija ili integralno na završnom pismenom ispitu.
+
+Angažiranost u nastavi ocjenjuje se na sljedeći način:
+- manje od 80% dolazaka = 0% ocjene 
+- manje od 85% dolazaka = 5.5% ocjene 
+- manje od 90% dolazaka = 7% ocjene 
+- manje od 95% dolazaka = 8.5% ocjene 
+- od 95% do 100% dolazaka = 10% ocjene
+
+Kolokviji ili završni pismeni ispit ocjenjuju se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 27.5% ocjene 
+od 67% do 78% točnih odgovora = 35% ocjene 
+od 79% do 90% točnih odgovora = 42.5% ocjene 
+od 91% do 100% točnih odgovora = 50% ocjene
+
+Završni usmeni ispit ocjenjuje se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 22% ocjene 
+od 67% do 78% točnih odgovora = 28% ocjene 
+od 79% do 90% točnih odgovora = 34% ocjene
+od 91% do 100% točnih odgovora = 40% ocjene
+
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+0 – 55% nedovoljan (1)
+55 – 66% dovoljan (2)
+67 – 78% dobar (3)
+79 – 90% vrlodobar (4)
+91 – 100% odličan (5)
+`
     },
     {
         "Naziv kolegija": "Algoritmi u primjeni",
@@ -1002,31 +1900,73 @@ export default [
         "Asistent | E-mail adresa i broj telefona": "hrvoje.ljubic@fpmoz.sum.ba ",
         "Ciljevi kolegija": " Cilj je razumijevanje logike algoritama s naglaskom na njihovu primjenu kroz konkretne primjere. Studenti proširuju svoja znanja i sposobnosti rješavanja složenijih programskih zadataka. ",
         "Ishodi učenja (opće i specifične kompetencije)": `
-        Studenti će moći nakon položenog kolegija: 
-        1. odabrati algoritam za poznati problem 
-        2. usporediti učinkovitost primjene različitih algoritama na odgovarajućim problemima 
-        3. identificirati odgovarajuće podatkovne strukture i algoritme pri rješavanju konkretnih zadataka 
-        4. raspravljati o odnosu struktura podataka i algoritama koji se na njima koriste 
-        5. koristiti učinkovite algoritme i temeljne strukture podataka te algoritme razvijene za njih`,
+Studenti će moći nakon položenog kolegija: 
+1. odabrati algoritam za poznati problem 
+2. usporediti učinkovitost primjene različitih algoritama na odgovarajućim problemima 
+3. identificirati odgovarajuće podatkovne strukture i algoritme pri rješavanju konkretnih zadataka 
+4. raspravljati o odnosu struktura podataka i algoritama koji se na njima koriste 
+5. koristiti učinkovite algoritme i temeljne strukture podataka te algoritme razvijene za njih`,
         "Sadržaj silabusa/izvedbenog plana (ukratko)": `
-        1. Uvod i pregled kolegija. Ponavljanje struktura podataka i algoritama naučenih u prethodnom kolegiju. 
-        2. Algoritmi i primjeri s linijskim strukturama podataka. 
-        3. Primjeri primjene naprednih algoritama na stringovima. 
-        4. Primjene sortiranja. Algoritmi sortiranja. 
-        5. Aritmetički problemi. 
-        6. Kombinatorni zadaci i rekurzije. 
-        7. Kolokvij 
-        8. Stabla i primjena. 
-        9. Grafovi i strukture podataka. 
-        10. Algoritmi s grafovima. 
-        11. Dinamičko programiranje. 
-        12. Problemi s mrežom (eng. grid). 
-        13. Geometrijski zadaci (problem presjeka, sudara likova).
-        14. Algoritmi i igre. 
-        15. Upute za izradu projekata. `,
+1. Uvod i pregled kolegija. Ponavljanje struktura podataka i algoritama naučenih u prethodnom kolegiju. 
+2. Algoritmi i primjeri s linijskim strukturama podataka. 
+3. Primjeri primjene naprednih algoritama na stringovima. 
+4. Primjene sortiranja. Algoritmi sortiranja. 
+5. Aritmetički problemi. 
+6. Kombinatorni zadaci i rekurzije. 
+7. Kolokvij 
+8. Stabla i primjena. 
+9. Grafovi i strukture podataka. 
+10. Algoritmi s grafovima. 
+11. Dinamičko programiranje. 
+12. Problemi s mrežom (eng. grid). 
+13. Geometrijski zadaci (problem presjeka, sudara likova).
+14. Algoritmi i igre. 
+15. Upute za izradu projekata. `,
         "Način izvođenja nastave": "predavanja, vježbe, samostalni zadaci, konzultacije",
-        "Studentske obveze": "pohađati nastavu i sudjelovati u nastavnome procesu, pisati kolokvije, polagati pismeni ispit, polagati usmeni ispit",
+        "Studentske obveze": `
+- redovito pohađati nastavu
+- aktivno sudjelovati u nastavi
+- napisati koherentan seminarski rad na zadanu temu
+- pisati završni ispit
+`,            
         "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, pismeni ispit, kontinuirana provjera znanja",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "60", "UDIO u ECTS-u": "2", "Udio u ocjeni": "Max 10%" },
+            { "Obveze studenta": "Kolokviji i priprema za kontinuiranu provjeru znanja", "Sati (procjena)": "45", "UDIO u ECTS-u": "1.5", "Udio u ocjeni": "Max 70%" },
+            { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "15", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 20%" },
+        ],
+        "Dodatna pojašnjenja": `
+Pismeni dio ispita: tijekom semestra piše se jedan kolokvij. Studenti izrađuju projekt. 
+Studenti koji ne riješe pismene dijelove ispita tijekom semestra pristupaju pismenom ispitu na ispitnim rokovima. 
+
+Angažiranost u nastavi ocjenjuje se na sljedeći način:
+- manje od 80% dolazaka = 0% ocjene 
+- manje od 85% dolazaka = 5.5% ocjene 
+- manje od 90% dolazaka = 7% ocjene 
+- manje od 95% dolazaka = 8.5% ocjene 
+- od 95% do 100% dolazaka = 10% ocjene
+
+Kolokviji ili završni pismeni ispit ocjenjuju se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 27.5% ocjene 
+od 67% do 78% točnih odgovora = 35% ocjene 
+od 79% do 90% točnih odgovora = 42.5% ocjene 
+od 91% do 100% točnih odgovora = 50% ocjene
+
+Završni usmeni ispit ocjenjuje se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 22% ocjene 
+od 67% do 78% točnih odgovora = 28% ocjene 
+od 79% do 90% točnih odgovora = 34% ocjene
+od 91% do 100% točnih odgovora = 40% ocjene
+
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+0 – 55% nedovoljan (1)
+55 – 66% dovoljan (2)
+67 – 78% dobar (3)
+79 – 90% vrlodobar (4)
+91 – 100% odličan (5)
+`
     },
     {
         "Naziv kolegija": "Teorija informacija",
@@ -1052,17 +1992,58 @@ export default [
         "Asistent | E-mail adresa i broj telefona": "daniel.vasic@fpmoz.sum.ba",
         "Ciljevi kolegija": "Ciljevi kolegija su: Određivanje količine informacije na izvoru. Kodiranje i prijenos informacije. Evaluacija izvora informacije. Obrada podataka. Konstrukcija informacijskih agenata.",
         "Ishodi učenja (opće i specifične kompetencije)": `Nakon položenog kolegija student će znati/moći: 
-        1. definirati osnovne pojmove iz područja teorije informacije 
-        2. opisati osnovne elemente komunikacijskog sustava 
-        3. procijeniti ispravnost primjene teorijskih osnova u rješavanju zadataka 
-        4. izraditi simulaciju osnovnih elemenata informacijskog sustava korištenjem softverskog alata 
-        5. odabrati prikladnu metodu kodiranja za zadani problem 
-        6. predložiti dizajn informacijskog sustava za jednostavan problem 
-        7. usporediti jednostavne informacijske sustav`,
+1. definirati osnovne pojmove iz područja teorije informacije 
+2. opisati osnovne elemente komunikacijskog sustava 
+3. procijeniti ispravnost primjene teorijskih osnova u rješavanju zadataka 
+4. izraditi simulaciju osnovnih elemenata informacijskog sustava korištenjem softverskog alata 
+5. odabrati prikladnu metodu kodiranja za zadani problem 
+6. predložiti dizajn informacijskog sustava za jednostavan problem 
+7. usporediti jednostavne informacijske sustav`,
         "Sadržaj silabusa/izvedbenog plana (ukratko)": "Priroda informacije. Informacijski izvori i korisnici. Pojava i informacija. Slojevi informacije: statistički, sintaksni, semantički, pragmatički i apobetički. Zalihost informacije. Entropija. Entropija na informacijskom kanalu. Kodovi. Markovski lanci. Sintaksni vid informacije: pravila i sintaksni oblici. Semantički parametri: aktualnost, postojanje, dostupnost, relevanmtnost i važnost. Mjerenje semantičkog vida informacije: SIT. Jezici žive prirode. Bioinformatika. Signal i informacija. BT. Analitički i asimptotski signali. Šum i kodovi na informacijskom kanalu: Shannonov teorem. Bayesov stav i teorem. Optimalan kod. Vrijeme kodiranja. Obrada složenih podataka: selekcija, filtriranje, klasifikacija i prikazivanje podataka. Kvalitativni i kvantitativni vid informacije. Železnikarove teze. Informacijski agenti: samostalni, skupni i socijalni agent. Konstrukcije agenata. Mrežni agenti. ",
         "Način izvođenja nastave": "predavanja, vježbe",
-        "Studentske obveze": "pohađati nastavu i sudjelovati u nastavnome procesu, pisati kolokvije, polagati pismeni ispit, polagati usmeni ispit",
+        "Studentske obveze": `
+- redovito pohađati nastavu
+- aktivno sudjelovati u nastavi
+- napisati koherentan seminarski rad na zadanu temu
+- pisati završni ispit
+`,            
         "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, usmeni ispit, pismeni ispit",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "75", "UDIO u ECTS-u": "2.5", "Udio u ocjeni": "Max 10%" },
+            { "Obveze studenta": "Kolokviji i priprema za kontinuiranu provjeru znanja", "Sati (procjena)": "2", "UDIO u ECTS-u": "", "Udio u ocjeni": "Max 70%" },
+            { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "15", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 20%" },
+        ],
+        "Dodatna pojašnjenja": `
+*Student može pismeni dio ispita polagati preko dvaju kolokvija ili integralno na završnom  pismenom ispitu.
+
+Angažiranost u nastavi ocjenjuje se na sljedeći način:
+- manje od 80% dolazaka = 0% ocjene 
+- manje od 85% dolazaka = 5.5% ocjene 
+- manje od 90% dolazaka = 7% ocjene 
+- manje od 95% dolazaka = 8.5% ocjene 
+- od 95% do 100% dolazaka = 10% ocjene
+
+Kolokviji ili završni pismeni ispit ocjenjuju se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 27.5% ocjene 
+od 67% do 78% točnih odgovora = 35% ocjene
+od 79% do 90% točnih odgovora = 42.5% ocjene 
+od 91% do 100% točnih odgovora = 50% ocjene
+
+Završni usmeni ispit ocjenjuje se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 22% ocjene 
+od 67% do 78% točnih odgovora = 28% ocjene 
+od 79% do 90% točnih odgovora = 34% ocjene
+od 91% do 100% točnih odgovora = 40% ocjene
+
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+ 0 – 55% nedovoljan (1)
+ 55 – 66% dovoljan (2)
+ 67 – 78% dobar (3)
+ 79 – 90% vrlodobar (4)
+ 91 – 100% odličan (5)
+`
     },
     {
         "Naziv kolegija": "Tjelesna i zdravstvena kultura 4",
@@ -1088,20 +2069,50 @@ export default [
         "Asistent | E-mail adresa i broj telefona": "",
         "Ciljevi kolegija": "Ciljevi ovog kolegija su: Stjecanje općih kompetencija po pitanju poznavanja utjecaja kinezioloških aktivnosti na stupanj zdravlja. Studente upoznati sa općim procesom vježbanja kao i posljedicama djelovanja tih procesa na ljudski organizam s posebnim osvrtom na očuvanje zdravlja koje postižu kineziološkim procesima. Upoznati studente s načinima rješavanja problematike vezane uz upravljanje procesom vježbanja. Osposobiti ih i potaknuti na samostalan rad i posvijestiti im važnost baljenja sportom u svakodnevnom životu. ",
         "Ishodi učenja (opće i specifične kompetencije)": `
-        Nakon što odslušaju i polože ovaj kolegij, studenti će znati / moći i biti: 
-        Osposobljeni i potaknuti na samostalan rad i posviješteni na važnost baljenja sportom u svakodnevnom životu 
-        Prepoznati potrebu i važnost redovite tjelovježbe u svrhu očuvanja zdravlja i poboljšanja kvalitete života 
-        Kreirati aktivni odmor (aktivna stanka između učenja, tijekom slobodnog vremena) 
-        Prezentirati tolerantnost, radne navike i samodisciplinu 
-        Primijeniti nekoliko vježbi zagrijavanja za pojedinu kineziološku aktivnost 
-        Primijeniti neke vježbe istezanja za pojedinu kineziološku aktivnost 
-        Objasniti osnove o utjecaju redovitog vježbanja na zdravlje 
-        Osmisliti tjelovježbu u svrhu aktivnog provođenja slobodnog vremena 
-        Kreirati uvodni i završni dio sata (treninga)`,
-        "Sadržaj silabusa/izvedbenog plana (ukratko)": "Ponuđeni sadržaji studentima koje mogu birati kao svoje aktivnosti: 1. Aerobik 2. Fittnes 3. Plesovi (plesne strukture) 4. Nogomet 5. Košarka 6. Odbojka 7. Plivanje 8. Vaterpolo 9. Stolni tenis 10. Tenis 11. Samoobrana 12. Aktivnosti na trim stazi na Bijelom Brijegu 13. Izleti-pješačke ture 14. Organizacija natjecanja u više sportova unutar Fakulteta 15. Sportska suradnja ekipa sa drugim fakultetima u regiji ",
+Nakon što odslušaju i polože ovaj kolegij, studenti će znati / moći i biti: 
+Osposobljeni i potaknuti na samostalan rad i posviješteni na važnost baljenja sportom u svakodnevnom životu 
+Prepoznati potrebu i važnost redovite tjelovježbe u svrhu očuvanja zdravlja i poboljšanja kvalitete života 
+Kreirati aktivni odmor (aktivna stanka između učenja, tijekom slobodnog vremena) 
+Prezentirati tolerantnost, radne navike i samodisciplinu 
+Primijeniti nekoliko vježbi zagrijavanja za pojedinu kineziološku aktivnost 
+Primijeniti neke vježbe istezanja za pojedinu kineziološku aktivnost 
+Objasniti osnove o utjecaju redovitog vježbanja na zdravlje 
+Osmisliti tjelovježbu u svrhu aktivnog provođenja slobodnog vremena 
+Kreirati uvodni i završni dio sata (treninga)`,
+        "Sadržaj silabusa/izvedbenog plana (ukratko)": `
+Ponuđeni sadržaji studentima koje mogu birati kao svoje aktivnosti:
+1. Aerobik
+2. Fittnes
+3. Plesovi (plesne strukture)
+4. Nogomet
+5. Košarka
+6. Odbojka
+7. Plivanje
+8. Vaterpolo
+9. Stolni tenis
+10. Tenis
+11. Samoobrana
+12. Aktivnosti na trim stazi na Bijelom Brijegu
+13. Izleti-pješačke ture
+14. Organizacija natjecanja u više sportova unutar Fakulteta
+15. Sportska suradnja ekipa sa drugim fakultetima u regiji        
+`,
         "Način izvođenja nastave": "vježbe, seminari, samostalni zadaci",
         "Studentske obveze": "Obavezno pohađanje vježbi",
         "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, seminarski rad",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "30", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 0%" },
+            { "Obveze studenta": "Seminarski rad", "Sati (procjena)": "30", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 0%" },
+        ],
+        "Dodatna pojašnjenja": `
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+A = 91-100% 5 (izvrstan)
+B = 79 to 90% 4 (vrlo dobar)
+C = 67 to 78% 3 (dobar)
+D = 55 to 66% 2 (dovoljan)
+F = 0 to 54% 1 (nedovoljan)
+- Ocjena iz kolegija Tjelesna i zdravstvena kultura je opisna ocjena „obavljeno“.
+`
     },
     {
         "Naziv kolegija": "Informatički projekt Baze podataka",
@@ -1126,26 +2137,75 @@ export default [
         "Asistent | Kontakt sati/konzultacije": "Prema rasporedu ",
         "Asistent | E-mail adresa i broj telefona": "daniel.vasic@fpmoz.sum.ba",
         "Ciljevi kolegija": "Ciljevi kolegija su: Stjecanje znanja projektiranja relacijske baze podataka.",
-        "Ishodi učenja (opće i specifične kompetencije)": `Nakon položenog kolegija student će znati/moći: ocijeniti izvedivost projekta relacijske baze podataka, oblikovati relacijski model jednostavnijih problema iz realnog svijeta opisanih prirodnim jezikom, izgraditi model ER, provesti statičku analizu baze podataka u smislu procjene potrebnih resursa, provesti dinamičku analizu sustava s obzirom na važnost i učestalost SQL upita nad bazom podataka, optimirati bazu podataka s obzirom na odzivna vremena upita, uspostaviti automatsko stvaranje pričuvnih kopija (backup) `,
+        "Ishodi učenja (opće i specifične kompetencije)": `
+Nakon položenog kolegija student će znati/moći:
+- ocijeniti izvedivost projekta relacijske baze podataka
+- oblikovati relacijski model jednostavnijih problema iz realnogsvijeta opisanih prirodnim jezikom
+- izgraditi model ER
+- provesti statičku analizu baze podataka u smislu  procjene potrebnih resursa
+- provesti dinamičku analizu sustava s obzirom na važnost  i učestalost SQL upita nad bazom podataka
+- optimirati bazu podataka s obzirom na odzivna vremena upita
+- uspostaviti automatsko stvaranje pričuvnih kopija (backup)
+`,
         "Sadržaj silabusa/izvedbenog plana (ukratko)": `
-        Studija izvedivosti informacijskog sustava. (2) 
-        Analiza sustava. (2) 
-        Oblikovanje (dizajn) sustava. (2) 
-        Oblikovanje modela ER studijskog primjera. (2) 
-        Preslikavanje modela ER studijskog primjera u relacijski model podataka. (2) 
-        Implementacija relacijske baze podataka studijskog primjera. (2) 
-        Statička analiza relacijske baze podataka studijskog primjera. (2) 
-        Dinamička analiza: utvrđivanje upita prema važnosti i učestalosti izvršavanja, izgradnja indeksa i optimiranje upita. (2) 
-        Podjela projektnih zadataka i zajednička analiza karakterističnih primjera. (2) 
-        Samostalna izrada projekta. (2) 
-        Samostalna izrada projekta. (2) 
-        Samostalna izrada projekta. (2) 
-        Samostalna izrada projekta. (2) 
-        Prezentacija završenih projekata.(2) 
-        Prezentacija završenih projekata. (2) `,
+Studija izvedivosti informacijskog sustava. (2) 
+Analiza sustava. (2) 
+Oblikovanje (dizajn) sustava. (2) 
+Oblikovanje modela ER studijskog primjera. (2) 
+Preslikavanje modela ER studijskog primjera u relacijski model podataka. (2) 
+Implementacija relacijske baze podataka studijskog primjera. (2) 
+Statička analiza relacijske baze podataka studijskog primjera. (2) 
+Dinamička analiza: utvrđivanje upita prema važnosti i učestalosti izvršavanja, izgradnja indeksa i optimiranje upita. (2) 
+Podjela projektnih zadataka i zajednička analiza karakterističnih primjera. (2) 
+Samostalna izrada projekta. (2) 
+Samostalna izrada projekta. (2) 
+Samostalna izrada projekta. (2) 
+Samostalna izrada projekta. (2) 
+Prezentacija završenih projekata.(2) 
+Prezentacija završenih projekata. (2) `,
         "Način izvođenja nastave": "vježbe, samostalni zadaci",
-        "Studentske obveze": "pohađati nastavu i sudjelovati u nastavnome procesu, pisati kolokvije, polagati pismeni ispit, polagati usmeni ispit",
+        "Studentske obveze": `
+- redovito pohađati nastavu
+- aktivno sudjelovati u nastavi
+- napisati koherentan seminarski rad na zadanu temu
+- pisati završni ispit
+`,            
         "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, praktični rad",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "30", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 25%" },
+            { "Obveze studenta": "Projekt", "Sati (procjena)": "45", "UDIO u ECTS-u": "1.5", "Udio u ocjeni": "Max 75%" },
+        ],
+        "Dodatna pojašnjenja": `
+*Student može pismeni dio ispita polagati preko dvaju kolokvija ili integralno na završnom pismenom ispitu.
+
+Angažiranost u nastavi ocjenjuje se na sljedeći način:
+- manje od 80% dolazaka = 0% ocjene 
+- manje od 85% dolazaka = 5.5% ocjene 
+- manje od 90% dolazaka = 7% ocjene 
+- manje od 95% dolazaka = 8.5% ocjene 
+- od 95% do 100% dolazaka = 10% ocjene
+
+Kolokviji ili završni pismeni ispit ocjenjuju se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 27.5% ocjene 
+od 67% do 78% točnih odgovora = 35% ocjene 
+od 79% do 90% točnih odgovora = 42.5% ocjene 
+od 91% do 100% točnih odgovora = 50% ocjene
+
+Završni usmeni ispit ocjenjuje se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 22% ocjene 
+od 67% do 78% točnih odgovora = 28% ocjene 
+od 79% do 90% točnih odgovora = 34% ocjene
+od 91% do 100% točnih odgovora = 40% ocjene
+
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+0 – 55% nedovoljan (1)
+55 – 66% dovoljan (2)
+67 – 78% dobar (3)
+79 – 90% vrlodobar (4)
+91 – 100% odličan (5)
+`
     },
     {
         "Naziv kolegija": "Objektno orijentirano programiranje",
@@ -1171,34 +2231,76 @@ export default [
         "Asistent | E-mail adresa i broj telefona": "daniel.vasic@fpmoz.sum.ba",
         "Ciljevi kolegija": "Kolegij je zamišljen kao programerski kolegij uvodne razine za studente sa prijašnjim iskustvom programiranja. U sklopu kolegija, studentima koji su upoznati sa proceduralnom paradigmom, predstavljaju se koncepti objektno orijentiranog programiranja. Kolegij započinje sa kratkim pregledom upravljačkih struktura i podatkovnih tipova sa naglaskom na strukturirane tipove podataka i rad sa nizovima. Zatim se nastavlja sa prikazom objektno orijentirane paradigme, pri čemu je fokus na definiciji i načinu korištenja klasa, zajedno sa osnovama objektno orijentiranog razvoja. Na kraju kolegija, očekuje se da studenti usvojene koncepte demonstriraju kroz izradu jednostavne dvodimenzionalne računalne igre u odgovarajućem okviru koji će im biti predstavljen za vrijeme kolegija.",
         "Ishodi učenja (opće i specifične kompetencije)": `
-        Nakon položenog kolegija student će znati/moći:
-        - Razviti jednostavan objektno orijentirani (OO) projekt koristećiOO paradigmu i pripadajuće pomoćne alate.
-        - Implementirati OO model u OO jeziku visoke razine korištenjem objekata, klasa, nasljeđivanja, nizova, uvjetovanih izraza i iteracije. Upoznati sa načinom dokumentiranja, rasporedom, testiranjem i pronalaženjem grešaka kod OO programiranja.
-        - Objasniti prednosti korištenja OO razvojnog pristupa i u kojim slučajevima je to prikladna metodologija.
-        - Primijeniti ispravnu programersku paradigmu ovisno o zadanom problemu, te biti upoznat sa utjecajem odabrane paradigme na razvoj i održavanje aplikacija.
-        - Dizajnirati i implementirati prikladno GUI (grafičko korisničko sučelje) za pristupni (front-end) dio objektno orijentirane aplikacije.
+Nakon položenog kolegija student će znati/moći:
+- Razviti jednostavan objektno orijentirani (OO) projekt koristećiOO paradigmu i pripadajuće pomoćne alate.
+- Implementirati OO model u OO jeziku visoke razine korištenjem objekata, klasa, nasljeđivanja, nizova, uvjetovanih izraza i iteracije. Upoznati sa načinom dokumentiranja, rasporedom, testiranjem i pronalaženjem grešaka kod OO programiranja.
+- Objasniti prednosti korištenja OO razvojnog pristupa i u kojim slučajevima je to prikladna metodologija.
+- Primijeniti ispravnu programersku paradigmu ovisno o zadanom problemu, te biti upoznat sa utjecajem odabrane paradigme na razvoj i održavanje aplikacija.
+- Dizajnirati i implementirati prikladno GUI (grafičko korisničko sučelje) za pristupni (front-end) dio objektno orijentirane aplikacije.
         `,
         "Sadržaj silabusa/izvedbenog plana (ukratko)": `
-        1. Uvodni koncepti vezani uz informacijske sustave (2+2)
-        2. Osnovni koncepti u objektno orijentiranom programiranju
-        (4+4)
-        3. Dekompozicija problema (2+2)
-        4. Korištenje metoda (2+2)
-        5. Korištenje naprednih metoda (2+2)
-        6. Korištenje klasa i objekata (2+2)
-        7. Nasljeđivanje (2+2)
-        8. Kolokvij
-        9. Razvojni okvir za 2D računalnu igru (2+2)
-        10. Primjer razvoja računalne igre korištenjem razvojnog
-        okvira (2+2)
-        11. Upravljanje iznimkama (2+2)
-        12. Događaji (2+2)
-        13. Delagati (2+2)
-        14. Kontrole na grafičkom korisničkom sučelju (2+2)
-        15. Prezentacija završnih projekata`,
+1. Uvodni koncepti vezani uz informacijske sustave (2+2)
+2. Osnovni koncepti u objektno orijentiranom programiranju
+(4+4)
+3. Dekompozicija problema (2+2)
+4. Korištenje metoda (2+2)
+5. Korištenje naprednih metoda (2+2)
+6. Korištenje klasa i objekata (2+2)
+7. Nasljeđivanje (2+2)
+8. Kolokvij
+9. Razvojni okvir za 2D računalnu igru (2+2)
+10. Primjer razvoja računalne igre korištenjem razvojnog
+okvira (2+2)
+11. Upravljanje iznimkama (2+2)
+12. Događaji (2+2)
+13. Delagati (2+2)
+14. Kontrole na grafičkom korisničkom sučelju (2+2)
+15. Prezentacija završnih projekata`,
         "Način izvođenja nastave": "predavanja, vježbe",
-        "Studentske obveze": "pohađati nastavu i sudjelovati u nastavnome procesu, pisati kolokvije, polagati pismeni ispit, polagati usmeni ispit",
+        "Studentske obveze": `
+- redovito pohađati nastavu
+- aktivno sudjelovati u nastavi
+- napisati koherentan seminarski rad na zadanu temu
+- pisati završni ispit
+`,            
         "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, usmeni ispit, pismeni ispit, kontinuirana provjera znanja",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "75", "UDIO u ECTS-u": "2", "Udio u ocjeni": "Max 10%" },
+            { "Obveze studenta": "Kolokviji i priprema za kontinuiranu provjeru znanja", "Sati (procjena)": "30", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 30%" },
+            { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "30", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 20%" },
+            { "Obveze studenta": "Završni projekt", "Sati (procjena)": "60", "UDIO u ECTS-u": "2", "Udio u ocjeni": "Max 40%" },
+        ],
+        "Dodatna pojašnjenja": `
+*Student može pismeni dio ispita polagati preko dvaju kolokvija ili integralno na završnom pismenom ispitu.
+
+Angažiranost u nastavi ocjenjuje se na sljedeći način:
+- manje od 80% dolazaka = 0% ocjene 
+- manje od 85% dolazaka = 5.5% ocjene 
+- manje od 90% dolazaka = 7% ocjene 
+- manje od 95% dolazaka = 8.5% ocjene 
+- od 95% do 100% dolazaka = 10% ocjene
+
+Kolokviji ili završni pismeni ispit ocjenjuju se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 27.5% ocjene 
+od 67% do 78% točnih odgovora = 35% ocjene 
+od 79% do 90% točnih odgovora = 42.5% ocjene 
+od 91% do 100% točnih odgovora = 50% ocjene
+
+Završni usmeni ispit ocjenjuje se na sljedeći način:
+manje od 55% točnih odgovora = 0% ocjene 
+od 55% do 66% točnih odgovora = 22% ocjene 
+od 67% do 78% točnih odgovora = 28% ocjene 
+od 79% do 90% točnih odgovora = 34% ocjene
+od 91% do 100% točnih odgovora = 40% ocjene
+
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
+0 – 55% nedovoljan (1)
+55 – 66% dovoljan (2)
+67 – 78% dobar (3)
+79 – 90% vrlodobar (4)
+91 – 100% odličan (5)
+`
     },
     {
         "Naziv kolegija": "Informatički projekt 2",
@@ -1224,25 +2326,45 @@ export default [
         "Asistent | E-mail adresa i broj telefona": "hrvoje.ljubic@fpmoz.sum.ba",
         "Ciljevi kolegija": "Primijeniti stečena znanja i vještine pri rješavanju konkretnog problema",
         "Ishodi učenja (opće i specifične kompetencije)": `
-            Nakon položenog kolegija student će moći:
-            1. Definirati problem sukladno pravilima struke.
-            2. Samostalno riješiti praktični problem/zadatak.
-            3. primjeniti usvojena znanja i opće kompetencije stečene tijekom
-            prve i druge godine studija.
-            4. Primjeniti usvojena znanja i specifične kompetencije pripadnog
-            predmeta (Struktura podataka i algoritmi, Algoritmi u prijeni,
-            Objekto orijentirano programiranje)`,
-            "Sadržaj silabusa/izvedbenog plana (ukratko)": `
-            Student po uputama nastavnika samostalno radi informatički
-            projektni zadatak.
-            Pručavanje načina izrade i specifikacije informatičkog projekta.
-            Praktični rad
-            Priprema prezentacije.
-            Obrana projektnog zadatka.
+Nakon položenog kolegija student će moći:
+1. Definirati problem sukladno pravilima struke.
+2. Samostalno riješiti praktični problem/zadatak.
+3. primjeniti usvojena znanja i opće kompetencije stečene tijekom
+prve i druge godine studija.
+4. Primjeniti usvojena znanja i specifične kompetencije pripadnog
+predmeta (Struktura podataka i algoritmi, Algoritmi u prijeni,
+Objekto orijentirano programiranje)`,
+"Sadržaj silabusa/izvedbenog plana (ukratko)": `
+Student po uputama nastavnika samostalno radi informatički
+projektni zadatak.
+Pručavanje načina izrade i specifikacije informatičkog projekta.
+Praktični rad
+Priprema prezentacije.
+Obrana projektnog zadatka.
         `,
         "Način izvođenja nastave": "vježbe, samostalni zadatci, konzultacije, praktični rad",
         "Studentske obveze": "pohađati nastavu i sudjelovati u nastavnome procesu, polagati usmeni ispit",
         "Praćenje i ocjenjivanje studenta": "pohađanje nastave, aktivnosti u nastavi, praktični rad, kontinuirana provjera znanja",
+        "Ocjenjivanje": [
+            { "Obveze studenta": "Angažiranost tijekom nastave", "Sati (procjena)": "30", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 10%" },
+            { "Obveze studenta": "Kolokviji i priprema za kontinuiranu provjeru znanja", "Sati (procjena)": "15", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 60%" },
+            { "Obveze studenta": "Završni usmeni ispit", "Sati (procjena)": "15", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 30%" },
+        ],
+        "Dodatna pojašnjenja": `
+Angažiranost u nastavi ocjenjuje se na sljedeći način:
+- manje od 80% dolazaka = 0% ocjene 
+- manje od 85% dolazaka = 5.5% ocjene 
+- manje od 90% dolazaka = 7% ocjene 
+- manje od 95% dolazaka = 8.5% ocjene 
+- od 95% do 100% dolazaka = 10% ocjene
+
+Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način:
+0 – 55% nedovoljan (1)
+55 – 66% dovoljan (2)
+67 – 78% dobar (3)
+79 – 90% vrlodobar (4)
+91 – 100% odličan (5)
+`
     },
     {
         "Naziv kolegija": "Uvod u umjetnu inteligenciju",
@@ -1268,29 +2390,29 @@ export default [
         "Asistent | E-mail adresa i broj telefona": "slaven.pehar@fpmoz.sum.ba",
         "Ciljevi kolegija": "Umjetna inteligencija (UI) je područje koje je posvećeno proučavanju računalnog modela inteligentnog ponašanja. Zajedničko svim područjima umjetne inteligencije je izrada agenata ili strojeva koji imaju odlike inteligentnog ponašanja; rješavanje problema, predstavljanje znanja, zaključivanje, učenje, percepcija i interpretiranje. Količina različitog gradiva na kolegiju odražava raznolikosti navedenih pojmova. Tijekom kolegija, osvrnut ćemo se na temeljna pitanja i problematiku u području UI te istražiti temeljne tehnike navedenog područja. Kolegij je projektno orijentiran, s praktičnim zadacima koji se rješavaju tijekom cijelog semestra, koristeći NetLogo programsko okruženje utemeljeno na LISP i Prolog programskim jezicima.",
         "Ishodi učenja (opće i specifične kompetencije)": `
-            Nakon položenog kolegija student će znati/moći:
-            - Razumjeti moderan pogled na UI kao proučavanje agenata koji primaju percepte iz svog okruženja te izvode akcije.
-            - Opisati glavne teme, primjenu i područja istraživanja vezana uz UI, uključujući algoritme pretrage,strojno učenje, predstavljanje znanja, zaključivanje, obradu prirodnih jezika, percepciju i vid, terobotiku.
-            - Primijeniti osnovne metode UI kod računalnog rješavanja problema.
-            - Raspravljati o ulozi područja istraživanja umjetne inteligencije u razumijevanju ljudske inteligencije.
-            - Prepoznati granice sposobnosti trenutnih UI sustava
+Nakon položenog kolegija student će znati/moći:
+- Razumjeti moderan pogled na UI kao proučavanje agenata koji primaju percepte iz svog okruženja te izvode akcije.
+- Opisati glavne teme, primjenu i područja istraživanja vezana uz UI, uključujući algoritme pretrage,strojno učenje, predstavljanje znanja, zaključivanje, obradu prirodnih jezika, percepciju i vid, terobotiku.
+- Primijeniti osnovne metode UI kod računalnog rješavanja problema.
+- Raspravljati o ulozi područja istraživanja umjetne inteligencije u razumijevanju ljudske inteligencije.
+- Prepoznati granice sposobnosti trenutnih UI sustava
         `,
         "Sadržaj silabusa/izvedbenog plana (ukratko)": `
-            1. Uvod u umjetnu inteligenciju (2+2)
-            2. Inteligentni agenti i okruženja (2+2)
-            3. Rješavanje problema pretragom stanja (2+2)
-            4. Algoritmi pretrage (4+4)
-            5. Kolokvij - prvi dio projekta (1+1)
-            6. Uvod u strojno učenje (2+2)
-            7. Modeli učenja (2+2)
-            8. Predstavljanje znanja u UI(2+2)
-            9. Umjetne neuronske mreže (2+2)
-            10. Kolokvij - drugi dio projekta (1+1)
-            11. Višeagentski sustavi (2+2)
-            12. Genetski algoritmi (2+2)
-            13. Korištenje robota u nastavi (2+2)
-            14. Praktični primjeri korištenja umjetne inteligencije (2+2)
-            15. Predaja projekta - završna verzija (2+2
+1. Uvod u umjetnu inteligenciju (2+2)
+2. Inteligentni agenti i okruženja (2+2)
+3. Rješavanje problema pretragom stanja (2+2)
+4. Algoritmi pretrage (4+4)
+5. Kolokvij - prvi dio projekta (1+1)
+6. Uvod u strojno učenje (2+2)
+7. Modeli učenja (2+2)
+8. Predstavljanje znanja u UI(2+2)
+9. Umjetne neuronske mreže (2+2)
+10. Kolokvij - drugi dio projekta (1+1)
+11. Višeagentski sustavi (2+2)
+12. Genetski algoritmi (2+2)
+13. Korištenje robota u nastavi (2+2)
+14. Praktični primjeri korištenja umjetne inteligencije (2+2)
+15. Predaja projekta - završna verzija (2+2
         `,
         "Način izvođenja nastave": "predavanja, vježbe, samostalni zadaci, konzultacije",
         "Studentske obveze": `

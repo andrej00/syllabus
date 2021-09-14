@@ -32,8 +32,8 @@ export default [
             { "Obveze studenta": "Završni pismeni ispit", "Sati (procjena)": "30", "UDIO u ECTS-u": "1", "Udio u ocjeni": "Max 20%" },
             { "Obveze studenta": "Završni usmeni ispit", "Sati (procjena)": "15", "UDIO u ECTS-u": "0.5", "Udio u ocjeni": "Max 20%" }
         ],
-        "Dodatna pojašnjenja": `
-*Student može pismeni dio ispita polagati preko dvaju kolokvija ili integralno na završnom pismenom ispitu.
+        "Dodatna pojašnjenja": 
+`*Student može pismeni dio ispita polagati preko dvaju kolokvija ili integralno na završnom pismenom ispitu.
 
 Angažiranost u nastavi ocjenjuje se na sljedeći način:
 - manje od 80% dolazaka = 0% ocjene
@@ -3573,8 +3573,8 @@ Nastavne jedinice za Predavanja
 30 sati predavanja i 30 sati vježbi = 2 ECTS
 90 sati samostalnog rada uz konzultacije = 3 ECTS
 `,
-        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": ` 
-Tijekom semestra bit će dva međuispita (kolokvija). Prvi međuispit je nakon 7 tjedana nastave, drugi nakon nakon 15 tjedana nastave. Na završnom ispitu studenti polažu dijelove gradiva koje nisu položili na međuispitima. Uvjet za pozitivnu ocjenu je pozitivna ocjena iz laboratorijskih vježbi i 50% bodova na svakom međuispitu.
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": 
+`Tijekom semestra bit će dva međuispita (kolokvija). Prvi međuispit je nakon 7 tjedana nastave, drugi nakon nakon 15 tjedana nastave. Na završnom ispitu studenti polažu dijelove gradiva koje nisu položili na međuispitima. Uvjet za pozitivnu ocjenu je pozitivna ocjena iz laboratorijskih vježbi i 50% bodova na svakom međuispitu.
 
 Tijekom semestra bit će dva međuispita (kolokvija). Prvi međuispit je nakon 7 tjedana nastave, drugi nakon nakon 15 tjedana nastave. Na završnom ispitu studenti polažu dijelove gradiva koje nisu položili na međuispitima.
 
@@ -3717,7 +3717,7 @@ Domaće zadaće, kolokviji i praktični rad = 3 ECTS
 Seminar 1 ETSC, 
 Aktivnost na nastavi 1 ETSC
 Pohađanje nastave 2 ECTS`,
-        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": ` Nakon odslušanih predavanja i ispunjenih seminarskih obveza kandidati pristupaju polaganju pismenog i/ili usmenog ispita.Na konačnu ocjenu utječe i kvaliteta kritičkog razmatranja jednog od izvora iz popisa dopunske literature`
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `Nakon odslušanih predavanja i ispunjenih seminarskih obveza kandidati pristupaju polaganju pismenog i/ili usmenog ispita.Na konačnu ocjenu utječe i kvaliteta kritičkog razmatranja jednog od izvora iz popisa dopunske literature`
     },
     {
         "Naziv kolegija": "Metodologija istraživanja u obrazovanju",
@@ -4146,8 +4146,8 @@ Kritički analizirati sociološke perspektive i relevantnu literaturu o obrazova
 Analizirati odgoj i obrazovanje u složenoj strukturi ljudskog društva, s posebnim naglaskom na suvremena društva.        
 `,
         "Uvjeti za upis predmeta": "Nema uvjeta",
-        "Ishodi učenja (kompetencije)": `
-Studenti će na kraju ovog kolegija moći:
+        "Ishodi učenja (kompetencije)": 
+`Studenti će na kraju ovog kolegija moći:
 i. Analizirati važnost odgoja i obrazovanja za razvoj ljudskog društva;
 ii. objasniti utjecaj društva na odgoj i obrazovanje, i obrnutom slučaju utjecaj odgoja i obrazovanja na društvo;
 iii. predočiti smjerove u kojima bi obrazovanje moglo krenuti u budućnosti;
@@ -4164,8 +4164,8 @@ Pisati test
         "ECTS bodovi dodijeljeni na osnovu obveza studenata": `
 Predavanja i vježbe 1.5 ECTS, samostalni rad i učenje za ispit 1.5 ECTS.        
 `,
-        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": ` 
-Izvanredni studenti obzirom da nisu dužni nazočiti na predavanjima, imaju obvezu pisanja seminarskog rada koji nosi 20% ocjene i završnog ispita 80%.
+        "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": 
+`Izvanredni studenti obzirom da nisu dužni nazočiti na predavanjima, imaju obvezu pisanja seminarskog rada koji nosi 20% ocjene i završnog ispita 80%.
 
 Seminarski rad ocjenjuje se ovako:
 0% = Rad nije napisan.

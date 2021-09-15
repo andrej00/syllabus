@@ -1,4 +1,4 @@
-# json_organizer
+# Interaktivno korisničko sučelje za prikaz nastavnog plana i silabusa
 
 ### https://andrej00.github.io/syllabus
 

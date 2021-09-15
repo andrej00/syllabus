@@ -1,6 +1,6 @@
 # json_organizer
 
-https://musing-hamilton-ba4067.netlify.app/
+https://andrej00.github.io/syllabus
 
 ## Project setup
 ```

@@ -1,6 +1,6 @@
 # json_organizer
 
-## https://andrej00.github.io/syllabus
+### https://andrej00.github.io/syllabus
 
 ## Project setup
 ```

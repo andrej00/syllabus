@@ -18,9 +18,9 @@ export default [
         "Nositelj kolegija/nastavnik": "dr. sc. Tomislav Volarić, doc.",
         "Kontakt sati/konzultacije": "Prema rasporedu",
         "E-mail adresa i broj telefona": "tomislav.volaric@fpmoz.sum.ba",
-        "Asistent": "tomislav.volaric@fpmoz.sum.ba",
-        "Asistent | Kontakt sati/konzultacije": "Prema rasporedu",
-        "Asistent | E-mail adresa i broj telefona": "tomislav.volaric@fpmoz.sum.ba",
+        "Asistent": "",
+        "Asistent | Kontakt sati/konzultacije": "",
+        "Asistent | E-mail adresa i broj telefona": "",
         "Ciljevi kolegija": "Ciljevi kolegija su: Urediti znanja stečena o ovom području u prethodnom obrazovanju. Razumjeti, usvojiti i naučiti proceduru i aktivnosti za rješavanje problema i razvoj programske podrške na računalu. Razumjeti, usvojiti i naučiti osnovni koncept programiranja sa stajališta programskih instrukcija za prihvat podataka, obrade podataka, spremanje i raspodjele rezultata obrade podataka. Razumjeti, usvojiti i naučiti osnovni concept za spremanje i ponovno korištenje podataka.",
         "Ishodi učenja (opće i specifične kompetencije)": "Nakon položenog kolegija student će znati/moći: \n klasificirati osnovne algoritamske strukture \n klasificirati osnovne tipove grešaka \n identificirati greške u programskom rješenju \n napraviti dijagram toka i pseudokod algoritma \n usporediti osnovne algoritme sortiranja \n napisati programe u programskom jeziku Python \n procijeniti ispravnost programskog rješenja \n vrednovati gotova programska rješenja",
         "Način izvođenja nastave": "predavanja, vježbe, samostalni zadaci, konzultacije",
@@ -187,7 +187,7 @@ Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način:
 `
     },
     {
-        "Naziv kolegija": "Osnove informatike 1",
+        "Naziv kolegija": "Osnove informatike",
         "Kod kolegija": "INB1048",
         "Studijski program": "Studij Informatike",
         "Ciklus": "Prvi ciklus",
@@ -1069,7 +1069,7 @@ F = 0 to 54% 1 (nedovoljan)
         "Nositelj kolegija/nastavnik": "dr. sc. Tomislav Volarić, doc.",
         "Kontakt sati/konzultacije": "Prema rasporedu",
         "E-mail adresa i broj telefona": "tomislav.volaric@fpmoz.sum.ba",
-        "Asistent": "Hrvoje Ljubić. asistent",
+        "Asistent": "Hrvoje Ljubić. asist.",
         "Asistent | Kontakt sati/konzultacije": "Prema rasporedu",
         "Asistent | E-mail adresa i broj telefona": "hrvoje.ljubic@fpmoz.sum.ba",
         "Ciljevi kolegija": "Primijeniti stečena znanja i vještine pri rješavanju konkretnomg problema",
@@ -1720,7 +1720,7 @@ Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način:
         "Nositelj kolegija/nastavnik": "dr. sc. Sven Gotovac, red. prof. ",
         "Kontakt sati/konzultacije": "Prema rasporedu ",
         "E-mail adresa i broj telefona": "sven.gotovac@fpmoz.sum.ba",
-        "Asistent": "v. asist. Željko Marušić",
+        "Asistent": "Željko Marušić v. asist.",
         "Asistent | Kontakt sati/konzultacije": "Prema rasporedu ",
         "Asistent | E-mail adresa i broj telefona": "zeljko.marusic@fpmoz.sum.ba",
         "Ciljevi kolegija": "Ciljevi kolegija su: Stjecati temeljna znanja o arhitekturi procesora i računalnog sustava. Usvojiti teorijsko znanje i praktičnog iskustva iz temeljnih aspekata vezanih za osnovni koncept izgradnje računalnog sustava, funkcija osnovnih funkcionalnih jedinica, načina dohvata, dekodiranja i izvođenja instrukcija, te tijeka podataka i instrukcija. Stjecati znanja o aktualnim i budućim tehnološkim i arhitektonskim trendovima. ",
@@ -4313,7 +4313,8 @@ O predvidivim budućim trendovima razvoja upravljanja znanjem i ostvarivanja kon
 "Obveze studenta": "Prisustvo na predavanjima i seminarima, te izrada seminarskog rada sa prezentacijom. Pojedinačno - konzultacije i izrada seminarskog rada sa prezentacijom (minimum: uz uporabu prijenosnog računala i projektora).",
 "ECTS bodovi dodijeljeni na osnovu obveza studenata": "5 (Pohađanje nastave i izrađen seminarski rad (sa prezentacijom).)",
 "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu":
-`Seminarski rad (sa prezentacijom) je prihvaćen ukoliko student ostvari više od 50% bodova i uvjet je za dobivanje potpisa i pristupanje ispitu.
+`
+Seminarski rad (sa prezentacijom) je prihvaćen ukoliko student ostvari više od 50% bodova i uvjet je za dobivanje potpisa i pristupanje ispitu.
 
 Kriteriji za određivanje ocjene:
 a) >91% = Izvrstan

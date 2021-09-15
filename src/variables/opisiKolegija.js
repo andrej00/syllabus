@@ -743,11 +743,11 @@ od 79% do 90% točnih odgovora = 34% ocjene
 od 91% do 100% točnih odgovora = 40% ocjene
 
 Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
- 0 – 55% nedovoljan (1)
- 55 – 66% dovoljan (2)
- 67 – 78% dobar (3)
- 79 – 90% vrlodobar (4)
- 91 – 100% odličan (5)
+0 – 55% nedovoljan (1)
+55 – 66% dovoljan (2)
+67 – 78% dobar (3)
+79 – 90% vrlodobar (4)
+91 – 100% odličan (5)
 `
     },
     {
@@ -1222,11 +1222,11 @@ od 79% do 90% točnih odgovora = 34% ocjene
 od 91% do 100% točnih odgovora = 40% ocjene
 
 Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
- 0 – 55% nedovoljan (1)
- 55 – 66% dovoljan (2)
- 67 – 78% dobar (3)
- 79 – 90% vrlodobar (4)
- 91 – 100% odličan (5)
+0 – 55% nedovoljan (1)
+55 – 66% dovoljan (2)
+67 – 78% dobar (3)
+79 – 90% vrlodobar (4)
+91 – 100% odličan (5)
 `
     },
     {
@@ -1372,11 +1372,11 @@ od 79% do 90% točnih odgovora = 34% ocjene
 od 91% do 100% točnih odgovora = 40% ocjene
 
 Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
- 0 – 55% nedovoljan (1)
- 55 – 66% dovoljan (2)
- 67 – 78% dobar (3)
- 79 – 90% vrlodobar (4)
- 91 – 100% odličan (5)
+0 – 55% nedovoljan (1)
+55 – 66% dovoljan (2)
+67 – 78% dobar (3)
+79 – 90% vrlodobar (4)
+91 – 100% odličan (5)
 `
     },
     {
@@ -1783,24 +1783,28 @@ Kolokvij 2 (2)`,
         ],
         "Dodatna pojašnjenja":
 `*Student može pismeni dio ispita polagati preko dvaju kolokvija ili integralno na završnom pismenom ispitu.
+
 Angažiranost u nastavi ocjenjuje se na sljedeći način:
 - manje od 80% dolazaka = 0% ocjene 
 - manje od 85% dolazaka = 5.5% ocjene 
 - manje od 90% dolazaka = 7% ocjene 
 - manje od 95% dolazaka = 8.5% ocjene 
 - od 95% do 100% dolazaka = 10% ocjene
+
 Kolokviji ili završni pismeni ispit ocjenjuju se na sljedeći način:
 manje od 55% točnih odgovora = 0% ocjene 
 od 55% do 66% točnih odgovora = 27.5% ocjene 
 od 67% do 78% točnih odgovora = 35% ocjene 
 od 79% do 90% točnih odgovora = 42.5% ocjene 
 od 91% do 100% točnih odgovora = 50% ocjene
+
 Završni usmeni ispit ocjenjuje se na sljedeći način:
 manje od 55% točnih odgovora = 0% ocjene 
 od 55% do 66% točnih odgovora = 22% ocjene 
 od 67% do 78% točnih odgovora = 28% ocjene 
 od 79% do 90% točnih odgovora = 34% ocjene
 od 91% do 100% točnih odgovora = 40% ocjene
+
 Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
 0 – 55% nedovoljan (1)
 55 – 66% dovoljan (2)
@@ -2082,11 +2086,11 @@ od 79% do 90% točnih odgovora = 34% ocjene
 od 91% do 100% točnih odgovora = 40% ocjene
 
 Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
- 0 – 55% nedovoljan (1)
- 55 – 66% dovoljan (2)
- 67 – 78% dobar (3)
- 79 – 90% vrlodobar (4)
- 91 – 100% odličan (5)
+0 – 55% nedovoljan (1)
+55 – 66% dovoljan (2)
+67 – 78% dobar (3)
+79 – 90% vrlodobar (4)
+91 – 100% odličan (5)
 `
     },
     {
@@ -2585,24 +2589,28 @@ i izlaza za greške. Ulančavanje naredbi. (2)
         "Dodatna pojašnjenja":
 `Dodatna pojašnjenja:
 *Student može pismeni dio ispita polagati preko dvaju kolokvija ili integralno na završnom pismenom ispitu.
+
 Angažiranost u nastavi ocjenjuje se na sljedeći način:
 - manje od 80% dolazaka = 0% ocjene 
 - manje od 85% dolazaka = 5.5% ocjene 
 - manje od 90% dolazaka = 7% ocjene 
 - manje od 95% dolazaka = 8.5% ocjene 
 - od 95% do 100% dolazaka = 10% ocjene
+
 Kolokviji ili završni pismeni ispit ocjenjuju se na sljedeći način:
 manje od 55% točnih odgovora = 0% ocjene 
 od 55% do 66% točnih odgovora = 27.5% ocjene 
 od 67% do 78% točnih odgovora = 35% ocjene 
 od 79% do 90% točnih odgovora = 42.5% ocjene 
 od 91% do 100% točnih odgovora = 50% ocjene
+
 Završni usmeni ispit ocjenjuje se na sljedeći način:
 manje od 55% točnih odgovora = 0% ocjene 
 od 55% do 66% točnih odgovora = 22% ocjene 
 od 67% do 78% točnih odgovora = 28% ocjene 
 od 79% do 90% točnih odgovora = 34% ocjene
 od 91% do 100% točnih odgovora = 40% ocjene
+
 Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
 0 – 55% nedovoljan (1)
 55 – 66% dovoljan (2)
@@ -2666,18 +2674,21 @@ Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način:
         ],
         "Dodatna pojašnjenja":
 `Dodatna pojašnjenja:
+
 Kolokviji/ završni pismeni se ocjenjuju na sljedeći način:
 manje od 55% točnih odgovora = 0% ocjene 
 od 55% do 66% = do 27.5% ocjene 
 od 67% do 78% = do 35% ocjene 
 od 79% do 90% = do 42.5% ocjene 
 od 91% do 100% = do 50% ocjene 
+
 Završni usmeni ispit se ocjenjuje na sljedeći način:
 manje od 55% točnih odgovora = 0% ocjene 
 od 55% do 66% = do 27.5% ocjene 
 od 67% do 78% = do 35% ocjene 
 od 79% do 90% = do 42.5% ocjene 
 od 91% do 100% = do 50% ocjene 
+
 Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
 0 – 54% nedovoljan (1)
 55 – 66% dovoljan (2)
@@ -2864,24 +2875,28 @@ Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način:
         "Dodatna pojašnjenja":
 `Dodatna pojašnjenja:
 *Student može pismeni dio ispita polagati preko dvaju kolokvija ili integralno na završnom pismenom ispitu.
+
 Angažiranost u nastavi ocjenjuje se na sljedeći način:
 - manje od 80% dolazaka = 0% ocjene 
 - manje od 85% dolazaka = 5.5% ocjene 
 - manje od 90% dolazaka = 7% ocjene 
 - manje od 95% dolazaka = 8.5% ocjene 
 - od 95% do 100% dolazaka = 10% ocjene
+
 Kolokviji ili završni pismeni ispit ocjenjuju se na sljedeći način:
 manje od 55% točnih odgovora = 0% ocjene 
 od 55% do 66% točnih odgovora = 27.5% ocjene 
 od 67% do 78% točnih odgovora = 35% ocjene 
 od 79% do 90% točnih odgovora = 42.5% ocjene 
 od 91% do 100% točnih odgovora = 50% ocjene
+
 Završni usmeni ispit ocjenjuje se na sljedeći način:
 manje od 55% točnih odgovora = 0% ocjene 
 od 55% do 66% točnih odgovora = 22% ocjene 
 od 67% do 78% točnih odgovora = 28% ocjene 
 od 79% do 90% točnih odgovora = 34% ocjene
 od 91% do 100% točnih odgovora = 40% ocjene
+
 Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način: 
 0 – 55% nedovoljan (1)
 55 – 66% dovoljan (2)
@@ -3290,16 +3305,16 @@ Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način:
         "Asistent | Kontakt sati/konzultacije": "",
         "Asistent | E-mail adresa i broj telefona": "",
         "Ciljevi kolegija": "Ciljevi kolegija su: Završnim radom student dokazuje stručno znanje i samostalnost u radu.",
-        "Ishodi učenja (opće i specifične kompetencije)": `
-            Nakon položenog kolegija student će znati/moći:
-            - Definirati problem sukladno pravilima struke.
-            - Samostalno riješiti praktični problem/zadatak.
-            - primjeniti usvojena znanja i opće kompetencije stečene tijekom studija.
-            - Primjeniti usvojena znanja i specifične kompetencije pripadnog predmeta.
-            - Primjeniti metodologiju pisanja stručnog djela.
-            - Napraviti prikaz rezultata izrađenog rada korištenjem multimedijskihalata.
-            - Koristiti prezentacijske vještine kod prikaza rezultata rada.
-        `,
+        "Ishodi učenja (opće i specifične kompetencije)":
+`Nakon položenog kolegija student će znati/moći:
+- Definirati problem sukladno pravilima struke.
+- Samostalno riješiti praktični problem/zadatak.
+- primjeniti usvojena znanja i opće kompetencije stečene tijekom studija.
+- Primjeniti usvojena znanja i specifične kompetencije pripadnog predmeta.
+- Primjeniti metodologiju pisanja stručnog djela.
+- Napraviti prikaz rezultata izrađenog rada korištenjem multimedijskihalata.
+- Koristiti prezentacijske vještine kod prikaza rezultata rada.
+`,
         "Sadržaj silabusa/izvedbenog plana (ukratko)":
 `1. Predavanje o načinu izrade završnog rada.
 2. Priprema za izradu završnog rada I pretraživanje baza stručnih i znanstvenih radova.
@@ -3387,11 +3402,10 @@ Prema Pravilniku o studiranju konačna se ocjena dobiva na sljedeći način:
         "Način izvođenja nastave":
 `Predavanja, seminari. Praktični rad u razredu predviđen je u
 Metodičkom informatičkom seminaru s nastavnom praksom
-        `,
+`,
         "Obveze studenta": "Usmeni ispit",
         "ECTS bodovi dodijeljeni na osnovu obveza studenata": 
-`
-90 sati nastave = 3 ECTS
+`90 sati nastave = 3 ECTS
 
 Tri pisane pripreme nastavnih sati s teorijskom analizom 15 sati = 1 ECTS
 
@@ -3423,8 +3437,7 @@ Konfiguracija sustava e-učenja i objekti učenja. Nastanak i razvoj normi za e-
         "Način izvođenja nastave": `Tradicionalna predavanja nastavnika. Diskusije i rasprave u online komunikaciji. Radionice. Rad u grupi u prostoru rješavanja problema. `,
         "Obveze studenta": "Sudjelovanje u nastavi u svim sadržajnim oblicima. Obaveze se sastoje od: ne manje od tri provjere znanja putem kolokvija. Grupno ili pojedinačno rješavanje zadanog problema. Učenje i poučavanje temeljem zadane osnovne i dopunske literature.",
         "ECTS bodovi dodijeljeni na osnovu obveza studenata":
-`
-Predavanja 30 sati + vježbe 30 sati = 2ECTS
+`Predavanja 30 sati + vježbe 30 sati = 2ECTS
 Domaće zadaće, kolokviji i praktični rad = 2 ECTS        
 `,
         "Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `Postavljene provjere i zadaci pri rješavanju problema se boduju na ljestvici od 0-100 bodova. Bodovi se proračunavaju u tradicionalne ocjene na skali od dovoljan (2) do izvrstan (5).`
@@ -4299,8 +4312,8 @@ O predvidivim budućim trendovima razvoja upravljanja znanjem i ostvarivanja kon
 `Skupno - predavanja (i/ili javni razgovor). Nastava se provodi kroz predavanja i seminare. Gradivo se izlaže uz maksimalno korištenje prezentacijskih programskih alata, crteža, tablica i dijagrama da bi se olakšalo razumijevanje, uz prikaz konkretnih primjera iz prakse. Potiče se aktivno sudjelovanje studenata u nastavi. Seminari: Studenti koncipiraju svoje seminarske radove i prezentacije sa nizom riješenih primjera i zadataka uporabe UZ (uz pomoć nastavnika), te samostalno izrađuju seminarski rad od minimalno 3.000 riječi. Student temu bira ili koncipira iz okvirno ponuđenih tema (prema ponuđenim pitanjima-temama u obveznoj literuturi), a može se dogovoriti i s asistentom ili nastavnikom. Rad i prezentacija se predaje u elektroničkoj i pisanoj formi te minimalno uvezan (zaklaman ili u spiralnom uvezu).`,
 "Obveze studenta": "Prisustvo na predavanjima i seminarima, te izrada seminarskog rada sa prezentacijom. Pojedinačno - konzultacije i izrada seminarskog rada sa prezentacijom (minimum: uz uporabu prijenosnog računala i projektora).",
 "ECTS bodovi dodijeljeni na osnovu obveza studenata": "5 (Pohađanje nastave i izrađen seminarski rad (sa prezentacijom).)",
-"Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu": `
-Seminarski rad (sa prezentacijom) je prihvaćen ukoliko student ostvari više od 50% bodova i uvjet je za dobivanje potpisa i pristupanje ispitu.
+"Podatci o ocjenjivanju i bodovanju studenata tijekom nastave i na završnom ispitu":
+`Seminarski rad (sa prezentacijom) je prihvaćen ukoliko student ostvari više od 50% bodova i uvjet je za dobivanje potpisa i pristupanje ispitu.
 
 Kriteriji za određivanje ocjene:
 a) >91% = Izvrstan
